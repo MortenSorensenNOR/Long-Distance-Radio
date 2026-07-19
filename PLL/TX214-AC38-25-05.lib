@@ -1,0 +1,23 @@
+
+
+.model "TX214C-AC38-25-0.5"
+Manuf = "YIC"
+Webpage = "https://www.yic.com.tw/wp-content/uploads/2023/08/TCXO-VCTCXO-TX214C-VTX214C.pdf"
+Frequency =  25M
+PNTable = {
+1.00,-50.0,
+10.0,-80.0,
+100,-115,
+1000,-135,
+1e+04,-148,
+1e+05,-150,
+1e+06,-150,
+1e+07,-150,
+1e+08,-150,
+1e+09,-150
+}
+PNFloor = -150 
+Vcc = 3.3 
+Icc = 2.5m
+.endmodel
+
