@@ -615,7 +615,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 3,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -648,7 +648,7 @@
         "uuid": "820b88fc-e97a-437b-924c-526a252f36ed"
       }
     ],
-    "used_designators": "XTAL1,#PWR1-3,U1",
+    "used_designators": "J1-6,C1-19,U2-4,R1-16,#PWR1-2,#PWR4-22",
     "variants": []
   },
   "sheets": [
