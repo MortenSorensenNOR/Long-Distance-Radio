@@ -1,0 +1,4210 @@
+Product
+Folder
+
+Sample &
+Buy
+
+Support &
+Community
+
+Tools &
+Software
+
+Technical
+Documents
+
+TPS7A91
+SBVS282 – DECEMBER 2016
+
+TPS7A91
+1-A, High-Accuracy, Low-Noise LDO Voltage Regulator
+1 Features
+
+3 Description
+
+•
+•
+•
+•
+•
+•
+
+The TPS7A91 is a low-noise (4.7 µVRMS), low-dropout
+(LDO) voltage regulator capable of sourcing 1 A with
+only 200 mV of maximum dropout.
+
+1
+
+•
+•
+•
+•
+
+1.0% Accuracy Over Line, Load, and Temperature
+Low Output Noise: 4.7 µVRMS (10 Hz–100 kHz)
+Low Dropout: 200 mV (max) at 1 A
+Wide Input Voltage Range: 1.4 V to 6.5 V
+Wide Output Voltage Range: 0.8 V to 5.2 V
+High Power-Supply Ripple Rejection (PSRR):
+– 70 dB at DC
+– 40 dB at 100 kHz
+– 40 dB at 1 MHz
+Fast Transient Response
+Adjustable Start-Up In-Rush Control with
+Selectable Soft-Start Charging Current
+Open-Drain Power-Good (PG) Output
+2.5-mm × 2.5-mm, 10-Pin SON Package
+
+2 Applications
+•
+•
+•
+•
+•
+
+High-Speed Analog Circuits:
+– VCO, ADC, DAC, LVDS
+Imaging: CMOS Sensors, Video ASICs
+Test and Measurement
+Instrumentation, Medical, and Audio
+Digital Loads: SerDes, FPGA, DSP
+
+The TPS7A91 output is adjustable with external
+resistors from 0.8 V to 5.2 V. The TPS7A91 wide
+input-voltage range supports operation as low as
+1.4 V and up to 6.5 V.
+With 1% output voltage accuracy (over line, load, and
+temperature) and soft-start capabilities to reduce inrush current, the TPS7A91 is ideal for powering
+sensitive analog low-voltage devices [such as
+voltage-controlled oscillators (VCOs), analog-to-digital
+converters (ADCs), digital-to-analog converters
+(DACs),
+high-end
+processors,
+and
+fieldprogrammable gate arrays (FPGAs)].
+The TPS7A91 is designed to power noise-sensitive
+components such as those found in high-speed
+communication, video, medical, or test and
+measurement applications. The very low 4.7-µVRMS
+output noise and wideband PSRR (40 dB at 1 MHz)
+minimizes phase noise and clock jitter. These
+features maximize performance of clocking devices,
+ADCs, and DACs.
+Device Information(1)
+PART NUMBER
+TPS7A91
+
+PACKAGE
+
+BODY SIZE (NOM)
+
+SON (10)
+
+2.50 mm × 2.50 mm
+
+(1) For all available packages, see the orderable addendum at
+the end of the datasheet.
+
+Typical Application Circuit
+2.0 V
+
+IN
+CIN
+10 PF
+
+TPS7A91
+
+OUT
+R1 5.9 k:
+
+EN
+
+FB
+
+1.2 V
+COUT
+10 F
+
+ENABLE
+
+VIN
+
+SS_CTRL
+CNR/SS
+0.1 PF
+
+Typical Application Diagram
+
+NR/SS
+PG
+
+Clock
+
+PG
+
+CIN
+
+CFF 10 nF
+R2
+VOUT
+11.8 k:
+RPG
+20 k:
+PG
+
+GND
+
+IN
+
+OUT
+
+LMK03328
+LMX2581
+
+VDD_VCO
+COUT
+
+TPS7A91
+
+EN
+
+EN
+GND
+
+VDD
+
+Copyright © 2016, Texas Instruments Incorporated
+
+ADC
+
+SCLK
+ADC3xxx
+ADC3xJxx
+ADC3xJBxx
+ADS4xxBxx
+ADS5xJxx
+ADS12Jxxxx
+
+Copyright © 2016, Texas Instruments Incorporated
+
+1
+
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications,
+intellectual property matters and other important disclaimers. PRODUCTION DATA.
+
+TPS7A91
+SBVS282 – DECEMBER 2016
+
+www.ti.com
+
+Table of Contents
+1
+2
+3
+4
+5
+6
+
+Features .................................................................. 1
+Applications ........................................................... 1
+Description ............................................................. 1
+Revision History..................................................... 2
+Pin Configuration and Functions ......................... 3
+Specifications......................................................... 4
+6.1
+6.2
+6.3
+6.4
+6.5
+6.6
+
+7
+
+8
+
+8.1 Application Information............................................ 17
+8.2 Typical Application .................................................. 21
+
+9 Power Supply Recommendations...................... 22
+10 Layout................................................................... 22
+10.1 Layout Guidelines ................................................. 22
+10.2 Layout Example .................................................... 23
+
+Absolute Maximum Ratings ...................................... 4
+ESD Ratings.............................................................. 4
+Recommended Operating Conditions....................... 4
+Thermal Information .................................................. 4
+Electrical Characteristics........................................... 5
+Typical Characteristics .............................................. 6
+
+11 Device and Documentation Support ................. 24
+11.1
+11.2
+11.3
+11.4
+11.5
+11.6
+11.7
+
+Detailed Description ............................................ 12
+7.1
+7.2
+7.3
+7.4
+
+Application and Implementation ........................ 17
+
+Overview ................................................................. 12
+Functional Block Diagram ....................................... 12
+Feature Description................................................. 12
+Device Functional Modes........................................ 16
+
+Device Support .................................................... 24
+Documentation Support ....................................... 24
+Receiving Notification of Documentation Updates 24
+Community Resources.......................................... 25
+Trademarks ........................................................... 25
+Electrostatic Discharge Caution ............................ 25
+Glossary ................................................................ 25
+
+12 Mechanical, Packaging, and Orderable
+Information ........................................................... 25
+
+4 Revision History
+
+2
+
+DATE
+
+REVISION
+
+NOTES
+
+December 2016
+
+*
+
+Initial release.
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+TPS7A91
+www.ti.com
+
+SBVS282 – DECEMBER 2016
+
+5 Pin Configuration and Functions
+DSK Package
+2.5-mm × 2.5-mm, 10-Pin SON
+Top View
+
+OUT
+
+1
+
+OUT
+
+2
+Thermal
+Pad
+
+10
+
+IN
+
+9
+
+IN
+
+8
+
+NR/SS
+
+FB
+
+3
+
+GND
+
+4
+
+7
+
+EN
+
+PG
+
+5
+
+6
+
+SS_CTRL
+
+Not to scale
+
+Pin Functions
+PIN
+NAME
+
+NO.
+
+I/O
+
+DESCRIPTION
+
+EN
+
+7
+
+I
+
+Enable pin. This pin turns the LDO on and off. If VEN ≥ VIH(EN), the regulator is enabled. If VEN ≤ VIL(EN), the
+regulator is disabled. The EN pin must be connected to IN if the enable function is not used.
+
+FB
+
+3
+
+I
+
+Feedback pin. This pin is the input to the control loop error amplifier and is used to set the output voltage of the
+device.
+
+GND
+
+4
+
+—
+
+Device GND. Connect to the device thermal pad.
+
+IN
+
+9, 10
+
+I
+
+Input pin. A 10 µF or greater input capacitor is required.
+
+NR/SS
+
+8
+
+—
+
+Noise reduction pin. Connect this pin to an external capacitor to bypass the noise generated by the internal bandgap reference. The capacitor reduces the output noise to very low levels and sets the output ramp rate to limit
+inrush current.
+
+OUT
+
+1, 2
+
+O
+
+Regulated output. A 10 µF or greater capacitor must be connected from this pin to GND for stability.
+
+PG
+
+5
+
+O
+
+Open-drain power-good indicator pin for the LDO output voltage. A 10-kΩ to 100-kΩ external pullup resistor is
+required. This pin can be left floating or connected to GND if not used.
+
+SS_CTRL
+
+6
+
+I
+
+Soft-start control pin. Connect this pin either to GND or IN to change the NR/SS capacitor charging current. If a
+CNR/SS capacitor is not used, SS_CTRL must be connected to GND to avoid output overshoot.
+
+—
+
+Connect the thermal pad to the printed circuit board (PCB) ground plane, for an example layout see Figure 42.
+
+Thermal pad
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+3
+
+TPS7A91
+SBVS282 – DECEMBER 2016
+
+www.ti.com
+
+6 Specifications
+6.1 Absolute Maximum Ratings
+over operating junction temperature range and all voltages with respect to GND (unless otherwise noted) (1)
+
+Voltage
+
+MAX
+
+–0.3
+
+7.0
+
+IN, PG, EN (5% duty cycle, pulse duration ≤ 200 µs)
+
+–0.3
+
+7.5
+
+OUT
+
+–0.3
+
+VIN + 0.3
+
+SS_CTRL
+
+–0.3
+
+VIN + 0.3
+
+NR/SS, FB
+
+–0.3
+
+3.6
+
+OUT
+
+Current
+
+UNIT
+
+V
+
+Internally limited
+
+A
+
+5
+
+mA
+
+PG (sink current into the device)
+
+Temperature
+(1)
+
+MIN
+IN, PG, EN
+
+Operating junction, TJ
+
+–55
+
+150
+
+°C
+
+Storage, Tstg
+
+–55
+
+150
+
+°C
+
+Stresses beyond those listed under Absolute Maximum Ratings may cause permanent damage to the device. These are stress ratings
+only, which do not imply functional operation of the device at these or any other conditions beyond those indicated under Recommended
+Operating Conditions. Exposure to absolute-maximum-rated conditions for extended periods may affect device reliability.
+
+6.2 ESD Ratings
+VALUE
+V(ESD)
+(1)
+(2)
+
+Electrostatic discharge
+
+Human body model (HBM), per ANSI/ESDA/JEDEC JS-001 (1)
+
+±2000
+
+Charged device model (CDM), per JEDEC specification JESD22-C101 (2)
+
+±500
+
+UNIT
+V
+
+JEDEC document JEP155 states that 500-V HBM allows safe manufacturing with a standard ESD control process.
+JEDEC document JEP157 states that 250-V CDM allows safe manufacturing with a standard ESD control process.
+
+6.3 Recommended Operating Conditions
+over operating junction temperature range (unless otherwise noted)
+MIN
+
+MAX
+
+UNIT
+
+VIN
+
+Input supply voltage range
+
+1.4
+
+6.5
+
+V
+
+VOUT
+
+Output voltage range
+
+0.8
+
+5.2
+
+V
+
+IOUT
+
+Output current
+
+0
+
+1
+
+CIN
+
+Input capacitor
+
+10
+
+COUT
+
+Output capacitor
+
+10
+
+CNR/SS
+
+Noise-reduction capacitor
+
+0
+
+10
+
+µF
+
+CFF
+
+Feedforward capacitor
+
+0
+
+100
+
+nF
+
+RPG
+
+Power-good pullup resistance
+
+10
+
+100
+
+kΩ
+
+TJ
+
+Junction temperature
+
+–40
+
+125
+
+°C
+
+A
+µF
+µF
+
+6.4 Thermal Information
+TPS7A91
+THERMAL METRIC (1)
+
+DSK (SON)
+
+UNIT
+
+10 PINS
+RθJA
+
+Junction-to-ambient thermal resistance
+
+56.9
+
+°C/W
+
+RθJC(top)
+
+Junction-to-case (top) thermal resistance
+
+46.3
+
+°C/W
+
+RθJB
+
+Junction-to-board thermal resistance
+
+29.1
+
+°C/W
+
+ψJT
+
+Junction-to-top characterization parameter
+
+0.8
+
+°C/W
+
+ψJB
+
+Junction-to-board characterization parameter
+
+29.4
+
+°C/W
+
+RθJC(bot)
+
+Junction-to-case (bottom) thermal resistance
+
+3.2
+
+°C/W
+
+(1)
+
+4
+
+For more information about traditional and new thermal metrics, see the Semiconductor and IC Package Thermal Metrics application
+report.
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+TPS7A91
+www.ti.com
+
+SBVS282 – DECEMBER 2016
+
+6.5 Electrical Characteristics
+over operating temperature range (TJ = –40°C to +125°C), 1.4 V ≤ VIN ≤ 6.5 V, VOUT(NOM) = 0.8 V, IOUT = 5 mA, VEN = 1.4 V,
+CIN = COUT = 10 μF, CNR/SS = CFF = 0 nF, SS_CTRL = GND, and PG pin pulled up to VIN with 100 kΩ (unless otherwise
+noted); typical values are at TJ = 25°C
+PARAMETER
+VIN
+
+Input supply voltage range
+
+VREF
+
+Reference voltage
+
+VUVLO
+
+Input supply UVLO
+
+VHYS(UVLO)
+
+Input supply UVLO hysteresis
+
+VOUT
+
+TEST CONDITIONS
+
+TYP
+
+1.4
+
+MAX
+
+UNIT
+
+6.5
+
+V
+
+0.8
+VIN rising
+
+1.31
+
+V
+1.39
+
+V
+
+290
+
+Output voltage range
+Output voltage accuracy (1)
+
+MIN
+
+1.4 V ≤ VIN ≤ 6.5 V, 5 mA ≤ IOUT ≤ 1 A
+
+ΔVOUT(ΔVIN)
+
+Line regulation
+
+ΔVOUT(ΔIOUT)
+
+Load regulation (2)
+
+5 mA ≤ IOUT ≤ 1 A
+
+VDO
+
+Dropout voltage
+
+VIN ≥ 1.4 V, IOUT = 1 A, VFB = 0.8 V – 3%
+
+ILIM
+
+Output current limit
+
+VOUT forced at 0.9 × VOUT(NOM),
+VIN = VOUT(NOM) + 300 mV
+
+IGND
+
+GND pin current
+
+ISDN
+
+Shutdown GND pin current
+
+PG = (open), VIN = 6.5 V, VEN = 0.4 V
+
+IEN
+
+EN pin current
+
+VIN = 6.5 V, 0 V ≤ VEN ≤ 6.5 V
+
+mV
+
+0.8
+
+5.2
+
+–1.0%
+
+1.0%
+
+V
+
+0.005
+
+%/V
+
+0.02
+
+1.5
+
+VIN = 6.5 V, IOUT = 5 mA
+
+%/A
+200
+
+mV
+
+1.7
+
+1.9
+
+A
+
+2.1
+
+3.5
+
+VIN = 1.4 V, IOUT = 1 A
+
+mA
+
+4
+15
+
+µA
+
+–0.2
+
+0.2
+
+µA
+
+VIL(EN)
+
+EN pin low-level input voltage
+(device disabled)
+
+0
+
+0.4
+
+V
+
+VIH(EN)
+
+EN pin high-level input voltage
+(device enabled)
+
+1.1
+
+6.5
+
+V
+
+ISS_CTRL
+
+SS_CTRL pin current
+
+VIN = 6.5 V, 0 V ≤ VSS_CTRL ≤ 6.5 V
+
+–0.2
+
+0.2
+
+µA
+
+VIT(PG)
+
+PG pin threshold
+
+For PG transitioning low with falling VOUT, expressed as
+a percentage of VOUT(NOM)
+
+82%
+
+VHYS(PG)
+
+PG pin hysteresis
+
+For PG transitioning high with rising VOUT, expressed as
+a percentage of VOUT(NOM)
+
+VOL(PG)
+
+PG pin low-level output voltage VOUT < VIT(PG), IPG = –1 mA (current into device)
+
+ILKG(PG)
+
+PG pin leakage current
+
+INR/SS
+
+NR/SS pin charging current
+
+IFB
+
+FB pin leakage current
+
+VIN = 6.5 V, VFB = 0.8 V
+
+PSRR
+
+Power-supply ripple rejection
+
+f = 500 kHz, VIN = 3.8 V, VOUT(NOM) = 3.3 V,
+IOUT = 750mA, CNR/SS = 10 nF, CFF = 10 nF
+
+39
+
+dB
+
+Vn
+
+Output noise voltage
+
+BW = 10 Hz to 100 kHz, VIN = 1.8 V, VOUT(NOM) = 0.8 V,
+IOUT = 1.0 A, CNR/SS = 10 nF, CFF = 10 nF
+
+4.7
+
+µVRMS
+
+Noise spectral density
+
+f = 10 kHz, VIN = 1.8 V, VOUT(NOM) = 0.8 V,
+IOUT = 1.0 A, CNR/SS = 10 nF, CFF = 10 nF
+
+13
+
+nV/√Hz
+
+Rdiss
+
+Output active discharge
+resistance
+
+VEN = GND
+
+250
+
+Ω
+
+Tsd
+
+Thermal shutdown temperature
+
+Shutdown, temperature increasing
+
+160
+
+Reset, temperature decreasing
+
+140
+
+(1)
+(2)
+
+0.1
+
+88.9%
+
+93%
+
+1%
+
+VOUT > VIT(PG), VPG = 6.5 V
+
+0.4
+
+V
+
+1
+
+µA
+
+VNR/SS = GND, VSS_CTRL = GND
+
+4.0
+
+6.2
+
+9.0
+
+VNR/SS = GND, VSS_CTRL = VIN
+
+65
+
+100
+
+150
+
+–100
+
+µA
+
+100
+
+nA
+
+°C
+
+When the device is connected to external feedback resistors at the FB pin, external resistor tolerances are not included.
+The device is not tested under conditions where VIN > VOUT + 2.5 V and IOUT = 1 A because the power dissipation is higher than the
+maximum rating of the package. Also, this accuracy specification does not apply on any application condition that exceeds the power
+dissipation limit of the package under test.
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+5
+
+TPS7A91
+SBVS282 – DECEMBER 2016
+
+www.ti.com
+
+6.6 Typical Characteristics
+
+90
+
+90
+
+80
+
+80
+
+Power-Supply Rejection Ratio (dB)
+
+Power-Supply Rejection Ratio (dB)
+
+at TJ = 25°C, 1.4 V ≤ VIN ≤ 6.5 V, VIN ≥ VOUT(NOM) + 0.3 V, VOUT = 0.8 V, SS_CTRL = GND, IOUT = 5 mA, VEN = 1.1 V, COUT =
+10 μF, CNR/SS = CFF = 0 nF, PG pin pulled up to VOUT with 100 kΩ, and SS_CTRL = GND (unless otherwise noted)
+
+70
+60
+50
+40
+30
+20
+10
+0
+10
+
+VIN
+1.4 V
+1.5 V
+1.8 V
+
+2.0 V
+2.5 V
+3.0 V
+
+100
+
+1k
+
+10k
+100k
+Frequency (Hz)
+
+1M
+
+70
+60
+50
+40
+30
+20
+10
+0
+10
+
+10M
+
+VOUT = 0.8 V, IOUT = 1.0 A, COUT = 10 µF,
+CNR/SS = CFF = 10 nF
+
+80
+
+Power-Supply Rejection Ratio (dB)
+
+Power-Supply Rejection Ratio (dB)
+
+90
+
+80
+70
+60
+50
+40
+30
+
+10
+0
+10
+
+3.8 V
+4.0 V
+4.3 V
+
+100
+
+1k
+
+10k
+100k
+Frequency (Hz)
+
+1M
+
+30
+20
+10
+0
+10
+
+10M
+
+6
+
+Power-Supply Rejection Ratio (dB)
+
+Power-Supply Rejection Ratio (dB)
+
+70
+60
+50
+40
+30
+IOUT = 750 mA
+IOUT = 1A
+10k
+100k
+Frequency (Hz)
+
+1M
+
+5.5 V
+6V
+6.5 V
+
+100
+
+1k
+
+10k
+100k
+Frequency (Hz)
+
+1M
+
+10M
+
+Figure 4. PSRR vs Frequency and Input Voltage
+
+80
+
+1k
+
+VIN
+5.2 V
+5.3 V
+5.4 V
+
+VOUT = 5 V, IOUT = 1.0 A, COUT = 10 µF,
+CNR/SS = CFF = 10 nF
+
+80
+
+100
+
+10M
+
+40
+
+90
+
+0
+10
+
+1M
+
+50
+
+Figure 3. PSRR vs Frequency and Input Voltage
+
+10
+
+10k
+100k
+Frequency (Hz)
+
+60
+
+90
+
+IOUT = 100 mA
+IOUT = 250 mA
+IOUT = 500 mA
+
+1k
+
+70
+
+VOUT = 3.3 V, IOUT = 1.0 A, COUT = 10 µF,
+CNR/SS = CFF = 10 nF
+
+20
+
+100
+
+Figure 2. PSRR vs Frequency and Input Voltage
+
+90
+
+VIN
+3.5 V
+3.6 V
+3.7 V
+
+2.2 V
+2.5 V
+3.0 V
+
+VOUT = 1.2 V, IOUT = 1.0 A, COUT = 10 µF,
+CNR/SS = CFF = 10 nF
+
+Figure 1. PSRR vs Frequency and Input Voltage
+
+20
+
+VIN
+1.4 V
+1.5 V
+1.7 V
+2.0 V
+
+10M
+
+70
+60
+50
+40
+30
+20
+
+IOUT = 100 mA
+IOUT = 250 mA
+IOUT = 500 mA
+
+10
+0
+10
+
+100
+
+1k
+
+IOUT = 750 mA
+IOUT = 1A
+10k
+100k
+Frequency (Hz)
+
+1M
+
+10M
+
+VOUT = 1.2 V, VIN = VEN = 1.7 V, COUT = 10 µF,
+CNR/SS = CFF = 10 nF
+
+VOUT = 3.3 V, VIN = VEN = 3.8 V, COUT = 10 µF,
+CNR/SS = CFF = 10 nF
+
+Figure 5. PSRR vs Frequency and Output Current
+
+Figure 6. PSRR vs Frequency and Output Current
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+TPS7A91
+www.ti.com
+
+SBVS282 – DECEMBER 2016
+
+Typical Characteristics (continued)
+at TJ = 25°C, 1.4 V ≤ VIN ≤ 6.5 V, VIN ≥ VOUT(NOM) + 0.3 V, VOUT = 0.8 V, SS_CTRL = GND, IOUT = 5 mA, VEN = 1.1 V, COUT =
+10 μF, CNR/SS = CFF = 0 nF, PG pin pulled up to VOUT with 100 kΩ, and SS_CTRL = GND (unless otherwise noted)
+10
+
+70
+
+1
+
+60
+50
+40
+30
+
+0.1
+
+0.01
+
+20
+
+CNR = Open
+CNR = 10 nF
+CNR = 100 nF
+
+10
+0
+10
+
+100
+
+CNR = 1 uF
+CNR = 10 uF
+
+1k
+
+10k
+100k
+Frequency (Hz)
+
+1M
+
+0.001
+10
+
+10M
+
+VOUT = 1.2 V, VIN = VEN = 1.7 V, IOUT = 1.0 A, COUT = 10 µF,
+CFF = 10 nF
+
+10k
+100k
+Frequency (Hz)
+
+1M
+
+10M
+
+10
+CNR
+
+None, 10.3 PVRMS
+10 nF, 5.4 PVRMS
+
+CFF
+None, 9 PVRMS
+10 nF, 5.4 PVRMS
+100 nF, 4.9 PVRMS
+
+100 nF, 4.7 PVRMS
+1 PF, 4.7 PVRMS
+1
+
+Noise (PV—Hz)
+
+1
+
+Noise (PV—Hz)
+
+1k
+
+Figure 8. Spectral Noise Density vs Frequency and
+Output Voltage
+
+10
+
+0.1
+
+0.01
+
+0.001
+10
+
+100
+
+VIN = VOUT + 1.0 V, IOUT = 1.0 A, CIN = COUT = 10 µF,
+CNR/SS = CFF = 10 nF, VRMS BW = 10 Hz to 100 kHz
+
+Figure 7. PSRR vs Frequency and CNR/SS
+
+0.1
+
+0.01
+
+100
+
+1k
+
+10k
+100k
+Frequency (Hz)
+
+1M
+
+0.001
+10
+
+10M
+
+VIN = 2.2 V, VOUT = 1.2 V, IOUT = 1.0 A, CIN = COUT = 10 µF,
+CFF = 10 nF, VRMS BW = 10 Hz to 100 kHz
+
+100
+
+1k
+
+10k
+100k
+Frequency (Hz)
+
+1M
+
+10M
+
+VIN = 2.2 V, VOUT = 1.2 V, IOUT = 1.0 A, CIN = COUT = 10 µF,
+CNR/SS = 10 nF, VRMS BW = 10 Hz to 100 kHz
+Figure 10. Spectral Noise Density vs Frequency and CFF
+
+Figure 9. Spectral Noise Density vs Frequency and CNR/SS
+10
+
+2
+
+COUT
+10 PF, 5.4 PVRMS
+22 PF, 5.4 PVRMS
+100 PF, 6.1 PVRMS
+
+1.9
+
+0.1
+
+0.01
+
+-40qC
+0qC
+
+Temperature
+25qC
+85qC
+
+100
+
+200
+
+125qC
+
+1.8
+
+Current Limit (A)
+
+1
+
+Noise (PV—Hz)
+
+VOUT
+0.8 V, 4.7 PVRMS
+3.3 V, 9.2 PVRMS
+1.2 V, 5.4 PVRMS
+5 V, 12.48 PVRMS
+1.8 V, 5.9 PVRMS
+
+80
+
+Noise (PV—Hz)
+
+Power-Supply Rejection Ratio (dB)
+
+90
+
+1.7
+1.6
+1.5
+1.4
+1.3
+
+0.001
+10
+
+1.2
+
+100
+
+1k
+
+10k
+100k
+Frequency (Hz)
+
+1M
+
+10M
+
+0
+
+VIN = 2.2 V, VOUT = 1.2 V, IOUT = 1.0 A, CIN = 10 µF,
+CNR/SS = CFF = 10 nF, VRMS BW = 10 Hz to 100 kHz
+Figure 11. Spectral Noise Density vs Frequency and COUT
+
+300
+400
+500
+Output Voltage (mV)
+
+600
+
+700
+
+VIN = 1.4 V, VOUT = 0.8 V
+
+Figure 12. Current Limit Foldback
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+800
+
+7
+
+TPS7A91
+SBVS282 – DECEMBER 2016
+
+www.ti.com
+
+Typical Characteristics (continued)
+at TJ = 25°C, 1.4 V ≤ VIN ≤ 6.5 V, VIN ≥ VOUT(NOM) + 0.3 V, VOUT = 0.8 V, SS_CTRL = GND, IOUT = 5 mA, VEN = 1.1 V, COUT =
+10 μF, CNR/SS = CFF = 0 nF, PG pin pulled up to VOUT with 100 kΩ, and SS_CTRL = GND (unless otherwise noted)
+200
+
+1.9
+
+-40qC
+0qC
+
+175
+
+Dropout Voltage (mV)
+
+Current Limit (A)
+
+1.8
+
+1.7
+
+1.6
+
+Temperature
+25qC
+85qC
+
+125qC
+
+150
+125
+100
+75
+50
+25
+
+1.5
+-50
+
+0
+-25
+
+0
+
+25
+50
+75
+Temperature (qC)
+
+100
+
+125
+
+0
+
+150
+
+200
+
+400
+600
+Output Current (mA)
+
+VIN = 1.4 V, VOUT = 0.8 V
+
+1000
+
+VIN = 5.5 V
+
+Figure 13. Current Limit vs Temperature
+
+Figure 14. Dropout Voltage vs Output Current
+
+400
+
+0.5
+
+-40qC
+0qC
+
+350
+
+Temperature
+25qC
+85qC
+
+0.4
+
+125qC
+
+-40qC
+0qC
+
+0.3
+
+300
+
+Temperature
+25qC
+85qC
+
+125qC
+
+0.2
+
+Accuracy (%)
+
+Dropout Voltage (mV)
+
+800
+
+250
+200
+150
+
+0.1
+0
+-0.1
+-0.2
+
+100
+-0.3
+
+50
+
+-0.4
+
+0
+
+-0.5
+
+1
+
+1.5
+
+2
+
+2.5
+
+3
+3.5
+4
+4.5
+Input Voltage (V)
+
+5
+
+5.5
+
+6
+
+0
+
+200
+
+400
+600
+Output Current (mA)
+
+IOUT = 1 A
+
+1000
+
+VIN = 1.4 V
+
+Figure 15. Dropout Voltage vs Input Voltage
+
+Figure 16. Load Regulation
+
+0.5
+
+3
+
+Temperature
+-40qC
+25qC
+0qC
+85qC
+
+0.4
+
+125qC
+
+2.5
+
+Shutdown Current (PA)
+
+0.3
+0.2
+
+Accuracy (%)
+
+800
+
+0.1
+0
+-0.1
+-0.2
+-0.3
+
+-40qC
+0qC
+
+Temperature
+25qC
+85qC
+
+1
+
+2
+
+125qC
+
+2
+1.5
+1
+0.5
+
+-0.4
+-0.5
+
+0
+
+1
+
+1.5
+
+2
+
+2.5
+
+3
+3.5
+4
+4.5
+Input Voltage (V)
+
+5
+
+5.5
+
+6
+
+6.5
+
+0
+
+0.5
+
+IOUT = 50 mA
+Figure 17. Line Regulation
+
+8
+
+1.5
+
+2.5 3 3.5 4 4.5
+Input Voltage (V)
+
+5
+
+5.5
+
+6
+
+6.5
+
+VEN = 0.4 V
+Figure 18. Shutdown Current vs Input Voltage
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+TPS7A91
+www.ti.com
+
+SBVS282 – DECEMBER 2016
+
+Typical Characteristics (continued)
+
+4
+3.75
+3.5
+3.25
+3
+2.75
+2.5
+2.25
+2
+1.75
+1.5
+1.25
+1
+0.75
+0.5
+0.25
+0
+
+3
+
+Temperature
+-40qC
+25qC
+0qC
+85qC
+
+125qC
+
+2.5
+
+Ground Current (mA)
+
+Ground Current (mA)
+
+at TJ = 25°C, 1.4 V ≤ VIN ≤ 6.5 V, VIN ≥ VOUT(NOM) + 0.3 V, VOUT = 0.8 V, SS_CTRL = GND, IOUT = 5 mA, VEN = 1.1 V, COUT =
+10 μF, CNR/SS = CFF = 0 nF, PG pin pulled up to VOUT with 100 kΩ, and SS_CTRL = GND (unless otherwise noted)
+-40qC
+0qC
+
+Temperature
+25qC
+85qC
+
+1
+
+2
+
+125qC
+
+2
+1.5
+1
+0.5
+0
+
+0
+
+200
+
+400
+600
+Output Current (mA)
+
+800
+
+1000
+
+0
+
+0.5
+
+1.5
+
+2.5 3 3.5 4 4.5
+Input Voltage (V)
+
+5
+
+5.5
+
+6
+
+6.5
+
+VIN = 1.4 V
+Figure 19. Ground Current vs Output Current
+
+Figure 20. Ground Current vs Input Voltage
+600
+
+-40qC
+0qC
+
+500
+
+Temperature
+25qC
+85qC
+
+PG Low Level Output Voltage (mV)
+
+PG Low Level Output Voltage (mV)
+
+600
+125qC
+
+400
+300
+200
+100
+0
+
+500
+
+Temperature
+25qC
+85qC
+
+0.5
+
+1
+
+125qC
+
+400
+300
+200
+100
+0
+
+0
+
+0.5
+
+1
+
+1.5
+2
+PG Current (mA)
+
+2.5
+
+3
+
+0
+
+Figure 21. PG Low Level Voltage vs PG Current
+(VIN = 1.4 V)
+
+2.5
+
+3
+
+100
+PG Falling
+
+PG Rising
+
+90
+
+PG Pin Leakage Current (nA)
+
+92
+91
+90
+89
+88
+87
+86
+-50
+
+1.5
+2
+PG Current (mA)
+
+Figure 22. PG Low Level Voltage vs PG Current
+(VIN = 6.5 V)
+
+93
+
+Power Good Threshold (%)
+
+-40qC
+0qC
+
+80
+70
+60
+50
+40
+30
+20
+10
+
+-25
+
+0
+
+25
+50
+75
+Temperature (qC)
+
+100
+
+125
+
+150
+
+0
+-50
+
+-25
+
+0
+
+25
+50
+75
+Temperature (qC)
+
+100
+
+125
+
+150
+
+VIN = VPG = 6.5 V
+Figure 23. PG Threshold vs Temperature
+
+Figure 24. PG Leakage Current vs Temperature
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+9
+
+TPS7A91
+SBVS282 – DECEMBER 2016
+
+www.ti.com
+
+Typical Characteristics (continued)
+at TJ = 25°C, 1.4 V ≤ VIN ≤ 6.5 V, VIN ≥ VOUT(NOM) + 0.3 V, VOUT = 0.8 V, SS_CTRL = GND, IOUT = 5 mA, VEN = 1.1 V, COUT =
+10 μF, CNR/SS = CFF = 0 nF, PG pin pulled up to VOUT with 100 kΩ, and SS_CTRL = GND (unless otherwise noted)
+150
+
+9
+VIN
+1.4 V
+
+VIN
+1.4 V
+
+140
+
+6.5 V
+
+NR/SS Charging Current (PA)
+
+NR/SS Charging Current (PA)
+
+8.5
+8
+7.5
+7
+6.5
+6
+5.5
+5
+
+130
+120
+110
+100
+90
+80
+70
+
+4.5
+4
+-50
+
+-25
+
+0
+
+25
+50
+75
+Temperature (qC)
+
+100
+
+125
+
+60
+-50
+
+150
+
+Figure 25. Soft-Start Current vs Temperature
+(SS_CTRL = GND)
+
+-25
+
+0
+
+25
+50
+75
+Temperature (qC)
+
+100
+
+125
+
+150
+
+Figure 26. Soft-Start Current vs Temperature
+(SS_CTRL = VIN)
+1.4
+
+1.1
+VIL(EN)
+
+UVLO Falling
+
+VIH(EN)
+
+UVLO Rising
+
+1.35
+
+Undervoltage Lockout (V)
+
+1
+
+Enable Threshold (V)
+
+6.5 V
+
+0.9
+0.8
+0.7
+0.6
+0.5
+
+1.3
+1.25
+1.2
+1.15
+1.1
+1.05
+
+0.4
+-50
+
+-25
+
+0
+
+25
+50
+75
+Temperature (qC)
+
+100
+
+125
+
+150
+
+Figure 27. Enable Threshold vs Temperature
+
+1
+-50
+
+-25
+
+0
+
+25
+50
+75
+Temperature (qC)
+
+100
+
+125
+
+150
+
+Figure 28. Input UVLO Threshold vs Temperature
+VPG
+1 V/div
+
+VPG
+1 V/div
+
+VOUT
+20 mV/div
+
+VOUT
+50 mV/div
+
+IOUT
+500 mA/div
+
+IOUT
+500 mA/div
+Time (10 Ps/div)
+
+Time (10 Ps/div)
+
+VIN = 1.5 V, IOUT = 100 mA to 1 A to 100 mA at 1 A/µs,
+COUT = 10 µF, VPG = VOUT
+
+VIN = 5.5 V, IOUT = 100 mA to 1 A to 100 mA at 1 A/µs,
+COUT = 10 µF, VPG = VOUT
+
+Figure 29. Load Transient Response (VOUT = 1.2 V)
+
+10
+
+Figure 30. Load Transient Response (VOUT = 5.0 V)
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+TPS7A91
+www.ti.com
+
+SBVS282 – DECEMBER 2016
+
+Typical Characteristics (continued)
+at TJ = 25°C, 1.4 V ≤ VIN ≤ 6.5 V, VIN ≥ VOUT(NOM) + 0.3 V, VOUT = 0.8 V, SS_CTRL = GND, IOUT = 5 mA, VEN = 1.1 V, COUT =
+10 μF, CNR/SS = CFF = 0 nF, PG pin pulled up to VOUT with 100 kΩ, and SS_CTRL = GND (unless otherwise noted)
+
+VEN
+1 V/div
+
+VIN
+2 V/div
+
+VOUT
+200 mV/div
+
+VOUT
+20 mV/div
+
+VPG
+200mV/div
+VPG
+1 V/div
+Time (200 Ps/div)
+
+Time (50 Ps/div)
+
+VIN = 1.4 V to 6.5 V to 1.4 V at 2 V/µs, VOUT = 0.8 V,
+IOUT = 1 A, CNR/SS = CFF = 10 nF, VPG = VOUT
+
+VIN = 1.4 V, VPG = VOUT
+
+Figure 31. Line Transient
+
+Figure 32. Start-Up (SS_CTRL = GND, CNR/SS = 0 nF)
+
+VEN
+1 V/div
+
+VEN
+1 V/div
+VOUT
+200 mV/div
+
+VOUT
+200 mV/div
+
+VPG
+200 mV/div
+
+VPG
+200 mV/div
+
+Time (500 Ps/div)
+
+Time (50 Ps/div)
+
+VIN = 1.4 V, VPG = VOUT
+
+VIN = 1.4 V, VPG = VOUT
+
+Figure 33. Start-Up (SS_CTRL = GND, CNR/SS = 10 nF)
+
+Figure 34. Start-Up (SS_CTRL = VIN, CNR/SS = 10 nF)
+
+VEN
+1 V/div
+VOUT
+200 mV/div
+
+VPG
+200 mV/div
+
+Time (2 ms/div)
+
+VIN = 1.4 V, VPG = VOUT
+Figure 35. Start-Up (SS_CTRL = VIN, CNR/SS = 1 µF)
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+11
+
+TPS7A91
+SBVS282 – DECEMBER 2016
+
+www.ti.com
+
+7 Detailed Description
+7.1 Overview
+The TPS7A91 is a low-noise, high PSRR, low dropout (LDO) regulator capable of sourcing a 1-A load with only
+200 mV of maximum dropout. The TPS7A91 can operate down to a 1.4-V input voltage and a 0.8-V output
+voltage. This combination of low-noise, high PSRR, and low dropout voltage makes the device an ideal LDO to
+power a multitude of loads from noise-sensitive communication components in high-speed communications
+applications to high-end microprocessors or field-programmable gate arrays (FPGAs).
+As shown in the Functional Block Diagram section, the TPS7A91 linear regulator features a low-noise, 0.8-V
+internal reference that can be filtered externally to obtain even lower output noise. The internal protection circuitry
+(such as the undervoltage lockout) prevents the device from turning on before the input is high enough to ensure
+accurate regulation. Foldback current limiting is also included, allowing the output to source the rated output
+current when the output voltage is in regulation but reduces the allowable output current during short-circuit
+conditions. The internal power-good detection circuit allows users to sequence down-stream supplies and be
+alerted if the output voltage is below a regulation threshold.
+
+7.2 Functional Block Diagram
+
+PSRR
+Boost
+
+IN
+
+Current
+Limit
+
+OUT
+
+Charge
+Pump
+0.8-V
+VREF
+
+SS_CTRL
+
+Soft-Start
+Control
+
+Active
+Discharge
+
+RNR/SS = 280 k:
++
+Error
+Amp
+±
+INR/SS
+
+NR/SS
+
+200 pF
+FB
+
+UVLO
+Circuits
+
+Internal
+Controller
+±
+0.889 x VREF
+
+PG
+
++
+
+Thermal
+Shutdown
+EN
+
+GND
+
+7.3 Feature Description
+7.3.1 Output Enable
+The enable pin for the TPS7A91 is active high. The output voltage is enabled when the enable pin voltage is
+greater than VIH(EN) and disabled with the enable pin voltage is less than VIL(EN). If independent control of the
+output voltage is not needed, then connect the enable pin to the input.
+The TPS7A91 has an internal pulldown MOSFET that connects a discharge resistor from VOUT to ground when
+the device is disabled to actively discharge the output voltage.
+7.3.2 Dropout Voltage (VDO)
+Dropout voltage (VDO) is defined as the VIN – VOUT voltage at the rated current (IRATED) of 1 A, where the passFET is fully on and in the ohmic region of operation. VDO indirectly specifies a minimum input voltage above the
+nominal programmed output voltage at which the output voltage is expected to remain in regulation. If the input
+falls below the nominal output regulation, then the output follows the input.
+
+12
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+TPS7A91
+www.ti.com
+
+SBVS282 – DECEMBER 2016
+
+Feature Description (continued)
+Dropout voltage is determined by the RDS(ON) of the pass-FET. Therefore, if the LDO operates below the rated
+current, then the VDO for that current scales accordingly. The RDS(ON) for the TPS7A91 can be calculated using
+Equation 1:
+VDO
+RDS(ON) =
+IRATED
+(1)
+7.3.3 Output Voltage Accuracy
+Output voltage accuracy specifies minimum and maximum output voltage error, relative to the expected nominal
+output voltage stated as a percent. The TPS7A91 features an output voltage accuracy of 1% that includes the
+errors introduced by the internal reference, load regulation, and line regulation variance across the full range of
+rated load and line operating conditions over temperature, as specified by the Electrical Characteristics table.
+Output voltage accuracy also accounts for all variations between manufacturing lots.
+7.3.4 High Power-Supply Ripple Rejection (PSRR)
+PSRR is a measure of how well the LDO control loop rejects noise from the input source to make the dc output
+voltage as noise-free as possible across the frequency spectrum (usually measured from 10 Hz to 10 MHz).
+Even though PSRR is a loss in noise signal amplitude, the PSRR curves in the Typical Characteristics section
+are shown as positive values in decibels (dB) for convenience. Equation 2 gives the PSRR calculation as a
+function of frequency where input noise voltage [VIN(f)] and output noise voltage [VOUT(f)] are the amplitudes of
+the respective sinusoidal signals.
+§ V (f ) ·
+PSRR (dB) 20 Log10 ¨ IN
+¸
+© VOUT (f ) ¹
+(2)
+Noise that couples from the input to the internal reference voltage is a primary contributor to reduced PSRR
+performance. Using a noise-reduction capacitor is recommended to filter unwanted noise from the input voltage,
+which creates a low-pass filter with an internal resistor to improve PSRR performance at lower frequencies.
+LDOs are often employed not only as a step-down regulators, but also to provide exceptionally clean power rails
+for noise-sensitive components. This usage is especially true for the TPS7A91, which features an innovative
+circuit to boost the PSRR between 200 kHz and 1 MHz. This boost circuit helps further filter switching noise from
+switching-regulators that operate in this region; see Figure 1. To achieve the maximum benefit of this PSRR
+boost circuit, using a capacitor with a minimum impedance in the 100-kHz to 1-MHz band is recommended.
+7.3.5 Low Output Noise
+LDO noise is defined as the internally-generated intrinsic noise created by the semiconductor circuits. The
+TPS7A91 is designed for system applications where minimizing noise on the power-supply rail is critical to
+system performance. This scenario is the case for phase-locked loop (PLL)-based clocking circuits where
+minimum phase noise is all important, or in test and measurement systems where even small power-supply
+noise fluctuations can distort instantaneous measurement accuracy.
+The TPS7A91 includes a low-noise reference ensuring minimal output noise in normal operation. Further
+improvements can be made by adding a noise reduction capacitor (CNR/SS), a feedforward capacitor (CFF), or a
+combination of the two. See the Noise-Reduction and Soft-Start Capacitor (CNR/SS) and Feed-Forward Capacitor
+(CFF) sections for additional design information.
+For more information on noise and noise measurement, see the How to Measure LDO Noise white paper
+(SLYY076).
+7.3.6 Output Soft-Start Control
+Soft-start refers to the ramp-up characteristic of the output voltage during LDO turn-on after the EN and UVLO
+thresholds are exceeded. The noise-reduction capacitor (CNR/SS) serves a dual purpose of both governing output
+noise reduction and programming the soft-start ramp during turn-on. Larger values for the noise-reduction
+capacitors decrease the noise but also result in a slower output turn-on ramp rate.
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+13
+
+TPS7A91
+SBVS282 – DECEMBER 2016
+
+www.ti.com
+
+Feature Description (continued)
+The TPS7A91 features an SS_CTRL pin. When the SS_CTRL pin is grounded, the charging current for the
+NR/SS pin is 6.2 µA (typ); when this pin is connected to IN, the charging current for the NR/SS pin is increased
+to 100 µA (typ). The higher current allows the use of a much larger noise-reduction capacitor and maintains a
+reasonable startup time. Figure 36 shows a simplified block diagram of the soft-start circuit. The switch SW is
+opened to turn off the INR/SS current source after VFB reaches approximately 97% of VREF. The final 3% of VNR/SS
+is charged through the noise reduction resistor (RNR), which creates an RC delay. RNR is approximately 280 kΩ
+and applications that require the highest accuracy when using a large value CNR/SS must take this RC delay into
+account.
+If a noise-reduction capacitor is not used on the NR/SS pin, tying the SS_CTRL pin to the IN pin can result in
+output voltage overshoot of approximately 10%. This overshoot is minimized by either connecting the SS_CTRL
+pin to GND or using a capacitor on the NR/SS pin.
+SW
+
+INR/SS
+RNR
+
+NR/SS Control
+
+VREF
+
++
+CNR/SS
+
+VFB
+
+±
+
+GND
+
+Figure 36. Simplified Soft-Start Circuit
+7.3.7 Power-Good Function
+The power-good circuit monitors the voltage at the feedback pin to indicate the status of the output voltage.
+When the feedback pin voltage falls below the PG threshold voltage (VIT(PG)), the PG pin open-drain output
+engages and pulls the PG pin close to GND. When the feedback voltage exceeds the VIT(PG) threshold by an
+amount greater than VHYS(PG), the PG pin becomes high impedance. By connecting a pullup resistor to an
+external supply, any downstream device can receive power-good as a logic signal that can be used for
+sequencing. Make sure that the external pullup supply voltage results in a valid logic signal for the receiving
+device or devices. Using a pullup resistor from 10 kΩ to 100 kΩ is recommended. Using an external reset device
+such as the TPS3890 is also recommended in applications where high accuracy is needed or in applications
+where microprocessor induced resets are needed.
+When using a feed-forward capacitor (CFF), the time constant for the LDO startup is increased whereas the
+power-good output time constant stays the same, possibly resulting in an invalid status of the power-good output.
+To avoid this issue and to receive a valid PG output, make sure that the time constant of both the LDO startup
+and the power-good output are matching, which can be done by adding a capacitor in parallel with the powergood pullup resistor. For more information, see the Pros and Cons of Using a Feedforward Capacitor with a LowDropout Regulator application report (SBVA042).
+The state of PG is only valid when the device is operating above the minimum input voltage of the device and
+power good is asserted regardless of the output voltage state when the input voltage falls below the UVLO
+threshold minus the UVLO hysteresis. Figure 37 illustrates a simplified block diagram of the power-good circuit.
+When the input voltage falls below approximately 0.8 V, there is not enough gate drive voltage to keep the opendrain, power-good device turned on and the power-good output is pulled high. Connecting the power-good pullup
+resistor to the output voltage can help minimize this effect.
+
+14
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+TPS7A91
+www.ti.com
+
+SBVS282 – DECEMBER 2016
+
+Feature Description (continued)
+VPG
+VREF
+VIN
+VFB
+
+±
++
+GND
+
+EN UVLO
+
+GND
+
+GND
+
+Figure 37. Simplified PG Circuit
+7.3.8 Internal Protection Circuitry
+7.3.8.1 Undervoltage Lockout (UVLO)
+The TPS7A91 has an independent undervoltage lockout (UVLO) circuit that monitors the input voltage, allowing
+a controlled and consistent turn on and off of the output voltage. To prevent the device from turning off if the
+input drops during turn on, the UVLO has approximately 290 mV of hysteresis.
+The UVLO circuit responds quickly to glitches on VIN and disables the output of the device if this rail starts to
+collapse too quickly. Use an input capacitor that is large enough to slow input transients to less then two volts
+per microsecond.
+7.3.8.2 Internal Current Limit (ICL)
+The internal current-limit circuit is used to protect the LDO against transient high-load current faults or shorting
+events. The LDO is not designed to operate in current limit under steady-state conditions. During an overcurrent
+event where the output voltage is pulled 10% below the regulated output voltage, the LDO sources a constant
+current as specified in the Electrical Characteristics table. When the output voltage falls, the amount of output
+current is reduced to better protect the device. During a hard short-circuit event, the current is reduced to
+approximately 1.45 A. See Figure 12 in the Typical Characteristics section for more information about the
+current-limit foldback behavior. Note also that when a current-limit event occurs, the LDO begins to heat up
+because of the increase in power dissipation. The increase in heat can trigger the integrated thermal shutdown
+protection circuit.
+7.3.8.3 Thermal Protection
+The TPS7A91 contains a thermal shutdown protection circuit to turn off the output current when excessive heat is
+dissipated in the LDO. Thermal shutdown occurs when the thermal junction temperature (TJ) of the pass-FET
+exceeds 160°C (typical). Thermal shutdown hysteresis assures that the LDO again resets (turns on) when the
+temperature falls to 140°C (typical). The thermal time-constant of the semiconductor die is fairly short, and thus
+the output turns on and off at a high rate when thermal shutdown is reached until power dissipation is reduced.
+The internal protection circuitry of the TPS7A91 is designed to protect against thermal overload conditions. The
+circuitry is not intended to replace proper heat sinking. Continuously running the TPS7A91 into thermal shutdown
+degrades device reliability.
+For reliable operation, limit junction temperature to a maximum of 125°C. To estimate the thermal margin in a
+given layout, increase the ambient temperature until the thermal protection shutdown is triggered using worstcase load and highest input voltage conditions. For good reliability, thermal shutdown must occur at least 35°C
+above the maximum expected ambient temperature condition for the application. This configuration produces a
+worst-case junction temperature of 125°C at the highest expected ambient temperature and worst-case load.
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+15
+
+TPS7A91
+SBVS282 – DECEMBER 2016
+
+www.ti.com
+
+7.4 Device Functional Modes
+Table 1 provides a quick comparison between the normal, dropout, and disabled modes of operation.
+Table 1. Device Functional Modes Comparison
+PARAMETER
+
+OPERATING MODE
+
+(1)
+(2)
+
+VIN
+
+EN
+
+IOUT
+
+TJ
+
+Normal (1)
+
+VIN > VOUT(nom) + VDO
+
+VEN > VIH(EN)
+
+IOUT < ICL
+
+TJ < Tsd
+
+Dropout (1)
+
+VIN < VOUT(nom) + VDO
+
+VEN > VIH(EN)
+
+IOUT < ICL
+
+TJ < Tsd
+
+Disabled (2)
+
+VIN < VUVLO
+
+VEN < VIL(EN)
+
+—
+
+TJ > Tsd
+
+All table conditions must be met.
+The device is disabled when any condition is met.
+
+7.4.1 Normal Operation
+The device regulates to the nominal output voltage when all of the following conditions are met.
+• The input voltage is greater than the nominal output voltage plus the dropout voltage (VOUT(nom) + VDO)
+• The enable voltage has previously exceeded the enable rising threshold voltage and has not yet decreased
+below the enable falling threshold
+• The output current is less than the current limit (IOUT < ICL)
+• The device junction temperature is less than the thermal shutdown temperature (TJ < Tsd)
+7.4.2 Dropout Operation
+If the input voltage is lower than the nominal output voltage plus the specified dropout voltage, but all other
+conditions are met for normal operation, the device operates in dropout. In this mode, the output voltage tracks
+the input voltage. During this mode, the transient performance of the device becomes significantly degraded
+because the pass device is in a triode state and no longer controls the current through the LDO. Line or load
+transients in dropout can result in large output-voltage deviations.
+When the device is in a steady dropout state (defined as when the device is in dropout, VIN < VOUT(NOM) + VDO,
+right after being in a normal regulation state, but not during startup), the pass-FET is driven as hard as possible.
+When the input voltage returns to VIN ≥ VOUT(NOM) + VDO, VOUT can overshoot for a short period of time if the input
+voltage slew rate is greater than 0.1 V/µs.
+7.4.3 Disabled
+The output of the TPS7A91 can be shutdown by forcing the enable pin below 0.4 V. When disabled, the pass
+device is turned off, internal circuits are shutdown, and the output voltage is actively discharged to ground by an
+internal resistor from the output to ground.
+
+16
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+TPS7A91
+www.ti.com
+
+SBVS282 – DECEMBER 2016
+
+8 Application and Implementation
+NOTE
+Information in the following applications sections is not part of the TI component
+specification, and TI does not warrant its accuracy or completeness. TI’s customers are
+responsible for determining suitability of components for their purposes. Customers should
+validate and test their design implementation to confirm system functionality.
+
+8.1 Application Information
+The TPS7A91 is a linear voltage regulator operating from 1.4 V to 6.5 V on the input and regulates voltages
+between 0.8 V to 5.0 V within 1% accuracy and a 1-A maximum output current. Efficiency is defined by the ratio
+of output voltage to input voltage because the TPS7A91 is a linear voltage regulator. To achieve high efficiency,
+the dropout voltage (VIN – VOUT) must be as small as possible, thus requiring a very low dropout LDO.
+Successfully implementing an LDO in an application depends on the application requirements. This section
+discusses key device features and how to best implement them to achieve a reliable design.
+8.1.1 Adjustable Output
+The output voltage of the TPS7A9101 can be adjusted from 0.8 V to 5.2 V by using a resistor divider network as
+shown in Figure 38.
+VIN
+
+IN
+CIN
+
+TPS7A9101
+
+VOUT
+
+OUT
+R1
+
+EN
+
+FB
+
+COUT
+
+SS_CTRL
+NR/SS
+CNR/SS
+
+PG
+
+R2
+
+GND
+Copyright © 2016, Texas Instruments Incorporated
+
+Figure 38. Adjustable Operation
+R1 and R2 can be calculated for any output voltage range using Equation 3. This resistive network must provide a
+current greater than or equal to 5 μA for optimum noise performance.
+§V
+R 1 = R 2 ¨ OUT
+© VREF
+
+·
+1¸ ,
+¹
+
+where
+
+VREF(max)
+R2
+
+! 5 PA
+(3)
+
+If greater voltage accuracy is required, take into account the output voltage offset contribution resulting from the
+feedback pin current (IFB) and use 0.1%-tolerance resistors.
+Table 2 lists the resistor combination required to achieve a few of the most common rails using commerciallyavailable, 0.1%-tolerance resistors to maximize nominal voltage accuracy and also abiding to the formula given
+in Equation 3.
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+17
+
+TPS7A91
+SBVS282 – DECEMBER 2016
+
+www.ti.com
+
+Application Information (continued)
+Table 2. Recommended Feedback-Resistor Values
+
+(1)
+
+FEEDBACK RESISTOR VALUES (1)
+
+VOUT(TARGET)
+(V)
+
+R1 (kΩ)
+
+R2 (kΩ)
+
+CALCULATED OUTPUT
+VOLTAGE (V)
+
+0.8
+
+Short
+
+Open
+
+0.800
+
+1.00
+
+2.55
+
+10.2
+
+1.000
+
+1.20
+
+5.9
+
+11.8
+
+1.200
+
+1.50
+
+9.31
+
+10.7
+
+1.496
+
+1.80
+
+1.87
+
+1.5
+
+1.797
+
+1.90
+
+15.8
+
+11.5
+
+1.899
+
+2.50
+
+2.43
+
+1.15
+
+2.490
+
+3.00
+
+3.16
+
+1.15
+
+2.998
+
+3.30
+
+3.57
+
+1.15
+
+3.283
+
+5.00
+
+10.5
+
+2
+
+5.00
+
+R1 is connected from OUT to FB; R2 is connected from FB to GND; see Figure 38.
+
+8.1.2 Start-Up
+8.1.2.1 Enable (EN) and Undervoltage Lockout (UVLO)
+The TPS7A91 only turns on when EN and UVLO are above the respective voltage thresholds. The TPS7A91 has
+an independent UVLO circuit that monitors the input voltage to allow a controlled and consistent turn on and off.
+The UVLO has approximately 290 mV of hysteresis to prevent the device from turning off if the input drops
+during turn on. The EN signal allows independent logic-level turn-on and shutdown of the LDO when the input
+voltage is present. Connecting EN directly to IN is recommended if independent turn-on is not needed.
+The TPS7A91 has an internal pulldown MOSFET that connects a discharge resistor from VOUT to ground when
+the device is disabled to actively discharge the output voltage.
+8.1.2.2 Noise-Reduction and Soft-Start Capacitor (CNR/SS)
+The CNR/SS capacitor serves a dual purpose of both reducing output noise and setting the soft-start ramp during
+turn-on.
+8.1.2.2.1 Noise Reduction
+
+For low-noise applications, the CNR/SS capacitor forms an RC filter for filtering output noise that is otherwise
+amplified by the control loop. For low-noise applications, a CNR/SS of between 10 nF to 10 µF is recommended.
+Larger values for CNR/SS can be used; however, above 1 µF there is little benefit in lowering the output voltage
+noise for frequencies above 10 Hz.
+8.1.2.2.2 Soft-Start and Inrush Current
+
+Soft-start refers to the gradual ramp-up characteristic of the output voltage after the EN and UVLO thresholds are
+exceeded. Reducing how quickly the output voltage increases during startup also reduces the amount of current
+needed to charge the output capacitor, referred to as inrush current. Inrush current is defined as the current
+going into the LDO during start-up. Inrush current consists of the load current, the current used to charge the
+output capacitor, and the ground pin current (that contributes very little to inrush current). This current is difficult
+to measure because the input capacitor must be removed, which is not recommended. However, the inrush
+current can be estimated by Equation 4:
+u dVOUT (t) · § VOUT (t) ·
+§C
+IOUT (t) ¨ OUT
+¸
+¸ ¨
+dt
+©
+¹ © RLOAD ¹
+where:
+•
+•
+•
+18
+
+VOUT(t) is the instantaneous output voltage of the turn-on ramp
+dVOUT(t)/dt is the slope of the VOUT ramp and
+RLOAD is the resistive load impedance
+
+Submit Documentation Feedback
+
+(4)
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+TPS7A91
+www.ti.com
+
+SBVS282 – DECEMBER 2016
+
+The TPS7A91 features a monotonic, voltage-controlled soft-start that is set by the user with an external capacitor
+(CNR/SS). This soft-start helps reduce inrush current, minimizing load transients to the input power bus that can
+cause potential start-up initialization problems when powering FPGAs, digital signal processors (DSPs), or other
+high current loads.
+To achieve a monotonic start-up, the TPS7A91 error amplifier tracks the voltage ramp of the external soft-start
+capacitor until the voltage exceeds approximately 97% of the internal reference. The final 3% of VNR/SS is
+charged through the noise-reduction resistor (RNR), creating an RC delay. RNR is approximately 280 kΩ and
+applications that require the highest accuracy when using a large value CNR/SS must take this RC delay into
+account.
+The soft-start ramp time depends on the soft-start charging current (INR/SS), the soft-start capacitance (CNR/SS),
+and the internal reference (VREF). The approximate soft-start ramp time (tSS) can be calculated with Equation 5:
+tSS = (VREF × CNR/SS) / INR/SS
+
+(5)
+
+Note that the value for INR/SS is determined by the state of the SS_CTRL pin. When the SS_CTRL pin is
+connected to GND, the typical value for the INR/SS current is 6.2 µA. Connecting the SS_CTRL pin to IN increases
+the typical soft-start charging current to 100 µA. The larger charging current for INR/SS is useful if shorter start-up
+times are needed (such as when using a large noise-reduction capacitor).
+8.1.3 Capacitor Recommendation
+The TPS7A91 is designed to be stable using low equivalent series resistance (ESR) ceramic capacitors at the
+input, output, and noise-reduction pin. Multilayer ceramic capacitors have become the industry standard for these
+types of applications and are recommended, but must be used with good understanding of their limitations.
+Ceramic capacitors that employ X7R-, X5R-, and COG-rated dielectric materials provide relatively good
+capacitive stability across temperature, whereas the use of Y5V-rated capacitors is discouraged precisely
+because the capacitance varies so widely. In all cases, ceramic capacitors vary a great deal with operating
+voltage and temperature and the design engineer must be aware of these characteristics. As a rule of thumb,
+ceramic capacitors are recommended to be derated by 50%. The input and output capacitors recommended
+herein account for a capacitance derating of 50%.
+8.1.3.1 Input and Output Capacitor Requirements (CIN and COUT)
+The TPS7A91 is designed and characterized for operation with ceramic capacitors of 10 µF or greater at the
+input and output. Locate the input and output capacitors as near as practical to the input and output pins to
+minimize the trace inductance from the capacitor to the device.
+Attention must be given to the input capacitance to minimize transient input droop during startup and load current
+steps. Note that simply using very large ceramic input capacitances can cause unwanted ringing at the output if
+the input capacitor (in combination with the wire-lead inductance) creates a high-Q peaking effect during
+transients, which is why short, well-designed interconnect traces to the upstream supply are needed to minimize
+ringing. Damping of unwanted ringing can be accomplished by using a tantalum capacitor, with a few hundred
+milliohms of ESR, in parallel with the ceramic input capacitor. The UVLO circuit responds quickly to glitches on
+VIN and disables the output of the device if this rail starts to collapse too quickly. Use an input capacitor that is
+large enough to slow input transients to less then two volts per microsecond.
+8.1.3.1.1 Load-Step Transient Response
+
+The load-step transient response is the output voltage response by the LDO to a step change in load current.
+The depth of charge depletion immediately after the load step is directly proportional to the amount of output
+capacitance. However, although larger output capacitances decrease any voltage dip or peak occurring during a
+load step, the control-loop bandwidth is also decreased, thereby slowing the response time.
+The LDO cannot sink charge, therefore when the output load is removed or greatly reduced, the control loop
+must turn off the pass-FET and wait for any excess charge to deplete.
+8.1.3.2 Feed-Forward Capacitor (CFF)
+Although a feed-forward capacitor (CFF), from the FB pin to the OUT pin is not required to achieve stability, a 10nF, feed-forward capacitor improves the noise and PSRR performance. A higher capacitance CFF can be used;
+however, the startup time is longer and the power-good signal can incorrectly indicate that the output voltage has
+settled. For a detailed description, see the Pros and Cons of Using a Feedforward Capacitor with a Low-Dropout
+Regulator application report (SBVA042).
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+19
+
+TPS7A91
+SBVS282 – DECEMBER 2016
+
+www.ti.com
+
+8.1.4 Power Dissipation (PD)
+Circuit reliability demands that proper consideration be given to device power dissipation, location of the circuit
+on the printed circuit board (PCB), and correct sizing of the thermal plane. The PCB area around the regulator
+must be as free as possible of other heat-generating devices that cause added thermal stresses.
+To first-order approximation, power dissipation in the regulator depends on the input-to-output voltage difference
+and load conditions. PD can be calculated using Equation 6:
+PD = (VIN – VOUT) × IOUT
+
+(6)
+
+An important note is that power dissipation can be minimized, and thus greater efficiency achieved, by proper
+selection of the system voltage rails. For the lowest power dissipation use the minimum input voltage necessary
+for proper output regulation.
+The primary heat conduction path for the DSK package is through the thermal pad to the PCB. Solder the
+thermal pad to a copper pad area under the device. This pad area should contain an array of plated vias that
+conduct heat to additional copper planes for increased heat dissipation.
+The maximum power dissipation determines the maximum allowable ambient temperature (TA) for the device.
+Power dissipation and junction temperature are most often related by the junction-to-ambient thermal resistance
+(θJA) of the combined PCB and device package and the temperature of the ambient air (TA), according to
+Equation 7.
+TJ = TA + (qJA ´ PD)
+(7)
+Unfortunately, the thermal resistance (θJA) is highly dependent on the heat-spreading capability built into the
+particular PCB design, and therefore varies according to the total copper area, copper weight, and location of the
+planes. The θJA recorded in the Thermal Information table is determined by the JEDEC standard, PCB, and
+copper-spreading area and is only used as a relative measure of package thermal performance.
+8.1.5 Estimating Junction Temperature
+The JEDEC standard now recommends the use of psi (Ψ) thermal metrics to estimate the junction temperatures
+of the LDO when in-circuit on a typical PCB board application. These metrics are not strictly speaking thermal
+resistances, but rather offer practical and relative means of estimating junction temperatures. These psi metrics
+are determined to be significantly independent of the copper-spreading area. The key thermal metrics (ΨJT and
+ΨJB) are given in the Thermal Information table and are used in accordance with Equation 8.
+YJT: TJ = TT + YJT ´ PD
+YJB: TJ = TB + YJB ´ PD
+where:
+•
+•
+•
+
+PD is the power dissipated as explained in Equation 6
+TT is the temperature at the center-top of the device package and
+TB is the PCB surface temperature measured 1 mm from the device package and centered on the package
+edge
+(8)
+
+For a more detailed discussion on thermal metrics and how to use them, see the Semiconductor and IC Package
+Thermal Metrics application report (SPRA953).
+
+20
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+TPS7A91
+www.ti.com
+
+SBVS282 – DECEMBER 2016
+
+8.2 Typical Application
+This section discusses the implementation of the TPS7A91 to regulate from a 2-V input voltage to a 1.2-V output
+voltages for noise-sensitive loads. The schematic for this application circuit is provided in Figure 39.
+2.0 V
+
+IN
+CIN
+10 PF
+
+TPS7A91
+
+OUT
+
+1.2 V
+COUT
+10 F
+
+R1 5.9 k:
+EN
+
+FB
+
+SS_CTRL
+CNR/SS
+0.1 PF
+
+NR/SS
+PG
+
+CFF 10 nF
+R2
+VOUT
+11.8 k:
+RPG
+20 k:
+PG
+
+GND
+Copyright © 2016, Texas Instruments Incorporated
+
+Figure 39. Application Example
+8.2.1 Design Requirements
+For the design example shown in Figure 39, use the parameters listed in Table 3 as the input parameters.
+Table 3. Design Parameters
+PARAMETER
+
+APPLICATION REQUIREMENTS
+
+Input voltages (VIN)
+
+2 V, ±3%, provided by the dc-dc converter
+switching at 750 kHz
+
+1.4 V to 6.5 V
+
+55°C
+
+101°C junction temperature
+
+Output voltages (VOUT)
+
+1.2 V, ±1%
+
+1.2 V, ±1%
+
+Output currents (IOUT)
+
+1.0 A (max), 10 mA (min)
+
+1.0 A (max), 5 mA (min)
+
+Maximum ambient operating
+temperature
+
+RMS noise
+
+DESIGN RESULTS
+
+< 5 µVRMS, bandwidth = 10 Hz to 100 kHz
+
+4.7 µVRMS, bandwidth = 10 Hz to 100 kHz
+
+PSRR at 750 kHz
+
+> 40 dB
+
+49 dB
+
+Startup time
+
+< 2 ms
+
+800 µs (typ) 1.48 µs (max)
+
+8.2.2 Detailed Design Procedure
+The output voltage can be set to 1.2 V by selecting the correct values for R1 and R2; see Equation 3.
+Input and output capacitors are selected in accordance with the Capacitor Recommendation section. Ceramic
+capacitances of 10 µF for both input and output are selected to help balance the charge needed during startup
+when charging the output capacitor, thus reducing the input voltage drop.
+To satisfy the required startup time (tSS) and still maintain low-noise performance, a 0.1-µF CNR/SS is selected for
+with SS_CTRL connected to VIN. This value is calculated with Equation 9. Using the INR/SS(MAX) and the smallest
+CNR/SS capacitance resulting from manufacturing variance (often ±20%) provides the fastest startup time,
+whereas using the INR/SS(MIN) and the largest CNR/SS capacitance resulting from manufacturing variance provides
+the slowest startup time.
+tSS = (VREF × CNR/SS) / INR/SS
+
+(9)
+
+With a 1.0-A maximum load, the internal power dissipation is 800 mW, corresponding to a 46°C junction
+temperature rise. With an 55°C maximum ambient temperature, the junction temperature is at 101°C. To
+minimize noise, a feed-forward capacitance (CFF) of 10 nF is selected.
+See the Layout section for an example of how to layout the TPS7A91 to achieve best PSRR and noise.
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+21
+
+TPS7A91
+SBVS282 – DECEMBER 2016
+
+www.ti.com
+
+8.2.3 Application Curves
+10
+CNR
+100 nF, 4.7 PVRMS
+
+80
+70
+
+1
+
+60
+
+Noise (PV—Hz)
+
+Power-Supply Rejection Ratio (dB)
+
+90
+
+50
+40
+30
+
+0.01
+
+20
+10
+
+0.1
+
+VIN
+2.0 V
+
+0
+10
+
+100
+
+1k
+
+10k
+100k
+Frequency (Hz)
+
+1M
+
+10M
+
+0.001
+10
+
+Figure 40. PSRR vs Frequency
+
+100
+
+1k
+
+10k
+100k
+Frequency (Hz)
+
+1M
+
+10M
+
+Figure 41. Output Noise vs Frequency
+
+9 Power Supply Recommendations
+The input of the TPS7A91 is designed to operate from an input voltage range between 1.4 V and 6.5 V and with
+an input capacitor of 10 µF. The input voltage range must provide adequate headroom in order for the device to
+have a regulated output. This input supply must be well regulated. If the input supply is noisy, additional input
+capacitors can be used to improve the output noise performance.
+
+10 Layout
+10.1 Layout Guidelines
+General guidelines for linear regulator designs are to place all circuit components on the same side of the circuit
+board and as near as practical to the respective LDO pin connections. Place ground return connections to the
+input and output capacitors, and to the LDO ground pin as close to each other as possible, connected by a wide,
+component-side, copper surface. The use of vias and long traces to create LDO circuit connections is strongly
+discouraged and negatively affects system performance.
+10.1.1 Board Layout
+To maximize the ac performance of the TPS7A91, following the layout example illustrated in Figure 42 is
+recommended. This layout isolates the analog ground (AGND) from the noisy power ground. Components that
+must be connected to the quiet analog ground are the noise reduction capacitor (CNR/SS) and the lower feedback
+resistor (R2). These components must have a separate connection back to the power pad of the device for
+optimal output noise performance. Connect the GND pin directly to the thermal pad and not to any external
+plane.
+To maximize the output voltage accuracy, the connection from the output voltage back to top output divider
+resistors (R1) must be made as close as possible to the load. This method of connecting the feedback trace
+eliminates the voltage drop from the device output to the load.
+To improve thermal performance, use an array of thermal vias to connect the thermal pad to the ground planes.
+Larger ground planes improve the thermal performance of the device and lowering the operating temperature of
+the device.
+
+22
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+TPS7A91
+www.ti.com
+
+SBVS282 – DECEMBER 2016
+
+10.2 Layout Example
+
+Power Ground
+Plane
+
+COUT
+
+CIN
+OUT
+
+1
+
+10
+
+IN
+
+VOUT
+
+VIN
+OUT
+
+2
+
+9
+
+IN
+
+FB
+
+3
+
+8
+
+NR/SS
+
+CFF
+
+R1
+
+CNR/SS
+R2
+
+GND
+
+4
+
+7
+
+EN
+
+PG
+
+5
+
+6
+
+SS_CTRL
+
+To VIN
+
+To PG
+Pullup Supply
+
+PG Output
+
+Ground Plane for
+Thermal Relief and
+Signal Ground
+
+Denotes vias used for application purposes
+
+Figure 42. TPS7A91 Example Layout
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+23
+
+TPS7A91
+SBVS282 – DECEMBER 2016
+
+www.ti.com
+
+11 Device and Documentation Support
+11.1 Device Support
+11.1.1 Development Support
+11.1.1.1 Evaluation Modules
+An evaluation module (EVM) is available to assist in the initial circuit performance evaluation using the TPS7A91.
+The summary information for this fixture is shown in Table 4.
+Table 4. Design Kits and Evaluation Modules (1)
+NAME
+
+PART NUMBER
+
+TPS7A91 Low-Dropout Voltage Regulator Evaluation Module
+(1)
+
+TPS7A91EVM-831
+
+For the most current package and ordering information see the Package Option Addendum at the end of this document, or see the
+device product folder at www.ti.com.
+
+The EVM can be requested at the Texas Instruments web site through the TPS7A91 product folder.
+11.1.1.2 SPICE Models
+Computer simulation of circuit performance using SPICE is often useful when analyzing the performance of
+analog circuits and systems. A SPICE model for the TPS7A91 is available through the TPS7A91 product folder
+under simulation models.
+11.1.2 Device Nomenclature
+Table 5. Ordering Information (1)
+PRODUCT
+TPS7A91XXYYYZ
+(1)
+
+DESCRIPTION
+XX represents the output voltage. 01 is the adjustable output version.
+YYY is the package designator.
+Z is the package quantity.
+
+For the most current package and ordering information see the Package Option Addendum at the end of this document, or see the
+device product folder at www.ti.com.
+
+11.2 Documentation Support
+11.2.1 Related Documentation
+TPS3890 Low Quiescent Current, 1% Accurate Supervisor with Programmable Delay (SLVSD65)
+TPS7A91EVM User's Guide (SBVU036)
+Pros and Cons of Using a Feedforward Capacitor with a Low-Dropout Regulator (SBVA042)
+How to Measure LDO Noise (SLYY076)
+Semiconductor and IC Package Thermal Metrics (SPRA953)
+
+11.3 Receiving Notification of Documentation Updates
+To receive notification of documentation updates, navigate to the device product folder on ti.com. In the upper
+right corner, click on Alert me to register and receive a weekly digest of any product information that has
+changed. For change details, review the revision history included in any revised document.
+
+24
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+TPS7A91
+www.ti.com
+
+SBVS282 – DECEMBER 2016
+
+11.4 Community Resources
+The following links connect to TI community resources. Linked contents are provided "AS IS" by the respective
+contributors. They do not constitute TI specifications and do not necessarily reflect TI's views; see TI's Terms of
+Use.
+TI E2E™ Online Community TI's Engineer-to-Engineer (E2E) Community. Created to foster collaboration
+among engineers. At e2e.ti.com, you can ask questions, share knowledge, explore ideas and help
+solve problems with fellow engineers.
+Design Support TI's Design Support Quickly find helpful E2E forums along with design support tools and
+contact information for technical support.
+
+11.5 Trademarks
+E2E is a trademark of Texas Instruments.
+All other trademarks are the property of their respective owners.
+
+11.6 Electrostatic Discharge Caution
+This integrated circuit can be damaged by ESD. Texas Instruments recommends that all integrated circuits be handled with
+appropriate precautions. Failure to observe proper handling and installation procedures can cause damage.
+ESD damage can range from subtle performance degradation to complete device failure. Precision integrated circuits may be more
+susceptible to damage because very small parametric changes could cause the device not to meet its published specifications.
+
+11.7 Glossary
+SLYZ022 — TI Glossary.
+This glossary lists and explains terms, acronyms, and definitions.
+
+12 Mechanical, Packaging, and Orderable Information
+The following pages include mechanical, packaging, and orderable information. This information is the most
+current data available for the designated devices. This data is subject to change without notice and revision of
+this document. For browser-based versions of this data sheet, refer to the left-hand navigation.
+
+Submit Documentation Feedback
+
+Copyright © 2016, Texas Instruments Incorporated
+
+Product Folder Links: TPS7A91
+
+25
+
+PACKAGE OPTION ADDENDUM
+www.ti.com
+
+10-Nov-2025
+
+PACKAGING INFORMATION
+Orderable part number
+
+(1)
+
+Status
+
+Material type
+
+(1)
+
+(2)
+
+Package | Pins
+
+Package qty | Carrier
+
+RoHS
+(3)
+
+Lead finish/
+Ball material
+
+MSL rating/
+Peak reflow
+
+(4)
+
+(5)
+
+Op temp (°C)
+
+Part marking
+(6)
+
+TPS7A9101DSKR
+
+Active
+
+Production
+
+SON (DSK) | 10
+
+3000 | LARGE T&R
+
+Yes
+
+NIPDAU
+
+Level-2-260C-1 YEAR
+
+-40 to 125
+
+19GP
+
+TPS7A9101DSKR.A
+
+Active
+
+Production
+
+SON (DSK) | 10
+
+3000 | LARGE T&R
+
+Yes
+
+NIPDAU
+
+Level-2-260C-1 YEAR
+
+-40 to 125
+
+19GP
+
+TPS7A9101DSKRG4
+
+Active
+
+Production
+
+SON (DSK) | 10
+
+3000 | LARGE T&R
+
+Yes
+
+NIPDAU
+
+Level-2-260C-1 YEAR
+
+-40 to 125
+
+19GP
+
+TPS7A9101DSKRG4.A
+
+Active
+
+Production
+
+SON (DSK) | 10
+
+3000 | LARGE T&R
+
+Yes
+
+NIPDAU
+
+Level-2-260C-1 YEAR
+
+-40 to 125
+
+19GP
+
+TPS7A9101DSKT
+
+Active
+
+Production
+
+SON (DSK) | 10
+
+250 | SMALL T&R
+
+Yes
+
+NIPDAU
+
+Level-2-260C-1 YEAR
+
+-40 to 125
+
+19GP
+
+TPS7A9101DSKT.A
+
+Active
+
+Production
+
+SON (DSK) | 10
+
+250 | SMALL T&R
+
+Yes
+
+NIPDAU
+
+Level-2-260C-1 YEAR
+
+-40 to 125
+
+19GP
+
+Status: For more details on status, see our product life cycle.
+
+(2)
+
+Material type: When designated, preproduction parts are prototypes/experimental devices, and are not yet approved or released for full production. Testing and final process, including without limitation quality assurance,
+reliability performance testing, and/or process qualification, may not yet be complete, and this item is subject to further changes or possible discontinuation. If available for ordering, purchases will be subject to an additional
+waiver at checkout, and are intended for early internal evaluation purposes only. These items are sold without warranties of any kind.
+(3)
+
+RoHS values: Yes, No, RoHS Exempt. See the TI RoHS Statement for additional information and value definition.
+
+(4)
+
+Lead finish/Ball material: Parts may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two lines if the finish value exceeds the maximum
+column width.
+(5)
+
+MSL rating/Peak reflow: The moisture sensitivity level ratings and peak solder (reflow) temperatures. In the event that a part has multiple moisture sensitivity ratings, only the lowest level per JEDEC standards is shown.
+Refer to the shipping label for the actual reflow temperature that will be used to mount the part to the printed circuit board.
+(6)
+
+Part marking: There may be an additional marking, which relates to the logo, the lot trace code information, or the environmental category of the part.
+
+Multiple part markings will be inside parentheses. Only one part marking contained in parentheses and separated by a "~" will appear on a part. If a line is indented then it is a continuation of the previous line and the two
+combined represent the entire part marking for that device.
+Important Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information provided by third parties, and
+makes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and continues to take reasonable steps to provide representative
+and accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals. TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers
+and other limited information may not be available for release.
+In no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.
+
+Addendum-Page 1
+
+PACKAGE OPTION ADDENDUM
+www.ti.com
+
+10-Nov-2025
+
+Addendum-Page 2
+
+PACKAGE MATERIALS INFORMATION
+www.ti.com
+
+18-Jun-2025
+
+TAPE AND REEL INFORMATION
+REEL DIMENSIONS
+
+TAPE DIMENSIONS
+K0
+
+P1
+
+B0 W
+Reel
+Diameter
+Cavity
+A0
+B0
+K0
+W
+P1
+
+A0
+
+Dimension designed to accommodate the component width
+Dimension designed to accommodate the component length
+Dimension designed to accommodate the component thickness
+Overall width of the carrier tape
+Pitch between successive cavity centers
+
+Reel Width (W1)
+QUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE
+Sprocket Holes
+
+Q1
+
+Q2
+
+Q1
+
+Q2
+
+Q3
+
+Q4
+
+Q3
+
+Q4
+
+User Direction of Feed
+
+Pocket Quadrants
+
+*All dimensions are nominal
+
+Device
+
+Package Package Pins
+Type Drawing
+
+SPQ
+
+Reel
+Reel
+A0
+Diameter Width (mm)
+(mm) W1 (mm)
+
+B0
+(mm)
+
+K0
+(mm)
+
+P1
+(mm)
+
+W
+Pin1
+(mm) Quadrant
+
+TPS7A9101DSKR
+
+SON
+
+DSK
+
+10
+
+3000
+
+178.0
+
+8.4
+
+2.75
+
+2.75
+
+0.95
+
+4.0
+
+8.0
+
+Q2
+
+TPS7A9101DSKRG4
+
+SON
+
+DSK
+
+10
+
+3000
+
+178.0
+
+8.4
+
+2.75
+
+2.75
+
+0.95
+
+4.0
+
+8.0
+
+Q2
+
+TPS7A9101DSKT
+
+SON
+
+DSK
+
+10
+
+250
+
+178.0
+
+8.4
+
+2.75
+
+2.75
+
+0.95
+
+4.0
+
+8.0
+
+Q2
+
+Pack Materials-Page 1
+
+PACKAGE MATERIALS INFORMATION
+www.ti.com
+
+18-Jun-2025
+
+TAPE AND REEL BOX DIMENSIONS
+
+Width (mm)
+
+W
+
+L
+
+H
+
+*All dimensions are nominal
+
+Device
+
+Package Type
+
+Package Drawing
+
+Pins
+
+SPQ
+
+Length (mm)
+
+Width (mm)
+
+Height (mm)
+
+TPS7A9101DSKR
+
+SON
+
+DSK
+
+10
+
+3000
+
+205.0
+
+200.0
+
+33.0
+
+TPS7A9101DSKRG4
+
+SON
+
+DSK
+
+10
+
+3000
+
+205.0
+
+200.0
+
+33.0
+
+TPS7A9101DSKT
+
+SON
+
+DSK
+
+10
+
+250
+
+205.0
+
+200.0
+
+33.0
+
+Pack Materials-Page 2
+
+GENERIC PACKAGE VIEW
+
+DSK 10
+2.5 x 2.5 mm, 0.5 mm pitch
+
+WSON - 0.8 mm max height
+PLASTIC SMALL OUTLINE - NO LEAD
+
+Images above are just a representation of the package family, actual package may vary.
+Refer to the product data sheet for package details.
+4225304/A
+
+PACKAGE OUTLINE
+
+DSK0010A
+
+WSON - 0.8 mm max height
+SCALE 4.000
+
+PLASTIC SMALL OUTLINE - NO LEAD
+
+2.6
+2.4
+
+B
+
+A
+
+PIN 1 INDEX AREA
+2.6
+2.4
+
+0.8
+0.7
+C
+SEATING PLANE
+0.05
+0.00
+
+0.08 C
+
+(0.2) TYP
+EXPOSED
+THERMAL PAD
+
+1.2 0.1
+6
+5
+
+2X
+2
+
+11
+
+2 0.1
+
+1
+10
+
+8X 0.5
+PIN 1 ID
+(OPTIONAL)
+
+10X
+
+0.5
+0.3
+
+10X
+
+0.3
+0.2
+0.1
+0.05
+
+C A B
+C
+4218903/C 09/2025
+
+NOTES:
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+3. The package thermal pad must be soldered to the printed circuit board for thermal and mechanical performance.
+
+www.ti.com
+
+EXAMPLE BOARD LAYOUT
+
+DSK0010A
+
+WSON - 0.8 mm max height
+PLASTIC SMALL OUTLINE - NO LEAD
+
+10X (0.6)
+(1.2)
+10
+
+1
+10X (0.25)
+
+SYMM
+
+11
+
+(2)
+8X (0.5)
+
+(R0.05) TYP
+
+(0.75)
+
+5
+6
+(0.35)
+
+( 0.2) VIA
+TYP
+
+SYMM
+(2.3)
+
+LAND PATTERN EXAMPLE
+SCALE:20X
+
+0.07 MIN
+ALL AROUND
+
+0.07 MAX
+ALL AROUND
+
+SOLDER MASK
+OPENING
+
+METAL
+
+METAL UNDER
+SOLDER MASK
+
+NON SOLDER MASK
+DEFINED
+(PREFERRED)
+
+SOLDER MASK
+OPENING
+SOLDER MASK
+DEFINED
+
+SOLDER MASK DETAILS
+
+4218903/C 09/2025
+NOTES: (continued)
+4. This package is designed to be soldered to a thermal pad on the board. For more information, see Texas Instruments literature
+number SLUA271 (www.ti.com/lit/slua271).
+5. Vias are optional depending on application, refer to device data sheet. If some or all are implemented, recommended via locations are shown.
+
+www.ti.com
+
+EXAMPLE STENCIL DESIGN
+
+DSK0010A
+
+WSON - 0.8 mm max height
+PLASTIC SMALL OUTLINE - NO LEAD
+
+10X (0.6)
+
+SYMM
+
+10
+
+1
+
+METAL
+TYP
+
+10X (0.25)
+
+SYMM
+11
+8X (0.5)
+(0.89)
+(R0.05) TYP
+
+5
+
+6
+(1.13)
+(2.3)
+
+SOLDER PASTE EXAMPLE
+BASED ON 0.125 mm THICK STENCIL
+EXPOSED PAD 11
+84% PRINTED SOLDER COVERAGE BY AREA
+SCALE:20X
+
+4218903/C 09/2025
+
+NOTES: (continued)
+6. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+design recommendations.
+
+www.ti.com
+
+IMPORTANT NOTICE AND DISCLAIMER
+TI PROVIDES TECHNICAL AND RELIABILITY DATA (INCLUDING DATASHEETS), DESIGN RESOURCES (INCLUDING REFERENCE
+DESIGNS), APPLICATION OR OTHER DESIGN ADVICE, WEB TOOLS, SAFETY INFORMATION, AND OTHER RESOURCES “AS IS”
+AND WITH ALL FAULTS, AND DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION ANY
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD
+PARTY INTELLECTUAL PROPERTY RIGHTS.
+These resources are intended for skilled developers designing with TI products. You are solely responsible for (1) selecting the appropriate
+TI products for your application, (2) designing, validating and testing your application, and (3) ensuring your application meets applicable
+standards, and any other safety, security, regulatory or other requirements.
+These resources are subject to change without notice. TI grants you permission to use these resources only for development of an
+application that uses the TI products described in the resource. Other reproduction and display of these resources is prohibited. No license
+is granted to any other TI intellectual property right or to any third party intellectual property right. TI disclaims responsibility for, and you fully
+indemnify TI and its representatives against any claims, damages, costs, losses, and liabilities arising out of your use of these resources.
+TI’s products are provided subject to TI’s Terms of Sale, TI’s General Quality Guidelines, or other applicable terms available either on
+ti.com or provided in conjunction with such TI products. TI’s provision of these resources does not expand or otherwise alter TI’s applicable
+warranties or warranty disclaimers for TI products. Unless TI explicitly designates a product as custom or customer-specified, TI products
+are standard, catalog, general purpose devices.
+TI objects to and rejects any additional or different terms you may propose.
+IMPORTANT NOTICE
+Copyright © 2025, Texas Instruments Incorporated
+Last updated 10/2025
+
+
