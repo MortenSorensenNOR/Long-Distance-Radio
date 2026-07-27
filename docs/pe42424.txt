@@ -1,0 +1,1607 @@
+PE42424
+Product Specification
+UltraCMOS® SPDT RF Switch, 100 MHz–8.5 GHz
+
+Features
+
+Figure 1 • PE42424 functional diagram
+
+• 802.11 a/b/g/n/ac/ax, Wi-Fi® 6E and ultrawideband (UWB) support
+
+RFC
+ESD
+
+• Exceptional isolation:
+▪ 48 dB @ 2.4 GHz
+▪ 35 dB @ 5.8 GHz
+
+RF 1
+
+• Fast switching:
+
+RF 2
+ESD
+
+ESD
+
+▪ 145 ns switching time
+▪ 125 kHz switching rate
+• High power handling:
+
+CMOS Control
+
+▪ 39 dBm pulsed
+
+Driver and ESD
+
+▪ 30 dBm CW
+• High linearity across supply range:
+
+V1
+
+▪ IIP3: 61 dBm
+
+DOC-02108
+
+▪ IIP2: 125 dBm
+• 1.8V control logic compatible
+• Operating temperature: 105 °C
+• ESD performance: 2500V HBM on RF pins to GND
+• Package: 6-lead 1.5 × 1.5 mm DFN
+
+Product description
+The PE42424 is a HaRP™ technology-enhanced reflective 50Ω SPDT RF switch designed for use in high power
+and high performance WLAN 802.11 a/b/g/n/ac/ax and Wi-Fi 6E applications such as carrier and enterprise WiFi products and UWB applications supporting bandwidths up to 8.5 GHz.
+This switch features exceptional port-to-port isolation, fast switching speed, and high power handling, all in a
+compact 1.5 × 1.5 mm package. PE42424 also features high linearity that remains invariant over the full power
+supply range. In addition, this device has robust ESD and temperature performance and does not require
+blocking capacitors or any external matching components.
+The PE42424 is manufactured on pSemi’s UltraCMOS® process, a patented variation of silicon-on-insulator
+(SOI) technology on a sapphire substrate.
+pSemi’s HaRP technology enhancements deliver high linearity and excellent harmonics performance. It is an
+innovative feature of the UltraCMOS process, offering the performance of GaAs with the economy and
+integration of conventional CMOS.
+
+©2015–2026, pSemi Corporation. All rights reserved. • Headquarters: 9369 Carroll Park Drive, San Diego, CA, 92121
+Product Specification
+
+DOC-44114-6.04 – (06/2026)
+www.psemi.com
+
+PE42424
+UltraCMOS® SPDT RF Switch
+
+Absolute maximum ratings
+Exceeding the absolute maximum ratings listed in Table 1 could cause permanent damage. Restrict operation to
+the limits in Table 2. Operation between the operating range maximum and the absolute maximum for extended
+periods could reduce reliability.
+
+ESD precautions
+When handling this UltraCMOS device, observe the same precautions as with any other ESD-sensitive devices.
+Although this device contains circuitry to protect it from damage due to ESD, do not exceed the rating specified
+in Table 1.
+
+Latch-up immunity
+Unlike conventional CMOS devices, UltraCMOS devices are immune to latch-up.
+
+Table 1 • PE42424 absolute maximum ratings
+Parameter or condition
+
+Symbol
+
+Min
+
+Max
+
+Unit
+
+Supply voltage
+
+VDD
+
+–0.3
+
+5.5
+
+V
+
+Digital input (V1)
+
+VCTRL
+
+–0.3
+
+3.6
+
+V
+
+RF input power, 100–6000 MHz
+
+PMAX,ABS
+
+–
+
+41
+
+dBm
+
+RF input power, 6000–8500 MHz
+
+PMAX,ABS
+
+–
+
+40
+
+dBm
+
+TST
+
+-65
+
+150
+
+°C
+
+ESD voltage HBM:(1)
+All pins
+RF pins to GND
+
+VESD,HBM
+
+–
+
+1000
+2500
+
+V
+
+ESD voltage CDM, all pins(2)
+
+VESD,MM
+
+–
+
+1000
+
+V
+
+Storage temperature range
+
+Notes:
+1) Human body model (MIL-STD 883 Method 3015)
+2) Charged device model (JEDEC JESD22-C101)
+
+Page 2 of 14
+
+DOC-44114-6.04 – (06/2026)
+www.psemi.com
+
+PE42424
+UltraCMOS® SPDT RF Switch
+
+Recommended operating conditions
+Table 2 lists the PE42424 recommending operating conditions. Do not operate devices outside the operating
+conditions listed below.
+
+Table 2 • PE42424 recommended operating conditions
+Parameter
+
+Symbol
+
+Min
+
+Typ
+
+Max
+
+Unit
+
+Supply voltage
+
+VDD
+
+2.3
+
+3.3
+
+5.5
+
+V
+
+Supply current
+
+IDD
+
+–
+
+130(1)
+200(2)
+
+200
+300
+
+µA
+
+Digital input high (V1)
+
+VIH
+
+1.4
+
+–
+
+3.6
+
+V
+
+Digital input low(V1)
+
+VIL
+
+–0.3
+
+–
+
+0.6
+
+V
+
+RF input power, CW, 100-6000 MHz
+
+PMAX,CW
+
+–
+
+–
+
+30
+
+dBm
+
+RF input power, CW, 6000-8500 MHz
+
+PMAX,CW
+
+–
+
+–
+
+29
+
+dBm
+
+RF input power, pulsed, 100-6000 MHz(3)
+
+PMAX,PULSED
+
+–
+
+–
+
+39
+
+dBm
+
+RF input power, pulsed, 6000-8500 MHz(3)
+
+PMAX,PULSED
+
+–
+
+–
+
+38
+
+dBm
+
+TOP
+
+–40
+
+25
+
+105
+
+°C
+
+Operating temperature range
+Notes:
+1) VIH > 1.7V
+2) 1.4V < VIH < 1.7V
+3) Pulsed, 5% duty cycle of 4620-μs period, 50Ω
+
+DOC-44114-6.04 – (06/2026)
+
+Page 3 of 14
+www.psemi.com
+
+PE42424
+UltraCMOS® SPDT RF Switch
+
+Electrical specifications
+Table 3 lists the PE42424 key electrical specifications at 25°C and VDD = 3.3V (ZL = ZS = 50Ω), unless otherwise
+specified.
+
+Table 3 • PE42424 electrical specifications
+Parameter
+Operating frequency
+
+Insertion loss
+
+Isolation
+
+Symbol
+
+Path
+
+–
+
+–
+
+IL
+
+Min
+
+Typ
+
+Max
+
+Unit
+
+0.1
+
+–
+
+8.5
+
+GHz
+
+RFC-RFx
+
+0.1–2.5 GHz
+2.5–5.825 GHz
+5.825–6.0 GHz
+6.0-8.5 GHz
+
+–
+
+0.8
+0.9
+0.95
+1.08
+
+0.95
+1.15
+1.2
+1.6
+
+dB
+
+RFC-RFx
+
+0.1–2.5 GHz
+2.5–5.825 GHz
+5.825–6.0 GHz
+6.0-8.5 GHz
+
+45
+33
+33
+27
+
+47
+35
+34
+29
+
+–
+
+dB
+
+RFx-RFx
+
+0.1–2.5 GHz
+2.5–5.825 GHz
+5.825–6.0 GHz
+6.0-8.5 GHz
+
+37
+29
+29
+24
+
+39
+30
+30
+26
+
+–
+
+dB
+
+ISO
+
+Condition
+–
+
+Return loss
+(common and active
+port)
+
+RL
+
+RFx
+
+0.1–6.0 GHz
+6.0-8.5 GHz
+
+–
+
+21
+21
+
+–
+
+dB
+
+Input 1dB compression
+point(1)
+
+P1dB
+
+RFC-RFx
+
+6.0 GHz
+6.0-8.5 GHz
+
+–
+
+41
+40
+
+–
+
+dBm
+
+Third order input intercept point(2)
+
+IIP3
+
+RFC-RFx
+
+1900 MHz
+
+–
+
+60
+
+–
+
+dBm
+
+Third harmonic
+
+3fo
+
+RFC-RFx
+
+PIN = +30 dBm @ 1900 MHz
+
+–
+
+74
+
+–
+
+dBc
+
+Second order input intercept point(2)
+
+IIP2
+
+RFC-RFx
+
+1900 MHz
+
+–
+
+125
+
+–
+
+dBm
+
+Second harmonic
+
+2fo
+
+RFC-RFx
+
+PIN = +30 dBm @ 1900 MHz
+
+–
+
+85
+
+–
+
+dBc
+
+Switching time
+
+TSW
+
+–
+
+50% CTRL to 90% or 10% of final value
+
+–
+
+145
+
+230
+
+ns
+
+Notes:
+1) The input P1dB compression point is a linearity figure of merit. For the operating RF input power (50Ω), see Table 2.
+2) The input intercept point remains invariant over the full supply range as defined in Table 3.
+
+Page 4 of 14
+
+DOC-44114-6.04 – (06/2026)
+www.psemi.com
+
+PE42424
+UltraCMOS® SPDT RF Switch
+Switching capability
+The PE42424 has a maximum 125 kHz switching rate with a control pin input capacitance of 2 pF. The switching
+rate describes the time duration between switching events.
+The switching time is the time duration between the point that the control signal reaches 50% of the final value
+and the point that the output signal reaches within 10% or 90% of its target value.
+
+Spurious performance
+The PE42424 typical spurious performance is –126 dBm.
+
+Control logic truth table
+Table 4 lists the PE42424 control logic truth table.
+
+Table 4 • PE42424 truth table
+V1
+
+RFC–RF1
+
+RFC–RF2
+
+0
+
+OFF
+
+ON
+
+1
+
+ON
+
+OFF
+
+DOC-44114-6.04 – (06/2026)
+
+Page 5 of 14
+www.psemi.com
+
+PE42424
+UltraCMOS® SPDT RF Switch
+
+Typical performance data
+Figure 2–Figure 10 show the typical performance data at 25 °C and VDD = 3.3V, unless otherwise specified.
+
+Figure 3 • Insertion loss vs. temperature (RFC–RFx)
+
+0
+
+0
+
+-0.5
+
+-0.5
+
+-1
+
+-1
+
+-1.5
+
+-1.5
+
+Insertion Loss [dB]
+
+Insertion Loss [dB]
+
+Figure 2 • Insertion loss (RFC–RFx)
+
+-2
+
+-2.5
+
+-2
+
+-2.5
+
+-3
+
+-3
+
+-40 C
+
+-3.5
+
+-3.5
+
+RF1
+
++25 C
++85 C
+
+RF2
+
++105 C
+
+-4
+
+-4
+0.0
+
+0.5
+
+1.0
+
+1.5
+
+2.0
+
+2.5
+
+3.0
+
+3.5
+4.0
+4.5
+Frequency (GHz)
+
+5.0
+
+5.5
+
+6.0
+
+6.5
+
+7.0
+
+7.5
+
+8.0
+
+7.5
+
+8.0
+
+0.0
+
+0.5
+
+1.0
+
+1.5
+
+2.0
+
+2.5
+
+3.0
+
+3.5
+4.0
+4.5
+Frequency (GHz)
+
+5.0
+
+5.5
+
+6.0
+
+6.5
+
+7.0
+
+7.5
+
+8.0
+
+Figure 4 • Insertion loss vs. VDD (RFC–RFx)
+
+0
+
+-0.5
+
+Insertion Loss [dB]
+
+-1
+
+-1.5
+
+-2
+
+-2.5
+
+-3
+
+-3.5
+
+2.2V
+3.3V
+5.5V
+
+-4
+0.0
+
+0.5
+
+1.0
+
+1.5
+
+2.0
+
+2.5
+
+3.0
+
+3.5
+4.0
+4.5
+Frequency (GHz)
+
+5.0
+
+5.5
+
+6.0
+
+6.5
+
+7.0
+
+Page 6 of 14
+
+DOC-44114-6.04 – (06/2026)
+www.psemi.com
+
+PE42424
+UltraCMOS® SPDT RF Switch
+
+Figure 5 • Return loss vs. temperature (RFC–RFx)
+
+Figure 6 • Return loss vs. VDD (RFC–RFx)
+
+0
+
+0
+-40 C
+
+2.2 V
+
++25 C
+
+-5
+
++85 C
+
+3.3 V
+
+-5
+
++105 C
+
+5.5 V
+
+-10
+
+-15
+Return Loss [dB]
+
+Return Loss [dB]
+
+-10
+
+-20
+
+-25
+
+-30
+
+-20
+
+-25
+
+-30
+
+-35
+
+-35
+
+-40
+0.0
+
+0.5
+
+1.0
+
+1.5
+
+2.0
+
+2.5
+
+3.0
+
+3.5
+4.0
+4.5
+Frequency (GHz)
+
+5.0
+
+5.5
+
+6.0
+
+6.5
+
+7.0
+
+7.5
+
+-40
+
+8.0
+
+Figure 7 • Isolation vs. temperature (RFC–RFx)
+
+0.0
+
+0.5
+
+1.0
+
+1.5
+
+2.0
+
+2.5
+
+3.0
+
+3.5
+4.0
+4.5
+Frequency (GHz)
+
+5.0
+
+5.5
+
+6.0
+
+6.5
+
+7.0
+
+7.5
+
+8.0
+
+7.5
+
+8.0
+
+Figure 8 • Isolation vs. VDD (RFC–RFx)
+
+0
+
+0
+
+-10
+
+-10
+
+-20
+
+-20
+
+-30
+
+-30
+Isolation [dB]
+
+Isolation [dB]
+
+-15
+
+-40
+
+-50
+
+-60
+
+-40
+
+-50
+
+-60
+
+-70
+
+-70
+-40 C
+
+2.2V
+
++25 C
+
+-80
+
+3.3V
+
+-80
+
++85 C
+
+5.5V
+
++105 C
+
+-90
+0.0
+
+0.5
+
+1.0
+
+1.5
+
+2.0
+
+2.5
+
+3.0
+
+3.5
+4.0
+4.5
+Frequency (GHz)
+
+5.0
+
+5.5
+
+6.0
+
+6.5
+
+7.0
+
+7.5
+
+-90
+
+8.0
+
+0.0
+
+DOC-44114-6.04 – (06/2026)
+
+0.5
+
+1.0
+
+1.5
+
+2.0
+
+2.5
+
+3.0
+
+3.5
+4.0
+4.5
+Frequency (GHz)
+
+5.0
+
+5.5
+
+6.0
+
+6.5
+
+7.0
+
+Page 7 of 14
+www.psemi.com
+
+PE42424
+UltraCMOS® SPDT RF Switch
+
+Figure 10 • Isolation vs. VDD (RFx–RFx)
+
+0
+
+0
+
+-10
+
+-10
+
+-20
+
+-20
+
+-30
+
+-30
+Isolation [dB]
+
+Isolation [dB]
+
+Figure 9 • Isolation vs. temperature (RFx–RFx)
+
+-40
+
+-50
+
+-60
+
+-40
+
+-50
+
+-60
+
+-70
+
+-70
+-40 C
+
+2.2 V
+
++25 C
+
+-80
+
+-80
+
+3.3 V
+
++85 C
+
+5.5 V
+
++105 C
+
+-90
+0.0
+
+0.5
+
+1.0
+
+1.5
+
+2.0
+
+2.5
+
+3.0
+
+3.5
+4.0
+4.5
+Frequency (GHz)
+
+5.0
+
+5.5
+
+6.0
+
+6.5
+
+7.0
+
+7.5
+
+-90
+
+8.0
+
+0.0
+
+Page 8 of 14
+
+0.5
+
+1.0
+
+1.5
+
+2.0
+
+2.5
+
+3.0
+
+3.5
+4.0
+4.5
+Frequency (GHz)
+
+5.0
+
+5.5
+
+6.0
+
+6.5
+
+7.0
+
+7.5
+
+8.0
+
+DOC-44114-6.04 – (06/2026)
+www.psemi.com
+
+PE42424
+UltraCMOS® SPDT RF Switch
+
+Pin information
+
+Table 5 • PE42424 pin descriptions
+
+Figure 11 shows the PE42424 pin map for the 6-lead
+1.5 × 1.5 mm DFN package, and Table 5 lists the
+description for each pin.
+
+Pin no.
+
+Pin name
+
+1
+
+V1
+
+2
+
+RFC(*)
+
+RF common
+
+3
+
+VDD
+
+Supply voltage (nominal 3.3V)
+
+4
+
+RF2(*)
+
+RF port 2
+
+5
+
+GND
+
+Ground
+
+6
+
+RF1(*)
+
+RF port 1
+
+Pad
+
+GND
+
+Ground
+
+Figure 11 • Pin configuration, top view
+
+V1
+
+1
+
+RFC
+
+2
+
+VDD
+
+3
+
+6
+
+Exposed
+Pad
+
+RF1
+
+5
+
+GND
+
+4
+
+RF2
+
+Description
+Digital control logic input 1
+
+Note: * RF pins 2, 4, and 6 must be at 0 VDC. These RF pins do not
+require DC blocking capacitors for proper operation if the 0 VDC
+requirement is met.
+
+DOC-44114-6.04 – (06/2026)
+
+Page 9 of 14
+www.psemi.com
+
+PE42424
+UltraCMOS® SPDT RF Switch
+
+Evaluation kit
+
+Figure 12 • PE42424 evaluation board layout
+
+pSemi designed the SPDT switch evaluation board to
+ease your evaluation of the PE42424 RF switch. The
+RF common port connects to the device through a
+50Ω transmission line via SMA connector J3. The RF1
+and RF2 ports connect to the device through 50Ω
+transmission lines via SMA connectors J1 and J2,
+respectively. A transmission line has been included on
+the reverse side of the PCB, accessible via SMA
+connectors J4 and J5. This transmission line provides
+an equivalent length to de-embed PCB trace
+losses. DC and digital inputs are provided to the
+device via J6.
+This PCB is constructed of a four metal layer material
+with total thickness of 62 mils. The top and bottom RF
+layers are Rogers RO4003 material with an 8 mil RF
+core. The middle layers provide ground for the RF
+transmission lines. The transmission lines were
+designed using a coplanar waveguide with ground
+plane model using a trace width of 16 mils and 10 mil
+trace gap, with 2.1 mils of metal thickness.
+To realize the true performance of the PE42424,
+design your PCB so that the RF transmission lines
+and sensitive DC I/O traces are heavily isolated from
+one another.
+
+PRT-40105
+
+Page 10 of 14
+
+DOC-44114-6.04 – (06/2026)
+www.psemi.com
+
+PE42424
+UltraCMOS® SPDT RF Switch
+
+Evaluation board schematic
+Figure 13 • PE42424 evaluation board schematic
+50 OHM
+
+J1
+
+50 OHM
+
+J2
+
+V1
+
+J3
+
+C5
+
+U1
+
+DNI
+
+PE42424
+
+50 OHM
+
+C6
+DNI
+
+1 V1
+
+RF1 6
+
+2 RFC
+
+GND 5
+
+3 V
+DD
+
+RF2 4
+
+GND
+7
+
+VDD
+
+J7
+
+50 OHM
+
+SHORT
+
+C2
+100pF
+
+J4
+
+50 OHM
+
+J5
+
+C1
+R1
+
+DNI
+
+J6
+
+V1
+0 OHM
+
+R2
+THRU
+
+VDD
+PRT-40105
+
+C4
+100pF
+
+0 OHM
+
+C3
+0.1µF
+
+1
+3
+5
+7
+9
+11
+13
+
+1
+3
+5
+7
+9
+11
+13
+
+2
+4
+6
+8
+10
+12
+14
+
+2
+4
+6
+8
+10
+12
+14
+
+HEADER 14
+
+DOC-441265
+
+DOC-44114-6.04 – (06/2026)
+
+Page 11 of 14
+www.psemi.com
+
+PE42424
+UltraCMOS® SPDT RF Switch
+
+Packaging information
+This section provides packaging data including the moisture sensitivity level, package drawing, package
+marking and tape-and-reel information.
+
+Moisture sensitivity level
+The PE42424 moisture sensitivity level rating for the 6-lead 1.5 × 1.5 mm DFN package is MSL1.
+
+Package drawing
+Figure 14 • Package mechanical drawing for the 6-lead 1.5 × 1.5 mm DFN package
+
+Page 12 of 14
+
+DOC-44114-6.04 – (06/2026)
+www.psemi.com
+
+PE42424
+UltraCMOS® SPDT RF Switch
+Top-marking specification
+Figure 15 • PE42424 package marking specification
+
+Tape and reel specification
+Figure 16 • Tape and reel specifications for the 6-lead 1.5 × 1.5 mm DFN package
+T
+
+øD 0
+
+P2
+
+P0
+
+E
+
+F
+
+A0
+
+W
+
+B0
+
+K0
+
+ø D1
+
+P1
+
+Direction of Feed
+
+Notes:
+Not drawn to scale.
+Dimensions are in millimeters.
+Maximum cavity angle 5 degrees.
+Bumped die are oriented active side down.
+
+Pocket
+A0
+B0
+K0
+P1
+W
+F
+
+Nominal
+1.70
+1.70
+0.76
+4.00
+8.00
+3.50
+
+Carrier Tape Dimension Table
+Tolerance
+Pocket
+Nominal
+D1
++/- 0.05
+0.5
++/- 0.05
+1.5
+D0
++/- 0.05
+1.75
+E
++/- 0.1
+P0
+4.0
++ 0.3 - 0.1
+P2
+2.0
++/- 0.5
+0.25
+T
+
+Tolerance
++ 0.5 - 0.1
++ 0.1
++/- 0.1
++/- 0.1
++/- 0.05
++/- 0.02
+DOC-85004
+
+DOC-44114-6.04 – (06/2026)
+
+Page 13 of 14
+www.psemi.com
+
+PE42424
+
+UltraCMOS® SPDT RF Switch
+
+Ordering information
+Table 6 lists the PE42424 order codes and shipping methods.
+
+Table 6 • PE42424 order codes and shipping methods
+Order code
+
+Description
+
+Packaging
+
+Shipping method
+
+PE42424A-Z
+
+PE42424 SPDT RF switch
+
+Green 6-lead 1.5 × 1.5 mm DFN
+
+3000 units/T&R
+
+EK42424-01
+
+PE42424 evaluation kit
+
+Evaluation kit
+
+1/box
+
+Copyright, Patents, and Trademark
+© 2015–2026, pSemi Corporation. All rights reserved. “
+”, “ ”, “pSemi”, and “pSemi Corporation” are registered trademarks and service
+marks of pSemi Corporation for the products and services for which they have been registered in the United States and foreign countries.
+“UltraCMOS”, “Peregrine”, and “
+
+” are registered trademarks of pSemi Corporation for the semiconductor products for which they have been
+
+registered in the United States and foreign countries. “HaRP”, “DuNE”, and “
+” are trademarks of pSemi Corporation for the products
+on or with which they are used. All other trademarks and service marks are the property of their respective owners. U.S. Patents applicable to
+products of pSemi Corporation include the U.S. Patents identified at https://patents.psemi.com. The websites https://www.psemi.com and https://
+patents.psemi.com, as well as documents and materials published by pSemi Corporation, are protected by copyright, with reservation of all
+applicable rights.
+
+Disclaimers
+The information in this data sheet is believed to be reliable. However, pSemi assumes no liability for the use of this information. Use shall be
+entirely at the user’s own risk. No patent rights or licenses to any circuits described in this data sheet are implied or granted to any third party.
+pSemi’s products are not designed or intended for use in devices or systems intended for surgical implant, or in other applications intended to
+support or sustain life, or in any application in which the failure of the pSemi product could create a situation in which personal injury or death might
+occur. pSemi assumes no liability for damages, including consequential or incidental damages, arising out of the use of its products in such
+applications.
+
+Sales contact
+For additional information, contact Sales at sales@psemi.com.
+
+Product Specification
+
+www.psemi.com
+
+DOC-44114-6.04 – (06/2026)
+
+
