@@ -260,32 +260,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|1282700|1155700|26d9a804-420f-4eed-ab9d-4d265b2579f2|00000000-0000-0000-0000-000000000000|/820b88fc-e97a-437b-924c-526a252f36ed|/820b88fc-e97a-437b-924c-526a252f36ed|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1282700|1193800|d5ddb75b-fbbb-4b1f-bc42-9fa4f0558710|00000000-0000-0000-0000-000000000000|/820b88fc-e97a-437b-924c-526a252f36ed|/820b88fc-e97a-437b-924c-526a252f36ed|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1282700|1231900|2530b9f0-2473-4112-b677-c4031042aea7|00000000-0000-0000-0000-000000000000|/820b88fc-e97a-437b-924c-526a252f36ed|/820b88fc-e97a-437b-924c-526a252f36ed|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1282700|1270000|dea23194-3125-44d4-9b08-b101e6dd3897|00000000-0000-0000-0000-000000000000|/820b88fc-e97a-437b-924c-526a252f36ed|/820b88fc-e97a-437b-924c-526a252f36ed|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1282700|1308100|a733049e-3d95-4466-925b-61f8b61f623b|00000000-0000-0000-0000-000000000000|/820b88fc-e97a-437b-924c-526a252f36ed|/820b88fc-e97a-437b-924c-526a252f36ed|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1282700|1346200|51b3058f-b335-450b-b6f7-9345ef1cfc10|00000000-0000-0000-0000-000000000000|/820b88fc-e97a-437b-924c-526a252f36ed|/820b88fc-e97a-437b-924c-526a252f36ed|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -559,7 +534,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -673,7 +648,7 @@
         "uuid": "820b88fc-e97a-437b-924c-526a252f36ed"
       }
     ],
-    "used_designators": "#FLG1,L1-8,J4-6,Q1,U4-7,C16-18,C37-61,#PWR15,#PWR18,#PWR32,#PWR37-63,R13,R29-37",
+    "used_designators": "XTAL1,#FLG1-19,L1-8,J1-6,Q1,U1-7,C1-64,#PWR1-64,R1-37",
     "variants": []
   },
   "sheets": [

@@ -1,0 +1,1109 @@
+                                                5.0x7.0mm
+    Models                                         5.0x7.0mm
+                                           Surface
+                                             SurfaceMount
+                                                      MountCMOS
+                                                             CMOS
+  CWX813 and
+   CWX823 in                                 Clock
+                                          Clock    OscillatorSeries
+                                                Oscillator   Series
+Stock at Digi-Key                  Models CWX813 and CWX823 in Stock at Digi-Key
+                                   Description                                                                     Features
+ 2111 Comprehensive Drive          The Connor-Winfield CWX8xx -
+                                                                                                                   Model CWX8xx - Series
+  2111 Comprehensive Drive         series is a RoHS compliant                                                      5.0 x7.0mm Surface Mount Package
+   Aurora, Illinois 60505                                                                                          3.3V or 5.0V Operation
+    Aurora, Illinois 60505         5.0x7.0mm Surface Mount, Fixed
+    Phone: 630- 851- 4722          Frequency Crystal Controlled                                                    CMOS Output Logic
+     Phone: 630- 851- 4722
+                                   Oscillator (XO). Designed for use                                               Frequency Stabilities Available:
+     Fax: 630- 851- 5040                                                                                               +/-25ppm or +/-50ppm
+      Fax: 630- 851- 5040          in applications requiring tight frequency
+    www.conwin.com                 stability and low jitter. The surface mount                                     Temperature Range: -20 to 70°C
+     www.conwin.com
+                                   package is designed for high-density                                            Low Jitter <1pS RMS
+                                   mounting and is optimum for mass                                                Tri-State Enable/Disable
+     US Headquarters:                                                                                              Tape and Reel Packaging
+       630-851-4722                production.
+  European Headquarters:
+      +353-61-472221                                                                Absolute Maximum Rating
+                                   Parameter                                           Units       Minimum        Nominal      Maximum          Units          Note
+                                   Storage Temperature                                                -55             -            125            °C
+                                   Supply Voltage                   (Vcc=3.3Vdc)        (Vcc)         -0.5            -            5.0           Vdc
+                                   Supply Voltage                   (Vcc=5.0Vdc)        (Vcc)         -0.5            -            7.0           Vdc
+                                   Input Voltage                                                      -0.5            -         Vcc+0.5          Vdc
+
+                                                                                    Operating Specifications
+                                   Parameter                                           Units       Minimum        Nominal      Maximum          Units          Note
+                                   Frequency Range                                      (Fo)          1.0             -          156.25          MHz
+                                   Total Frequency Tolerance
+                                        Models CWX813-CWX815                                          -25             -            25            ppm             1
+                                        Models CWX823-CWX825                                          -50             -            50            ppm             1
+                                   Operating Temperature Range                                        -20             -            70             °C
+                                   Supply Voltage                                       (Vcc)
+                                        Models CWX813-CWX823                                         3.135           3.3          3.465          Vdc
+                                        Models CWX815-CWX825                                          4.5            5.0           5.5           Vdc
+                                   Supply Current                                       (Icc)
+                                        Models CWX813-CWX823 (Vcc = 3.3Vdc)                             -             -            30            mA
+                                        Models CWX815-CWX825 (Vcc = 5.0Vdc)                             -             -            45            mA
+                                                                                      Input Characteristics
+                                   Parameter                                           Units       Minimum        Nominal      Maximum          Units          Note
+                                   Enable Voltage                           (High)      (Vih)      >70%Vcc            -             -            Vdc             2
+                                   Disable Voltage                          (Low)       (Vil)           -             -         <30%Vcc          Vdc             2
+                                                                                     Output Characteristics
+                                   Parameter                                           Units       Minimum        Nominal      Maximum          Units          Note
+                                   Load
+                                      Models CWX813-CWX823             (LVCMOS)                         -            15             -             pF
+                                        Models CWX815-CWX825            (HCMOS)                         -             -            50             pF
+                                   Voltage          (High)                             (Voh)        Vcc-0.4           -             -            Vdc
+                                                   (Low)                                (Vol)           -             -            0.4           Vdc
+                                   Duty Cycle at 50% of Vcc                                            40            50            60             %
+                                   Rise / Fall Time 10% to 90%                                          -             2             6             ns
+                                   Start-Up Time                                                        -             -            10            ms
+                                   Period Jitter                                                        -             3             5          ps RMS
+                                   Integrated Phase Jitter (BW=12kHz to 20MHz)                          -            0.5            1          ps RMS
+                                   SSB Phase Noise at 10Hz offset                                       -            -60            -          dBc/Hz
+                                   SSB Phase Noise at 100Hz offset                                      -            -90            -          dBc/Hz
+                                   SSB Phase Noise at 1KHz offset                                       -           -125            -          dBc/Hz
+                                   SSB Phase Noise at 10KHz offset                                      -           -140            -          dBc/Hz
+                                   SSB Phase Noise at 100KHz offset                                     -           -145            -          dBc/Hz
+
+                                                                                    Package Characteristics
+                                    Package                                           Hermetically sealed ceramic package
+ Bulletin                           Soldering Process                                 RoHS compliant, lead free. See solder profile on page 2.
+     Bulletin        Sm126
+                        Sm126
+ PagePage             1 of13of 2   Notes
+ Revision                 03 02    1)     Inclusive of calibration @ 25°C, frequency vs. temperature stability, supply voltage change, load change, shock and vibration,
+     Revision
+ Date           04 May 2022               10 years aging.
+     Date          07 Sep 2011     2)     When the oscillator is disabled, the outputs are at high impedance. Output is enabled with no connection on pad 1.
+
+
+                                         Specifications subject to change without notice. All dimensions in inches. © Copyright 2008 The Connor-Winfield Corporation
+                                                                                                                                                                               2111 Comprehensive Drive
+
+                                                                                                                                                                                    Aurora, Illinois 60505
+                                                                                                                                                                        2111Comprehensive
+                                                                                                                                                                       2111  Comprehensive DriveDrive
+                                                                                                                                                                       2111
+                                                                                                                                                                        2111Comprehensive
+                                                                                                                                                                             Comprehensive     Drive
+                                                                                                                                                                                                Drive
+                                                                                                                                                                       2111     Phone:      630-851-4722
+                                                                                                                                                                            Comprehensive Drive
+                                                                                                                                                                         Aurora,
+                                                                                                                                                                        2111       Illinois
+                                                                                                                                                                             Comprehensive
+                                                                                                                                                                           Aurora,           60505
+                                                                                                                                                                                                Drive
+                                                                                                                                                                                    Illinois 60505
+                                                                                                                                                                          Aurora,
+                                                                                                                                                                           Aurora,Illinois
+                                                                                                                                                                                    Illinois60505
+                                                                                                                                                                                             60505
+                                                                                                                                                                          Aurora, Fax:    630-851-5040
+                                                                                                                                                                                  Illinois 60505
+                                                                                                                                                                          Phone:
+                                                                                                                                                                           Aurora,630-
+                                                                                                                                                                           Phone:        851-
+                                                                                                                                                                                    Illinois 60505
+                                                                                                                                                                                    630-851-4722
+                                                                                                                                                                          Phone:
+                                                                                                                                                                           Phone:630-851-4722
+                                                                                                                                                                                    630-851-4722
+                                                                                                                                                                          Phone:
+                                                                                                                                                                           Fax:   630-851-4722
+                                                                                                                                                                                630-www.conwin.com
+                                                                                                                                                                                        851- 5040
+                                                                                                                                                                           Phone:
+                                                                                                                                                                            Fax:    630-851-4722
+                                                                                                                                                                                 630-851-5040
+                                                                                                                                                                           Fax:
+                                                                                                                                                                            Fax:630-851-5040
+                                                                                                                                                                                 630-851-5040
+                                                                                                                                                                          www.conwin.com
+                                                                                                                                                                           Fax: 630-851-5040
+ Ordering Information                                                                                                                   Test Circuit                        Fax: 630-851-5040
+                                                                                                                                                                             www.conwin.com
+                                                                                                                                                                            www.conwin.com
+                                                                                                                                                                             www.conwin.com
+                                                                                                                                                                            www.conwin.com
+                                                                                                                                                                             www.conwin.comOSCILLOSCOPE
+                                                                                                                                                          A
+   Ordering Information
+    CWX                       8                     1                      3         -         16.384M Test Circuit
+   Ordering
+ Ordering        Information Ordering Information
+               Information                                                                                              Vcc
+                                                                                                               TestCircuit
+                                                                                                              Test   Circuit                                  Test Circuit
+ Ordering      Information                                                                                    Test Circuit                                                                OSCILLOSCOPE
+                                                                                                                                                                                          PROBE
+ Type:
+       CWX Information
+   Ordering          Temperature
+                                8 Range:    Frequency
+                                                    1 Stability:    Supply
+                                                                          3
+                                                                            Voltage:
+                                                                                   -      Output
+                                                                                           16.384MFrequency:   TestVcc
+                                                                                                                     Circuit
+                                                                                                                       POWERA                                                             OSCILLOSCOPE
+                                                                                                                                                                                         OSCILLOSCOPE
+       CWX
+     CWX                                                                           -       16.384M
+                                                                                         16.384M                           AYA                                                           OSCILLOSCOPE
+     CWX                     8  8                1  1                   3 3      -        Frequency
+                                                                                         16.384M
+                                                                                                      Format
+                                                                                                                    Vcc
+                                                                                                                  Vcc
+                                                                                                                       SUPPL
+                                                                                                                           A                                  V        4       3
+                                                                                                                                                                                          OSCILLOSCOPE
+    Clock
+       CWXSeries             8 to 70°
+                        8 = -20       C        1=1+/-Stability:
+                                                      25 ppm                     -
+                                                                       33= 3.3Vdc.            -xxx.xM Min.*
+                                                                                           16.384M                Vcc        A                                                      PROBE
+    Type:                       8
+                       Temperature Range:           1
+                                            Frequency              Supply
+                                                                       5 =3
+                                                                          Voltage:
+                                                                            5.0Vdc.-   Output  Frequency:          POWER
+                                                                                                                    Vcc                                                             PROBE
+                                                                                                                                                                                   PROBE
+                                                                                                                                                                        3 OSC
+    5x7mm
+    Type:
+ Type:                 Temperature
+                    Temperature  Range:        2 = +/-50
+                                            Frequency
+                                   Range: Frequency        ppm     Supply Voltage:
+                                                      Stability: Supply Voltage:
+                                                    Stability:                            -xxx.xxxxxxM
+                                                                                       Output
+                                                                                      Output            Max.*
+                                                                                               Frequency:
+                                                                                             Frequency:                                                       .01uf
+                                                                       Frequency Format                                                 SUPPL
+                                                                                                                                        POWER
+                                                                                                                                       POWER Y                    4                PROBE CL
+  Type: Clock Series                                                    Supply Voltage:                                                               V
+                         Temperature
+                              8=  -20Range:
+                                      to 70° C Frequency
+                                                    1     Stability:
+                                                      = +/-  25 ppmOutput     Frequency:
+                                                                         *Amount
+                                                                       Frequency
+                                                                            3=
+                                                                    Frequency        of
+                                                                                     Format
+                                                                                 3.3Vdc.
+                                                                            -xxx.xM     numbers
+                                                                                   Format
+                                                                                     Min.*                                             POWER
+                                                                                                                                           YY
+                                                                                                                                        SUPPL
+                                                                                                                                       SUPPL                    44    33            PROBE
+     Type:                 Temperature   Range:  Frequency   Stability:   Supply
+                                                                      Output
+                                                                    Frequency
+                                                                       after
+                                                                                  Voltage:
+                                                                                Frequency:
+                                                                              the  Format
+                                                                                   decimal                                              POWER
+                                                                                                                                           Y
+                                                                                                                                       SUPPL         VV         4     31       2
+        Clock
+     Clock    Series
+           Series          8 =8 =
+                               -20-20
+                                   to to  C C
+                                      70°70°      1=2=
+                                                    1 +/-+/-
+                                                         255025
+                                                             ppmppm       3=3
+                                                                            5=   3.3Vdc.
+                                                                               3.3Vdc.
+                                                                            -xxx.xM    Max.*point.
+                                                                                     Min.*
+                                                                                 5.0Vdc.
+                                                                                                                                                                  4 OSC3
+        5x7mm                                                            -xxx.xM
+                                                                       -xxx.xxxxxxM
+                                                                       Frequency   Min.*
+                                                                                     Format                                             SUPPLY       V .01uf
+     Clock Series          8 = -20 to 70° C       1== +/-25  ppm          3==  3.3Vdc.
+                                                                         -xxx.xM
+                                                                            5=     Min.*
+                                                                                Mof=  MHz
+                                                                                 5.0Vdc.                                                              V                        CL
+        5x7mm
+     5x7mm
+        Clock Series          8 = -20 to 70° C    2 2=
+                                                    1=
+                                                        +/-50
+                                                      +/-50
+                                                        +/-25ppmppm
+                                                                ppm
+                                                                          5    5.0Vdc.
+                                                                       -xxx.xxxxxxM
+                                                                    -xxx.xxxxxxM
+                                                                     *Amount3=         Max.*
+                                                                                     Max.*
+                                                                                     numbers
+                                                                                 3.3Vdc.                                                                .01uf
+                                                                                                                                                      .01uf         OSC
+                                                                                                                                                                   OSC         CL
+                                                                          5=-xxx.xM  Min.*
+                                                                               5.0Vdc.                                                                                        CL                         FREQ
+                                                                                                                                                                  1OSC
+     5x7mm                                        2=  +/-50  ppm    -xxx.xxxxxxM
+                                                                     *Amount   of of Max.*
+                                                                                     numbers                                                          .01uf
+                                                                  *Amount
+                                                                    after  the    numbers
+                                                                               decimal
+                                                                            5 = 5.0Vdc.  point.                                                                             2 CL
+                                                                                                                                                           E/D 1 1 OSC 2 2
+        5x7mm                                       2 = +/-50 ppm      -xxx.xxxxxxM    Max.*                                                            .01uf                                           COUNTER
+                                                                  *Amount
+                                                                    after
+                                                                 after  thethe of numbers
+                                                                               decimal
+                                                                             decimal
+                                                                             M  =  MHz   point.
+                                                                                      point.                                                     INPUT for                     CL
+ Example: CWX813-016.384M = LVCMOS Clock, -20 to 70°C, ±25ppm,      3.3V
+                                                                     *Amount
+                                                                 after  the   @
+                                                                             M=
+                                                                                  16.384
+                                                                                  of
+                                                                             decimal numbers
+                                                                                   MHzpoint.MHz                                                                 1         2                    FREQ
+                                                                    after Mthe= MHz
+                                                                              =decimal
+                                                                                MHz point.                                                                        1         2                  FREQ
+                                                                                                                                                                                              FREQ
+                                                                                                                                                                                             COUNTER
+                                                                          M                                                               INPUT for E/D
+   Example: CWX813-016.384M = LVCMOS Clock, -20 to 70°C, ±25ppm, 3.3V @M =     16.384
+                                                                                   MHz MHz                                                INPUTforforE/D
+                                                                                                                                                      E/D                                     FREQ
+                                                                                                                                                                                             COUNTER
+                                                                                                                                                                                            COUNTER
+   Example: CWX813-016.384M                                                                                                             INPUT                                                  FREQ
+ Example: CWX813-016.384M ==  LVCMOS
+                            LVCMOS   Clock,
+                                   Clock,   -20
+                                          -20 to to 70°C,±25ppm,
+                                                  70°C,   ±25ppm,  3.3V@@16.384
+                                                                 3.3V            MHz
+                                                                          16.384MHz                                                     INPUT for E/D                                       COUNTER
+ Environmental
+ Example:        Characteristics
+          CWX813-016.384M = LVCMOS Clock, -20 to 70°C, ±25ppm, 3.3V @ 16.384 MHz
+   Example: CWX813-016.384M = LVCMOS Clock, -20 to 70°C, ±25ppm, 3.3V @ 16.384 MHz
+                                                                                                                                        Output      Waveform
+                                                                                                                                          INPUT for E/D                                      COUNTER
+
+   Environmental Characteristics                                                    Output Waveform
+   Environmental
+ Environmental
+  Vibration:     Characteristics
+                  Environmental
+                             per Mil StdCharacteristics
+               Characteristics
+                   Vibration             883E Method 2007.3 Test Condition A                    Output Waveform
+                                                                                    OutputWaveform
+                                                                                   Output  Waveform
+ Environmental Characteristics
+   Environmental Characteristics                                      Condition B. OutputWaveform
+                                                                                   Output
+  Shock:
+    Vibration: Mechanical  Shock
+                    Vibration     perStd
+                              per Mil Mil Std
+                                         883E883E Method
+                                              Method 2007.32002.4
+                                                            Test Test
+                                                                Condition A                Waveform
+    Vibration:
+  Vibration:
+  Soldering:          SMDVibration
+                      Vibration    per
+                                 per
+                             product MilMil Std
+                                          Std
+                                       suitable883E      Method
+                                                  883E883E
+                                                   for Method
+                                                        Convection  2007.3
+                                                                  2007.3                  AA
+                                                                                  Condition
+                                                                           Test Test
+                                                                          Test
+                                                                      Reflow   Condition
+                                                                                soldering.
+    Shock:
+  Vibration:
+    Shock:
+                   Mechanical
+                      Vibration
+                   Mechanical
+                                Shock
+                                 per Milper
+                                Shock     StdMil
+                                        per  Mil
+                                                  Std
+                                               883E
+                                                  Std  Method
+                                                        883E
+                                                                Method
+                                                                  2007.3
+                                                                Method
+                                                                        2002.4
+                                                                          Test Condition
+                                                                        2002.4   Test     APeakB.
+                                                                                       Condition
+                                                                                       Condition
+    Vibration:
+  Shock:
+    Soldering:           Vibration
+                  Mechanical
+                     temperature
+                        SMD   Shockper  Mil
+                                    260°C.
+                              product per   Std
+                                           Mil
+                                       suitableStd883E
+                                              Maximum
+                                                   for   Method
+                                                      883E   Method
+                                                              time
+                                                       Convection   2007.3 Test
+                                                                      2002.4
+                                                                    above
+                                                                     Reflow    Test
+                                                                           220°C, Condition
+                                                                                     Condition
+                                                                                     60
+                                                                             soldering.     A B.B.
+                                                                                        seconds.
+                                                                                         Peak
+  Shock:
+    Soldering:    Mechanical
+                        SMD   Shock
+                              product per  Mil Std
+                                       suitable    for883E   MethodReflow
+                                                       Convection     2002.4 Test    Condition
+                                                                             soldering.  Peak B.B.                                                90%
+    Shock:
+  Soldering:
+  Solderability    Mechanical
+                     SMD        Shock
+                            product
+                       temperature      per Mil
+                                     suitable
+                                     260°C.
+                                 Solderability    Std
+                                                for
+                                              Maximum
+                                                  per   883E
+                                                     Convection
+                                                        Mil Std Method
+                                                             time       2002.4
+                                                                    Reflow
+                                                                   above
+                                                                  883E           Test
+                                                                           soldering.
+                                                                          220°C,
+                                                                        Method     60  Condition
+                                                                                        Peak
+                                                                                      seconds.
+                                                                                   2003
+  Soldering:         SMD    product suitable
+                       temperature   260°C.     for
+                                              MaximumConvection
+                                                             time   Reflow220°C,
+                                                                   above   soldering.   Peak
+                                                                                   60seconds.
+                                                                                      seconds.
+    Soldering:
+    Solderability       SMD   product
+                    temperature        suitable
+                                   260°C.   Maximum
+                                  Solderability    for
+                                                 per   Convection
+                                                       Miltime
+                                                            Std      Reflow
+                                                                 above
+                                                                 883E        soldering.
+                                                                        220°C, 2003
+                                                                      Method     60      Peak                                              90%
+    Solderability   temperature
+                       temperature 260°C.   Maximum
+                                  Solderability
+                                     260°C. per  per
+                                              Maximum  Miltime
+                                                            Std
+                                                             timeabove
+                                                                 883E   220°C,
+                                                                      Method
+                                                                   above  220°C, 60
+                                                                                2003 seconds.
+                                                                                   60 seconds.
+                                                                                                                                           90%
+                                                                                                                                          90%
+ Pad  Connections and Enable
+  Solderability
+  Solderability                        / Disable
+                               Solderability
+                               Solderability   per
+                                                     MilFunction
+                                                         Std
+                                                         Std
+                                                     MilMil
+                                                               883E
+                                                               883E
+                                                                     Method
+                                                                     Method
+                                                                             2003                                                         90% 50%
+   Pad   Connections and Enable
+    Solderability                       / Disable
+                                  Solderability  per   Function
+                                                            Std  883E Method20032003                                                       90%
+                                                                                                                                           50%
+  Pad
+ Pad  Connections
+     Connections   and
+                  and  Enable
+                      Enable   / DisableFunction
+                             / Disable     Function                                                                                        50%
+                                                                                                                                          50%
+ Pad
+ Pad
+  Pad  Pad  Connections
+     Connections
+       Connection and
+      Connections  and     and
+                      Enable
+                       Enable/    Enable
+                               Disable
+                               / Disable
+                                  Enable    / Disable Function
+                                        Function
+                                         /Function
+                                           Disable         Output                                                                         50%
+                                                                                                                                           50%10%
+   Pad Connection                 Enable / Disable       Output
+                                                              Function                                                                     10%
+   1 Pad Connection
+    Pad
+          Enable/Disable
+          Connection                                          Enable
+                                                             Enable       Disable1)
+                                                                            (Pad
+                                                                       / (Pad
+                                                                    / Disable
+                                                               Function                        Output
+                                                                                             Output                                        10%
+      1
+   2Pad     Enable/Disable
+      Pad Ground
+          Connection                                            High
+                                                             Enable / or   Open1)
+                                                                      Disable
+                                                               Function    (Pad                  Enable
+                                                                                             Output                                       10%
+    1 1
+      2     Enable/Disable
+            Connection
+          Enable/Disable
+            Ground                                            Enable
+                                                             Function
+                                                                High  or/(Pad  1)1)
+                                                                          Disable
+                                                                           Open                Output
+                                                                                               Enable                                     10%
+                                                                                                                                           10%
+    1
+   32 2
+      1   Enable/Disable
+          Output
+            Ground
+            Enable/Disable                                   Function
+                                                                High Low
+                                                                      or
+                                                               Function(PadOpen
+                                                                           (Pad1)1)    Disable  (High
+                                                                                               Enable  Impedance)
+      3   Ground
+            Output                                            High orLow
+                                                                       Open                  EnableImpedance)
+                                                                                     Disable (High
+   42     Ground
+          Vcc                                                 High orLow
+                                                                       Open                  Enable
+                                                                                     Disable(High
+                                                                                              (High  Impedance)
+    3 3
+     42     Output
+            Ground
+          Output
+               Vcc                                              High
+                                                                   Lowor   Open     Disable    Enable
+                                                                                                   Impedance)
+   3 4       Output
+               Vcc                                                 Low
+                                                                     Low            Disable
+                                                                                     Disable(High
+                                                                                              (HighImpedance)
+                                                                                                     Impedance)
+   4 3         Output
+             Vcc
+   4 4       Vcc
+               Vcc
+ Package Outline
+   Package Outline                                                                                                                   Suggested
+                                                                                                                                   Suggested PadPad Layout
+                                                                                                                                                 Layout
+  Package
+ Package  Outline
+         Outline                                                                                                                   SuggestedPad
+                                                                                                                                  Suggested  PadLayout
+                                                                                                                                                 Layout
+ Package
+  PackageOutline
+          Outline                                 Package Outline                                                                 Suggested
+                                                                                                                                   SuggestedPad
+                                                                                                                                             PadLayout
+                                                                                                                                                 Layout .200Pad
+                                                                                                                                              Suggested      .200 Layout
+                                                                                                                                                                      .200(5.08mm)
+                                                                                                                                                                  (5.08mm)
+               0.197
+                0.197                                                    0.102
+                                                                       0.102                                                                                        .200
+                                                                                                                                                                  (5.08mm)
+                                                                                                                                                                    .200
+                0.197
+              0.197
+             (5.0mm)
+               (5.0mm)                                                 0.102                                                                                          .200
+                                                                                                                                                                 (5.08mm)
+              0.197                                                  0.102
+                                                                       (2.60mm)
+                                                                    (2.60mm)                                                                   Vcc Vcc           (5.08mm)
+                                                                                                                                                                  (5.08mm) 3            OUTPUT  OUTPUT
+                (5.0mm)
+                  0.197
+              (5.0mm)                                                0.102
+                                                                    (2.60mm)
+                                                                       0.102                                                                   Vcc            4      4                   3
+                                                                                                                                                                                        OUTPUT
+              (5.0mm)                        0.053
+                                             0.053                (2.60mm)                                                                   Vcc              4                  33 OUTPUT
+                (5.0mm)                      0.053                (2.60mm)
+                                                                    (2.60mm)                                                                 Vcc            4                    33 OUTPUT
+                       CW
+                        CW
+                         CW 0810
+                              0810         0.053            22 33                                                                              Vcc                                      OUTPUT
+                                0810
+                                           (1.30mm)
+                                           (1.30mm)                                                                                             .165 .165 44
+                                           0.053                3
+                                           (1.30mm)
+                                             0.053       22 3
+                       CWCW
+                          CW0810
+                               0810
+                                0810
+                                         (1.30mm)                                                                                               .165
+                                                                                                                                             (4.2mm)
+                                         (1.30mm)
+                                           (1.30mm)      2  2 33                                                                              .165(4.2mm)
+                          CWX813
+                           CWX813                                        0.200                                                               (4.2mm)
+                                                                                                                                              .165                                               C-by C-by
+                            CWX813
+                                                                           0.200                                                                .165
+                                                                                                                                           (4.2mm)                                               C-by
+      0.275
+   0.275                                                   0.055         0.200                                                             (4.2mm)            1                                 C-by
+                                                                       (5.08mm)
+                                                             0.055 0.200                                                                     (4.2mm)                               2
+                         CWX813
+                            CWX813
+                             CWX813
+      0.275
+     (7.0mm)
+    0.275                                                  0.055         (5.08mm)
+                                                                        0.200
+                                                                       (5.08mm)                                                                               1      1                   2
+                                                                                                                                                                                       GROUND   C-by
+                                                                                                                                                                                                 C-by
+  (7.0mm)                                                0.055
+                                                        (1.40mm)         0.200                                                                  E/D                                2
+                                                                                                                                                E/D E/D 1
+                       16.384MHZ
+                        16.384MHZ                         (1.40mm)(5.08mm)
+     (7.0mm)
+    0.275                                                                                                                                                                         2             GROUND
+      0.275                                              0.055
+                                                        (1.40mm)
+                                                           0.055                                                                                                                       GROUND
+                         16.384MHZ
+  (7.0mm)                                                            (5.08mm)
+                                                                       (5.08mm)                                                               E/D           11                    22 GROUND
+  (7.0mm)                                             (1.40mm)
+                       16.384MHZ
+                         16.384MHZ
+                          16.384MHZ
+     (7.0mm)                                               1
+                                                      (1.40mm)
+                                                        (1.40mm)4                                                                             E/D
+                                                                                                                                                E/D.078 TYP                          GROUND
+                                                                                                                                                                                       GROUND
+                                                             1 4                                                                                         .078 TYP                           .070 TYP
+                                                         11 44
+                                                                                                                                                   .078  TYP
+                                                                                                                                                    (2.0mm)                                         .070 TYP
+                                                                                                                                                 .078  TYP(2.0mm)                           .070 TYP
+                                                                                                                                                                                             (1.8mm)
+                                                         11 44                                                                                      (2.0mm)
+                                                                                                                                                 .078
+                                                                                                                                                   .078TYP
+                                                                                                                                                         TYP                              .070  TYP(1.8mm)
+                                                                                                                                                  (2.0mm)                                    (1.8mm)
+                                                                                                                                                                                          .070
+                                                                                                                                                                                            .070TYP
+                                                                                                                                                                                                 TYP
+                                                                                                                                                  (2.0mm)                                  (1.8mm)
+                Dimensional Tolerance: ± .008" (±0.2mm)                                                                                             (2.0mm)
+                                                                                                                                                     Bypass capacitor. C–by, should be(1.8mm)(1.8mm)
+              Dimensional
+                Dimensional
+              Dimensional  TTolerance:
+                             olerance:
+                          Tolerance: ±±  .008"
+                                         .008"
+                                       .008"     (±0.2mm)
+                                                (±0.2mm)
+                                              (±0.2mm)                                                                                               Bypass   capacitor.
+                                                                                                                                                           Bypass
+                                                                                                                                                          ceramic         C–by≥.01uf.
+                                                                                                                                                                     capacitor.
+                                                                                                                                                                   capacitor   , should be
+                                                                                                                                                                                  C–by, should   be
+                                                                                                                                                   Bypass capacitor. C–by, should be
+              Dimensional Tolerance:
+                Dimensional
+    Tape and Reel                    ±±
+                            Tolerance:
+                   Dimensions          .008"
+                                         .008"(±0.2mm)
+                                                (±0.2mm)                                                                                           Bypass ceramic  capacitor
+                                                                                                                                                                ceramic
+                                                                                                                                                            capacitor.     capacitor
+                                                                                                                                                                        C–by  ,,
+                                                                                                                                                                               should
+                                                                                                                                                                                 shouldbe
+                                                                                                                                                                               ≥.01uf.
+                                                                                                                                   Solder Profile    Bypass   capacitor.
+                                                                                                                                                        ceramic           C–by
+                                                                                                                                                                  capacitor  ≥.01uf.  ≥.01uf.
+                                                                                                                                                                                        be
+   Tape
+ Tape
+ Tape   and
+      and
+      and   Reel
+          Reel
+          Reel   Dimensions
+               Dimensions
+               Dimensions                                                                                                          Solder Profile
+                                                                                                                                     Solder    Profile    ceramiccapacitor
+                                                                                                                                                        ceramic    capacitor≥.01uf.
+                                                                                                                                                                               ≥.01uf.
+  Tape and
+    Tape   Reel
+         and    CWX-Series Marking Configuration
+                Dimensions
+             Reel Dimensions
+                                                                                                                                  Solder Profile
+                                                                                                                                  Solder
+                                                                                                                                   SolderProfile
+                                                                                                                                          Profile
+                                                                                                                                          Temperature
+                                                                                                                                          Temperature                          260°C
+                                                                                                                                                  Temperature
+                                                                                                                                               260°C
+                                                                                                                                            Temperature                        260°C
+                                                                                                                                               260°C
+                                                                                                                                            Temperature
+                                                                                                                                              Temperature                     260°C 260°C
+                                                                                                                      PIN 1                    220°C260°C
+                                                                                                                                             260°C                            260°C
+                                                                                                                                                                               260°C
+                                                    .69                                                               PIN 1
+                                                                                                                                             260°C
+                                                                                                                                               260°C
+                                                                                                                                               220°C
+                                                     .69
+                                                 (17.5mm)                                                                                      180°C220°C
+                                                                                 .31                                PIN 1 PIN 1              220°C
+                                                .69.69
+                                                 (17.5mm)                                                           PIN 1 1
+                                                                                                                      PIN
+                                                                                                                                               180°C
+                                                                                                                                             220°C
+                                                                                                                                               220°C180°C
+                                                                                                                                               150°C
+                                                .69   .08
+                                                     .69
+                                               (17.5mm)
+                                             (17.5mm)                 .08        .31
+                                                                              (7.9mm)                                                        180°C
+                             8.46 DIA                 .08
+                                                  (2.0mm)
+                                             (17.5mm)                 .08 .31
+                                                                   (2.0mm)        .31
+                                                                              (7.9mm)                                                          150°C
+                                                                                                                                             180°C
+                                                                                                                                               180°C
+                                                                                                                                               120°C150°C
+                                                 (17.5mm)                    .31.31                                                          150°C
+                             8.46 DIA
+                           (216mm  DIA)          .08.08
+                                                  (2.0mm)         .08 .08 (7.9mm)
+                                                                   (2.0mm)     (7.9mm)                                                         120°C
+                                                                                                                                             150°C
+                         8.46
+                          8.46 DIA
+                                DIADIA)
+                           (216mm                .08.08           .08.08
+                                                               (2.0mm)    (7.9mm)
+                                                                              (7.9mm)                                                          150°C
+                                              (2.0mm)
+                                                (2.0mm)            (2.0mm)                                                                   120°C 120°C
+                         8.46
+                       (216mm  DIA
+                             8.46 DIA
+                                DIA)                           (2.0mm)
+                                                                   (2.0mm)   .21
+                        (216mm   DIA)         (2.0mm)
+                                                  (2.0mm)                 (5.4mm)                                                            120°C
+                                                                                                                                               120°C
+                       (216mm DIA)DIA)
+                          (216mm                                             .21
+                                                9.84 DIA                  (5.4mm)
+                                                                         .21
+                                                                      (5.4mm)
+                                                                              .21
+                                                9.84 DIA
+                                              (250mm  DIA)               .21.21
+                                                                          (5.4mm)             .157
+                                            9.84  DIA
+                                              (250mm  DIA)            (5.4mm)
+                                                                          (5.4mm)                                                               0
+                                              9.84  DIA                                       .157
+                                                                                            (4.0mm)
+                                            9.84
+                                          (250mm  DIA
+                                                9.84 DIA
+                                                   DIA)                                    .157
+                                                                                            (4.0mm)                                             0                                                Time
+                                            (250mm DIA)
+                                      .08 (250mm  DIA)DIA)                                      .157
+                                             (250mm                                        .157
+                                                                                              .157
+                                                                                         (4.0mm)                                              0       0            120 S        10 S             Time
+                                      .08
+                                   (2.0mm)          3.15                 .315                 (4.0mm)
+                                                                                         (4.0mm)
+                                                                                            (4.0mm)                                           00                   120
+                                                                                                                                                                   Max.S
+                                  .08
+                                   (2.0mm)                                                                                                                                      10 SS
+                                                                                                                                                                               60               Time
+                                   .08              3.15
+                                                   (80mm)                .315
+                                                                        (8.0mm)               .06 DIA                                                             120 S
+                                                                                                                                                                   Max.                         Time
+                                                                                                                                                                                                 Time    Time
+                                  .08
+                               (2.0mm).08        3.15
+                                                   (80mm)             .315
+                                                                        (8.0mm)                                                                                   120
+                                                                                                                                                                   120S S 120 10
+                                                                                                                                                                              S60S
+                                                                                                                                                                               Max.S
+                                (2.0mm)
+                               (2.0mm)
+                                   (2.0mm)         3.15                   .315                 .06 DIA
+                                                                                             (1.5mm  DIA)                                                         Max.        1010
+                                                                                                                                                                                 SS     10 S
+                                                 3.15
+                                                    3.15
+                                                (80mm)                .315
+                                                                         .315
+                                                                     (8.0mm)                                                                                       Max. Max.
+                                                                                                                                                                  Max.       60  S
+                                                                                                                                                                               Max.
+                                                  (80mm)
+                                                (80mm)
+                                                   (80mm)                (8.0mm)
+                                                                     (8.0mm)
+                                                                        (8.0mm)
+                                                                                            .06  DIA DIA)
+                                                                                             (1.5mm                                                                         36060Sec. Max.
+                                                                                                                                                                                 S S    60 S
+                                                                                          (1.5mm .06
+                                                                                            .06.06
+                                                                                                 DIA
+                                                                                                   DIA
+                                                                                                  DIA)DIA                                                                    Max.
+                                                                                                                                                                            360  Sec. Max.
+                       1.00 DIA                                                                (1.5mm  DIA)                                                                    Max.
+                                                                                                                                                                             Max.       Max.
+                                                                                             (1.5mm
+                                                                                          (1.5mm     DIA)
+                                                                                                  DIA)                                                                     360 Sec. Max.
+                       1.00 DIA
+                      (25mm  DIA)
+                                                                                                                                                                                 Sec.360
+                                                                                                                                                                            360Sec.
+                                                                                                                                                                           360           Sec. Max.
+                                                                                                                                                                                       Max.
+                                                                                                                                                                                      Max.
+                    1.00 DIA DIA)                                                                                                                                 Bulletin
+                                                                                                                                            US Headquarters: Bulletin                   SM126
+                      (25mm
+                       1.00
+                    1.00
+                    1.00
+                  (25mm  DIADIA
+                          DIA
+                          DIA)                                                                                                                 Headquarters: Page Bulletin
+                                                                                                                                            US630-851-4722                          Sm126
+                                                                                                                                                                                        SM126
+                      (25mm
+                  (25mm      DIA)
+                          DIA)                                                                 .295 (7.5mm)
+                   (25mm   DIA)
+                                                                                               .295 (7.5mm)                                US Headquarters:
+                                                                                                                                            US
+                                                                                                                                           US 630-851-4722
+                                                                                                                                               Headquarters:
+                                                                                                                                              Headquarters:
+                                                                                                                                                                 Bulletin
+                                                                                                                                                                   Page
+                                                                                                                                                                  Bulletin
+                                                                                                                                                                 BulletinBulletin     2 of
+                                                                                                                                                                                       SM126
+                                                                                                                                                                                         2 3
+                                                                                                                                                                                           of 2
+                                                                                                                                                                                        SM126
+                                                                                                                                                                                       SM126
+               MEETS EIA-481A and EIAJ-1009B                                                    .07 (1.75mm)                                    USHeadquarters:
+                                                                                                                                         European  Headquarters:   Page
+                                                                                                                                                             Revision                    2 of 2 SM126
+               MEETS EIA-481A  and EIAJ-1009B
+                      2,000 PCS/REEL
+                                                                                           .295 (7.5mm)
+                                                                                           .295
+                                                                                                .07 (7.5mm)
+                                                                                               .295
+                                                                                               .83
+                                                                                                      (1.75mm)
+                                                                                                   (7.5mm)
+                                                                                                     (16.0mm)
+                                                                                                                                             630-851-4722
+                                                                                                                                         European Headquarters:
+                                                                                                                                              630-851-4722
+                                                                                                                                             630-851-4722        Page
+                                                                                                                                                                  Revision              2 03
+                                                                                                                                                                                          of  2
+                                                                                                                                                                                             02
+                                                                                            .07 .295
+                                                                                                  (1.75mm)(7.5mm)                                 630-851-4722
+                                                                                                                                             +353-61-472221        Page Page
+                                                                                                                                                                 Page                   22ofof22 2 of 2
+             MEETS EIA-481A
+                      2,000  and EIAJ-1009B
+                            PCS/REEL                                                        .07.83
+                                                                                                .07  (16.0mm)
+                                                                                                      (1.75mm)
+                                                                                                  (1.75mm)                              European Headquarters:
+                                                                                                                                             +353-61-472221  Date Revision   04  May   2022  02
+               MEETS
+             MEETS   EIA-481A
+             MEETS 2,000       and
+                        SMMECH09
+                   EIA-481A
+                   EIA-481A  and
+                              and
+                         PCS/REEL  EIAJ-1009B
+                                 EIAJ-1009B
+                                  EIAJ-1009B                                                        .07
+                                                                                           .83 (16.0mm)  (1.75mm)                        European
+                                                                                                                                        European  Headquarters:
+                                                                                                                                                 Headquarters:
+                                                                                                                                            European             Revision
+                                                                                                                                                     Headquarters:Date            07 Sep   02
+                                                                                                                                                                                          2011
+                   2,000SMMECH09
+                      2,000 PCS/REEL
+                         PCS/REEL                                                          .83.83    (16.0mm)
+                                                                                                 (16.0mm)                                   +353-61-472221
+                                                                                                                                             +353-61-472221
+                                                                                                                                                                  Revision
+                                                                                                                                                                 Revision
+                                                                                                                                                                  Date                     02
+                                                                                                                                                                         Revision07 Sep 2011 02     02
+ Specifications
+                       2,000
+   Specificationssubject SMMECH09
+                  subjecttoto   PCS/REEL
+                             change
+                              change without
+                                     without notice.  All See
+                                             notification.     Connor-Winfield's
+                                                          dimensions in             website for
+                                                                         inches. © Copyright     .83 (16.0mm)
+                                                                                                latest
+                                                                                             2008   Therevision.
+                                                                                                         Connor-Winfield Corporation        +353-61-472221
+                                                                                                                                                 +353-61-472221  Date
+                           toSMMECH09
+   Specifications subjectSMMECH09                                                                                                                                           Date
+                                                                                                                                                                           Date             07 Sep 2011
+  © Copyright 2022 TheSMMECH09
+                              change without notice. All dimensions in inches. © Copyright 2008 The Connor-Winfield Corporation
+                            Connor-Winfield Corporation Not intended for life support applications.                                                                              Date        07Sep
+                                                                                                                                                                                            07  Sep2011
+                                                                                                                                                                                                    2011
+Specifications subject to change without notice. All dimensions in inches. © Copyright 2008 The Connor-Winfield Corporation                                                                             07 Sep 2011
+   Specifications
+Specifications    subject
+               subject     to change
+                       to change     without
+                                  without    notice.
+                                          notice. All All dimensions
+                                                      dimensions      in inches.
+                                                                  in inches.     © Copyright
+                                                                              © Copyright    2008
+                                                                                          2008  The The  Connor-Winfield
+                                                                                                       Connor-Winfield   Corporation
+                                                                                                                       Corporation
+Specifications subject to change without notice. All dimensions in inches. © Copyright 2008 The Connor-Winfield Corporation
+                                                                                                                                              (1.40mm)                    .200
+                             0.197
+                                               C              1                                                0.102
+                                                                                                                                                                       (5.08mm)
+
+                            (5.0mm)                                                                          (2.60mm)                               1
+                                                                                                                                                    Vcc
+                                                                                                                                                              4                    OUTPUT
+                                                                                                                                                                   4            3
+                                                                                                                                                                        2111 Comprehensive Drive
+                                                                        0.053
+                          CW 0810                                     (1.30mm)                2       3
+                                                                                                                                                  .165                     Aurora, Illinois 60505
+
+                            CWX813              Dimensional Tolerance: ± .008"
+                                                                         0.200 (±0.2mm)
+                                                                                                                                                (4.2mm)
+                                                                                                                                                                               Phone: 630- 851- 4722
+                                                                                                                                                                                                 C-by
+        0.275                                                                                0.055                                                                 1
+       (7.0mm)                                                                                                   (5.08mm)                                                             2 851- 5040
+                                                                                                                                                                                Fax: 630-
+                          16.384MHZ                                                        (1.40mm)                                                 E/D                                   GROUND
+
+            Tape and Reel Dimensions                                                          1       4                                                 .078 TYP               www.conwin.com
+                                                                                                                                                                                                 .070 TYP
+                                                                                                                                                                                                                   Solde
+                                                                                                                                                         (2.0mm)
+                                                                                                                                                                                                  (1.8mm)
+
+                           Dimensional Tolerance: ± .008" (±0.2mm)                                                                                        Bypass capacitor. C–by, should be
+                                              Tape and Reel Dimensions                                                                                            Solder Profile
+                                                                                                                                                             ceramic capacitor ≥.01uf.
+       Tape and Reel Dimensions                                                                                                        Solder Profile
+                                                                                                                                                                                         PIN 1
+                                                                                     .69                                                      Temperature
+                                                                                                                                                                                    260°C
+                                                                                   (17.5mm)                                                    260°C
+                                                                                                                                 .31
+                                                                                                                         PIN 1                 220°C
+                                                   .69                               .08                         .08       (7.9mm)
+                                                                                                                                               180°C
+                                                  8.46 DIA
+                                                 (17.5mm)
+                                                                             .31   (2.0mm)                   (2.0mm)                           150°C
+                                                              .08  (7.9mm)
+                            8.46 DIA            (216mm
+                                                   .08 DIA)(2.0mm)
+                                                  (2.0mm)                                                                                      120°C
+                           (216mm DIA)
+
+                                                                      .21                                                 .21
+                                                                   (5.4mm)                                             (5.4mm)
+                                               9.84 DIA
+                                              (250mm DIA)                    9.84 DIA         .157
+                                                                                                                                                0
+                                                                        (250mm DIA) (4.0mm)                                                         .157
+                                     .08                                                                                                                                                             Time
+                                    (2.0mm)                                                                                                     (4.0mm)                120 S        10 S
+                                                    3.15              .315                                                                                             Max.
+                                                   (80mm)          (8.0mm)                                                                                                         60 S
+                                                             .08                               .06 DIA
+                                                                                              (1.5mm DIA)
+                                                                                                                                                                                   Max.
+                                                            (2.0mm)                   3.15                              .315                                                     360 Sec. Max.
+                       1.00 DIA
+                       (25mm DIA)                                                    (80mm)                            (8.0mm)                     .06 DIA
+                                                                                                                                               US(1.5mm
+                                                                                                                                                  Headquarters:                  Bulletin                   SM126
+                                                                                                                                                        DIA)
+                                                                                               .295 (7.5mm)                                      630-851-4722                    Page                       2 of 2
+                                                                                                  .07 (1.75mm)
+                 MEETS EIA-481A and EIAJ-1009B                                                                                              European Headquarters:
+                                  1.00 DIA
+                       2,000 PCS/REEL                                                          .83 (16.0mm)
+                                                                                                                                                +353-61-472221
+                                                                                                                                                                                 Revision                     02
+                                   (25mm DIA)
+                             SMMECH09                                                                                                                                            Date              07 Sep 2011
+     Specifications subject to change without notice. All dimensions in inches. © Copyright 2008 The Connor-Winfield Corporation
+                                                                                                                                                     .295 (7.5mm)
+                                                                                                                                                        .07 (1.75mm)
+                              MEETS EIA-481A and EIAJ-1009B
+                                    2,000 pc/reel
+                                    2,000 PCS/REELMax                                                                                                .83 (16.0mm)
+                                                   SMMECH09
+
+          Specifications subject to change without notice. All dimensions in inches. © Copyright 2008 The Connor-Winfield Corporation
+
+
+
+
+                                                                                                                                                                        Bulletin                 Sm126
+                                                                                                                                                                        Page                      3 of 3
+                                                                                                                                                                        Revision                     03
+                                                                                                                                                                        Date                04 May 2022
+Specifications subject to change without notification. See Connor-Winfield's website for latest revision.
+© Copyright 2022 The Connor-Winfield Corporation Not intended for life support applications.
+

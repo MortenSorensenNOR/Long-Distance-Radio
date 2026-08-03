@@ -2747,4 +2747,9 @@
 		(uuid "bc0c9032-2709-4591-9104-0522b7590583")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Snapeda.3dshapes/RHA40_TEX-L.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )

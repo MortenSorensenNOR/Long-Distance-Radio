@@ -300,4 +300,9 @@
 		(uuid "22ae5de9-2413-4694-bf78-47eeedae828d")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Snapeda.3dshapes/DFN6_1P5X1P5-0P5_PSM.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )

@@ -322,4 +322,9 @@
 		(uuid "74eaf6f6-4f77-4381-8372-6077d2b13756")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Snapeda.3dshapes/DSK0010A.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )

@@ -322,4 +322,9 @@
 		(uuid "7830ba0f-9c0a-4457-bf46-538addbbeca2")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Snapeda.3dshapes/CWX813-100.0M_CNW-L.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )

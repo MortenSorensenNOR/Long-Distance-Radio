@@ -435,4 +435,9 @@
 		(uuid "60bd0e11-0094-4dc2-a348-15f7a5bb5460")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Snapeda.3dshapes/SOT-23-3L_AOS-L.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )
