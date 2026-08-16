@@ -211,6 +211,8 @@
       ],
       "track_widths": [
         0.0,
+        0.25,
+        0.3,
         0.3345
       ],
       "tuning_pattern_settings": {
@@ -552,84 +554,16 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "RF",
-        "pattern": "/RFOUT_A"
+        "netclass": "Default",
+        "pattern": "/RFOUT*"
       },
       {
-        "netclass": "RF",
-        "pattern": "Net-(C2-Pad1)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(U2-RF2)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(J2-In)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/RFOUT_A_TERM"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(C49-Pad2)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/RFOUT_B"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(J3-In)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/RFOUT_B_TERM"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(C50-Pad2)"
-      },
-      {
-        "netclass": "RF",
+        "netclass": "Default",
         "pattern": "Net-(J4-In)"
       },
       {
         "netclass": "RF",
-        "pattern": "Net-(XTAL1-OUTPUT)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(R23-Pad2)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(C62-Pad1)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(U6-OSCINP)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(R26-Pad1)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(C63-Pad1)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(U6-OSCINM)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(C1-Pad1)"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "Net-(C10-Pad1)"
+        "pattern": "GND"
       }
     ]
   },
