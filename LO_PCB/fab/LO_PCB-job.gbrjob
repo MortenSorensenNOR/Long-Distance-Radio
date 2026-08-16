@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.4"
     },
-    "CreationDate": "2026-08-16T22:18:19+02:00"
+    "CreationDate": "2026-08-17T00:35:40+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -15,7 +15,7 @@
     },
     "Size": {
       "X": 50.05,
-      "Y": 42.55
+      "Y": 44.05
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6062,
@@ -148,7 +148,7 @@
     },
     {
       "Type": "SolderMask",
-      "Color": "R128G128B128",
+      "Color": "Black",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
