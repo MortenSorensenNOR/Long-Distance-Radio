@@ -9957,9 +9957,10 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "XTAL"
-			(at 25.4 10.16 0)
+			(at 18.796 10.414 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9967,8 +9968,8 @@
 			)
 		)
 		(property "Value" "CWX813-100.0M"
-			(at 25.4 7.62 0)
-			(show_name yes)
+			(at 17.78 6.604 0)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -9976,10 +9977,11 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:CWX813-100.0M_CNW-L"
-			(at 0 0 0)
+		(property "Footprint" "CWX813-100.0M_CNW-L"
+			(at 17.78 11.176 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9987,9 +9989,10 @@
 			)
 		)
 		(property "Datasheet" "CWX813-100.0M"
-			(at 0 0 0)
+			(at 17.78 8.636 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10000,6 +10003,7 @@
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10053,7 +10057,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -7.62) (xy 43.18 -7.62)
+					(xy 7.62 -7.62) (xy 27.94 -7.62)
 				)
 				(stroke
 					(width 0.127)
@@ -10065,7 +10069,7 @@
 			)
 			(polyline
 				(pts
-					(xy 43.18 5.08) (xy 7.62 5.08)
+					(xy 27.94 5.08) (xy 7.62 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -10077,7 +10081,7 @@
 			)
 			(polyline
 				(pts
-					(xy 43.18 -7.62) (xy 43.18 5.08)
+					(xy 27.94 -7.62) (xy 27.94 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -10085,47 +10089,11 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(pin passive line
-				(at 0 0 0)
-				(length 7.62)
-				(name "E/D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(name "GROUND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin output line
-				(at 50.8 -2.54 180)
-				(length 7.62)
+				(at 30.48 -2.54 180)
+				(length 2.54)
 				(name "OUTPUT"
 					(effects
 						(font
@@ -10142,8 +10110,8 @@
 				)
 			)
 			(pin power_in line
-				(at 50.8 0 180)
-				(length 7.62)
+				(at 30.48 0 180)
+				(length 2.54)
 				(name "VCC"
 					(effects
 						(font
@@ -10152,6 +10120,44 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CWX813-100.0M_1_1"
+			(pin input line
+				(at 5.08 0 0)
+				(length 2.54)
+				(name "E/D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 -2.54 0)
+				(length 2.54)
+				(name "GROUND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10172,8 +10178,8 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 30.48 10.16 0)
-			(show_name yes)
+			(at 52.324 -62.23 0)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -10182,8 +10188,8 @@
 			)
 		)
 		(property "Value" "LMX2582RHAR"
-			(at 30.48 7.62 0)
-			(show_name yes)
+			(at 30.48 6.35 0)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -10192,9 +10198,10 @@
 			)
 		)
 		(property "Footprint" "Snapeda:RHA40_TEX-L"
-			(at 0 0 0)
+			(at 30.48 10.16 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10202,9 +10209,10 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/lmx2582"
-			(at 0 0 0)
+			(at 30.48 7.62 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10212,9 +10220,10 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 7.112 10.922 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10256,7 +10265,7 @@
 		(symbol "LMX2582RHAR_0_1"
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 -55.88)
+					(xy 7.62 5.08) (xy 7.62 -60.96)
 				)
 				(stroke
 					(width 0.127)
@@ -10268,7 +10277,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -55.88) (xy 53.34 -55.88)
+					(xy 7.62 -60.96) (xy 53.34 -60.96)
 				)
 				(stroke
 					(width 0.127)
@@ -10292,7 +10301,7 @@
 			)
 			(polyline
 				(pts
-					(xy 53.34 -55.88) (xy 53.34 5.08)
+					(xy 53.34 -60.96) (xy 53.34 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -10303,7 +10312,7 @@
 				)
 			)
 			(pin input line
-				(at 0 0 0)
+				(at 60.96 -40.64 180)
 				(length 7.62)
 				(name "CE"
 					(effects
@@ -10321,7 +10330,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 0)
+				(at 29.21 -68.58 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -10338,8 +10347,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -5.08 0)
+			(pin power_in line
+				(at 0 -40.64 0)
 				(length 7.62)
 				(name "VBIASVCO"
 					(effects
@@ -10357,7 +10366,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -7.62 0)
+				(at 19.05 -68.58 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -10375,7 +10384,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -10.16 0)
+				(at 60.96 -27.94 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -10393,7 +10402,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -12.7 0)
+				(at 21.59 -68.58 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -10411,7 +10420,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -15.24 0)
+				(at 0 -11.43 0)
 				(length 7.62)
 				(name "VCCDIG"
 					(effects
@@ -10429,7 +10438,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -17.78 0)
+				(at 0 -52.07 0)
 				(length 7.62)
 				(name "OSCINP"
 					(effects
@@ -10447,7 +10456,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -20.32 0)
+				(at 0 -55.88 0)
 				(length 7.62)
 				(name "OSCINM"
 					(effects
@@ -10465,7 +10474,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -22.86 0)
+				(at 0 -25.4 0)
 				(length 7.62)
 				(name "VREGIN"
 					(effects
@@ -10483,7 +10492,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -25.4 0)
+				(at 0 -3.81 0)
 				(length 7.62)
 				(name "VCCCP"
 					(effects
@@ -10501,7 +10510,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -27.94 0)
+				(at 60.96 -17.78 180)
 				(length 7.62)
 				(name "CPOUT"
 					(effects
@@ -10519,7 +10528,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -30.48 0)
+				(at 24.13 -68.58 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -10537,7 +10546,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -33.02 0)
+				(at 26.67 -68.58 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -10555,7 +10564,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -35.56 0)
+				(at 0 -7.62 0)
 				(length 7.62)
 				(name "VCCMASH"
 					(effects
@@ -10573,7 +10582,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -38.1 0)
+				(at 60.96 -50.8 180)
 				(length 7.62)
 				(name "SCK"
 					(effects
@@ -10591,7 +10600,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -40.64 0)
+				(at 60.96 -53.34 180)
 				(length 7.62)
 				(name "SDI"
 					(effects
@@ -10609,7 +10618,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -43.18 0)
+				(at 60.96 -11.43 180)
 				(length 7.62)
 				(name "RFOUTBM"
 					(effects
@@ -10627,7 +10636,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -45.72 0)
+				(at 60.96 -8.89 180)
 				(length 7.62)
 				(name "RFOUTBP"
 					(effects
@@ -10645,7 +10654,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -48.26 0)
+				(at 60.96 -45.72 180)
 				(length 7.62)
 				(name "MUXOUT"
 					(effects
@@ -10663,7 +10672,7 @@
 				)
 			)
 			(pin power_in line
-				(at 60.96 -50.8 180)
+				(at 0 0 0)
 				(length 7.62)
 				(name "VCCBUF"
 					(effects
@@ -10681,7 +10690,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -48.26 180)
+				(at 60.96 -2.54 180)
 				(length 7.62)
 				(name "RFOUTAM"
 					(effects
@@ -10699,7 +10708,7 @@
 				)
 			)
 			(pin output line
-				(at 60.96 -45.72 180)
+				(at 60.96 0 180)
 				(length 7.62)
 				(name "RFOUTAP"
 					(effects
@@ -10717,7 +10726,7 @@
 				)
 			)
 			(pin input line
-				(at 60.96 -43.18 180)
+				(at 60.96 -55.88 180)
 				(length 7.62)
 				(name "CSB"
 					(effects
@@ -10735,7 +10744,7 @@
 				)
 			)
 			(pin power_in line
-				(at 60.96 -40.64 180)
+				(at 41.91 -68.58 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -10753,7 +10762,7 @@
 				)
 			)
 			(pin power_in line
-				(at 60.96 -38.1 180)
+				(at 0 -15.24 0)
 				(length 7.62)
 				(name "VCCVCO2"
 					(effects
@@ -10770,8 +10779,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 60.96 -35.56 180)
+			(pin power_in line
+				(at 0 -44.45 0)
 				(length 7.62)
 				(name "VBIASVCO2"
 					(effects
@@ -10789,7 +10798,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 60.96 -33.02 180)
+				(at 60.96 -35.56 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -10806,8 +10815,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 60.96 -30.48 180)
+			(pin power_in line
+				(at 0 -36.83 0)
 				(length 7.62)
 				(name "VREFVCO2"
 					(effects
@@ -10825,7 +10834,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 60.96 -27.94 180)
+				(at 60.96 -33.02 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -10843,7 +10852,7 @@
 				)
 			)
 			(pin power_in line
-				(at 60.96 -25.4 180)
+				(at 39.37 -68.58 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -10861,7 +10870,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 60.96 -22.86 180)
+				(at 60.96 -30.48 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -10878,8 +10887,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 60.96 -20.32 180)
+			(pin power_in line
+				(at 0 -48.26 0)
 				(length 7.62)
 				(name "VBIASVARAC"
 					(effects
@@ -10897,7 +10906,7 @@
 				)
 			)
 			(pin power_in line
-				(at 60.96 -17.78 180)
+				(at 36.83 -68.58 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -10915,7 +10924,7 @@
 				)
 			)
 			(pin input line
-				(at 60.96 -15.24 180)
+				(at 60.96 -21.59 180)
 				(length 7.62)
 				(name "VTUNE"
 					(effects
@@ -10932,8 +10941,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 60.96 -12.7 180)
+			(pin power_in line
+				(at 0 -29.21 0)
 				(length 7.62)
 				(name "VREFVCO"
 					(effects
@@ -10951,7 +10960,7 @@
 				)
 			)
 			(pin power_in line
-				(at 60.96 -10.16 180)
+				(at 0 -19.05 0)
 				(length 7.62)
 				(name "VCCVCO"
 					(effects
@@ -10968,8 +10977,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 60.96 -7.62 180)
+			(pin power_in line
+				(at 0 -33.02 0)
 				(length 7.62)
 				(name "VREGVCO"
 					(effects
@@ -10987,7 +10996,7 @@
 				)
 			)
 			(pin power_in line
-				(at 60.96 -5.08 180)
+				(at 34.29 -68.58 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -11005,7 +11014,7 @@
 				)
 			)
 			(pin power_in line
-				(at 60.96 -2.54 180)
+				(at 31.75 -68.58 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -11023,7 +11032,7 @@
 				)
 			)
 			(pin passive line
-				(at 60.96 0 180)
+				(at 44.45 -68.58 90)
 				(length 7.62)
 				(name "EPAD"
 					(effects
@@ -11322,8 +11331,8 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 2.54 0)
-			(show_name yes)
+			(at 10.16 -12.954 0)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -11332,8 +11341,8 @@
 			)
 		)
 		(property "Value" "TPS7A9101DSKT"
-			(at 0 0 0)
-			(show_name yes)
+			(at 0 12.954 0)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -11342,9 +11351,10 @@
 			)
 		)
 		(property "Footprint" "Snapeda:DSK0010A"
-			(at 0 0 0)
+			(at 0 16.51 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11352,9 +11362,10 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tps7a91"
-			(at 0 0 0)
+			(at 0 13.97 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11362,9 +11373,10 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -2.032 23.622 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11406,7 +11418,7 @@
 		(symbol "TPS7A9101DSKT_0_1"
 			(polyline
 				(pts
-					(xy -17.78 15.24) (xy -17.78 -15.24)
+					(xy -11.43 11.43) (xy -11.43 -11.43)
 				)
 				(stroke
 					(width 0.2032)
@@ -11418,7 +11430,7 @@
 			)
 			(polyline
 				(pts
-					(xy -17.78 -15.24) (xy 17.78 -15.24)
+					(xy -11.43 -11.43) (xy 11.43 -11.43)
 				)
 				(stroke
 					(width 0.2032)
@@ -11430,7 +11442,7 @@
 			)
 			(polyline
 				(pts
-					(xy 17.78 15.24) (xy -17.78 15.24)
+					(xy 11.43 11.43) (xy -11.43 11.43)
 				)
 				(stroke
 					(width 0.2032)
@@ -11442,7 +11454,7 @@
 			)
 			(polyline
 				(pts
-					(xy 17.78 -15.24) (xy 17.78 15.24)
+					(xy 11.43 -11.43) (xy 11.43 11.43)
 				)
 				(stroke
 					(width 0.2032)
@@ -11450,46 +11462,10 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(pin power_in line
-				(at 22.86 10.16 180)
-				(length 5.08)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 22.86 7.62 180)
-				(length 5.08)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin input line
-				(at 22.86 -2.54 180)
+				(at 16.51 -2.54 180)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -11507,7 +11483,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 -7.62 180)
+				(at 1.27 -16.51 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -11525,7 +11501,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 22.86 2.54 180)
+				(at 16.51 -6.35 180)
 				(length 5.08)
 				(name "PG"
 					(effects
@@ -11543,7 +11519,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -2.54 0)
+				(at -16.51 -2.54 0)
 				(length 5.08)
 				(name "SS_CTRL"
 					(effects
@@ -11561,7 +11537,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 2.54 0)
+				(at -16.51 1.27 0)
 				(length 5.08)
 				(name "EN"
 					(effects
@@ -11579,7 +11555,7 @@
 				)
 			)
 			(pin passive line
-				(at -22.86 -10.16 0)
+				(at -16.51 -6.35 0)
 				(length 5.08)
 				(name "NR_SS"
 					(effects
@@ -11597,7 +11573,7 @@
 				)
 			)
 			(pin power_in line
-				(at -22.86 10.16 0)
+				(at -16.51 7.62 0)
 				(length 5.08)
 				(name "IN"
 					(effects
@@ -11615,7 +11591,7 @@
 				)
 			)
 			(pin power_in line
-				(at -22.86 7.62 0)
+				(at -16.51 5.08 0)
 				(length 5.08)
 				(name "IN"
 					(effects
@@ -11633,7 +11609,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 -10.16 180)
+				(at -1.27 -16.51 90)
 				(length 5.08)
 				(name "PAD"
 					(effects
@@ -11643,6 +11619,44 @@
 					)
 				)
 				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TPS7A9101DSKT_1_1"
+			(pin power_out line
+				(at 16.51 7.62 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 16.51 5.08 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)

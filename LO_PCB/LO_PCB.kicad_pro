@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.508,
-          "height": 1.016,
-          "width": 1.016
+          "drill": 0.3,
+          "height": 0.6,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -76,7 +76,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|158810000|102627490|b5738c4d-2702-4a6f-81cf-44c579ca926a|ec50e595-eb5a-448e-bf0c-7531186975b5",
+          "These traces are differential, so i deem this ok"
+        ],
+        [
+          "clearance|159059688|102626805|311ce172-b600-4fc5-a915-3c9249282123|b5738c4d-2702-4a6f-81cf-44c579ca926a",
+          "These traces are differential, so i deem this ok"
+        ],
+        [
+          "clearance|159309376|102625162|ec50e595-eb5a-448e-bf0c-7531186975b5|f5a0883b-e406-40ea-8ed4-ef95f1c056a0",
+          "These traces are differential, so i deem this ok"
+        ],
+        [
+          "clearance|161317830|99990014|c539474d-439e-453c-9f94-a9b82b4fa956|caa8bb31-0238-4bd8-809f-37500ba789f0",
+          ""
+        ],
+        [
+          "clearance|161318238|100240000|caa8bb31-0238-4bd8-809f-37500ba789f0|fbeb6bee-b7e3-4ed5-9733-be106364324f",
+          "These traces are differential, so i deem this ok"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -697,7 +718,7 @@
         "uuid": "820b88fc-e97a-437b-924c-526a252f36ed"
       }
     ],
-    "used_designators": "XTAL1,#FLG1-22,L1-8,J1-6,Q1,U1-7,C1-64,#PWR1-64,R1-37",
+    "used_designators": "OSCIn1,LO_OUT_B1,H1-4,XTAL1,#FLG1-22,L1-8,J1-6,Q1,U1-7,C1-64,#PWR1-64,LO_OUT_A1,R1-37",
     "variants": []
   },
   "sheets": [

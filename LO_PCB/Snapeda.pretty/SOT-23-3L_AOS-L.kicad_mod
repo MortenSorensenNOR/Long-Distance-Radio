@@ -436,8 +436,14 @@
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/Snapeda.3dshapes/SOT-23-3L_AOS-L.step"
-		(offset (xyz 0 0 0))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

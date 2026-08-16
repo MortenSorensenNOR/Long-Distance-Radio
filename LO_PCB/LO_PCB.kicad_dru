@@ -3,3 +3,11 @@
 (rule "RF track width"
 	(condition "A.NetClass == 'RF'")
 	(constraint track_width (min 0.3345mm) (max 0.3345mm)))
+
+# Wurth 603122021145xx end-launch SMAs: the datasheet land pattern dimensions every pad
+# from the board edge (ground tabs 5.0 mm, signal pad 0.9 mm min), so the pads must reach
+# it. The board outline sits on the connector reference plane; the small negative value
+# absorbs the few microns each footprint origin differs from the outline.
+(rule "SMA end-launch pads may reach the board edge"
+	(condition "A.memberOfFootprint('OSCIn') || A.memberOfFootprint('LO_OUT_A') || A.memberOfFootprint('LO_OUT_B')")
+	(constraint edge_clearance (min -0.01mm)))
