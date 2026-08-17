@@ -3,4 +3,5 @@ Project for teaching myself PCB and RF design. Goal is to design, manufacture an
 The radio itself will be split into four separate PCBs (since I don't really know what I'm doing), mainly an ADC/DAC board, a mixer board, an LO board and an LNA and PA board.  
 
 Current LO board:
-<img width="1968" height="1440" alt="image" src="https://github.com/user-attachments/assets/3831e934-8822-4642-b537-54f432f6d58a" />
+<img width="1825" height="1403" alt="image" src="https://github.com/user-attachments/assets/16e4898c-3f1d-4819-987b-262fbe7600fb" />
+
