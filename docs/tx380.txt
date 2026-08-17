@@ -1,0 +1,574 @@
+Available at Digi-Key**                         Improved Performance
+   www.digikey.com                                         5x7mm
+
+                                                TB / TVB Model Series
+
+                                                          TCXO / VCTCXO
+
+2111 Comprehensive Drive    Description:                                        Features:
+   Aurora, Illinois 60505
+   Phone: 630- 851- 4722    Connor-Winfield's TBxxx and                         · Frequency Stabilities Available:
+     Fax: 630- 851- 5040    TVBxxx series are 5x7mm                              +/-0.28 ppm (10 to 50 MHz)
+    www.conwin.com          TCXO and VCTCXO products                             +/-0.50 ppm, +/-1.00 ppm or +/-2.00 ppm
+                            with exceptional frequency
+                            stability and low phase noise.                           (10 to 100 MHz)
+                                                                                · Temperature Ranges Available:
+                                Similar to our Txxx / TVxxx series, these        0 to 85°C, 0 to 70°C, -40 to 85°C or -20 to 70°C
+                            devices are quieter, smoother over temperature      · Packages Available:
+                            and are available at higher frequencies.             TB - Series: 5 x 7mm - 10 Pad
+                                                                                 TVB - Series: 5 x 7mm - 4 Pad
+                                Using the latest analog TCXO technology,        · 3.3 Vdc Operation
+                            the TBxxx and TVBxxx series have improved           · Output Logic: LVCMOS or Clipped Sinewave
+                            phase noise and frequency stability                 · Fixed Frequency - TCXO
+                            performance and are available in 4-pad or 10-       · Voltage Controlled - VCTCXO
+                            pad surface mount footprints.                       · Low Jitter <0.50 ps RMS
+                                                                                · Low Phase Noise
+                                These products are designed for                 · Tri-State Enable/Disable: (TB - Model Series Only)
+                            such applications as IEEE 1588 PTP and              · Tape and Reel Packaging
+                            Synchronous Ethernet.                               · RoHS Compliant / Lead Free
+
+                            Applications:
+
+                            · IEEE 1588 Applications
+                            · Synchronous Ethernet slave clocks, ITU-T G.8262 EEC options 1 & 2
+                            · Compliant to Stratum 3, GR-1244-CORE & GR-253-CORE
+                            · Wireless Communications
+                            · Small Cells
+                            · Test and Measurement
+                            · GPS Applications
+
+                                                             Standard Frequencies Available *
+
+                                                       * 10, 12.8, 19.2, 19.44, 20, 25, 40, 50, 52, 54, 80 and 100 MHz
+                                              Available frequencies from the factory for small quantity orders or quick delivery.
+
+                                                                         Additional frequencies are available.
+
+                            ** Not all options                   Ordering Information
+                               available at
+                               Digi-Key                5         0              4                                          -010.0M
+
+                                    TVB          Temperature      Frequency                        Features            Output Frequency
+                                                     Range          Stability
+                              Type / Package                                    2 = TCXO, LVCMOS, 3.3 Vdc                Frequency Format
+                               TCXO / VCTCXO    3 = 0 to 85 °C   0 = ±0.28 ppm  3 = TCXO, Clipped Sinewave, 3.3 Vdc          -xxx.xM Min*
+                                                5 = 0 to 70°C    1 = ±0.50 ppm  4 = VCTCXO, LVCMOS, 3.3 Vdc
+                                      Series    6 = -40 to 85°C  2 = ±1.00 ppm  5 = VCTCXO, Clipped Sinewave, 3.3 Vdc     -xxx.xxxxxxM Max*
+                                                7 = -20 to 70°C  3 = ±2.00 ppm  9 = VCTCXO, LVCMOS, 3.3V with          *Minimum of 1 digit after
+                              TB = 5.0x7.0 mm                                                                          the decimal point, and
+                                     10 Pads                                         reduced pull range
+                                                                                                                            Maximum of 6
+                              TVB = 5.0x7.0 mm
+                                      4 Pads
+
+Bulletin           Tx380                                                                Example: Part Number
+Page               1 of 6
+Revision                           TVB504-010.0M = 5x7mm 4 pad package, ±0.28 ppm, 0 to 70°C, 3.3 Vdc, LVCMOS Output, VCTCXO
+Date                    13  TB715-012.8M = 5x7mm 10 pad package, ±0.50 ppm, -20 to 70°C, 3.3 Vdc, Clipped Sinewave Output, VCTCXO
+          28 May 2025
+                                      TB522-050.0M = 5x7mm 10 pad package, ±1.0 ppm, 0 to 70°C, 3.3 Vdc, LVCMOS Output, TCXO
+                                   TVB602-010.0M = 5x7mm 4 pad package, ±0.28 ppm, -40 to 85°C, 3.3 Vdc, LVCMOS Output, TCXO
+                                                                                                                                2111 Comprehensive Drive
+                                                                                                                                   Aurora, Illinois 60505
+                                                                                                                                   Phone: 630- 851- 4722
+                                                                                                                                     Fax: 630- 851- 5040
+                                                                                                                                    www.conwin.com
+
+                                       Absolute Maximum Ratings
+
+Parameter                              Minimum                                                             Nominal   Maximum    Units     Notes
+Storage Temperature                        -55                                                                  -         95      °C
+Supply Voltage (Vcc)                       -0.6                                                                 -         4.6    Vdc
+Input Voltage                              -0.5                                                                 -                Vdc
+                                                                                                                     Vcc + 0.6
+
+                                       Operating Specifications
+
+Parameter                              Minimum                                                             Nominal   Maximum    Units     Notes
+
+Output Frequency (Fo)                  10                                                                  -         50         MHz
+    Models TBx0x, TVBx0x
+    Models TBx1x, TVBx1x               10                                                                  -         100        MHz
+    Models TBx2x, TVBx2x
+    Models TBx3x, TVBx3x               10                                                                  -         100        MHz
+
+                                       10                                                                  -         100        MHz
+
+Operating Temperature Range(See Ordering Information for full part number)
+
+Models TB3xx, TVB3xx                   0                                                                   -         85         °C
+
+Models TB5xx, TVB5xx                   0                                                                   -         70         °C
+
+Models TB6xx, TVB6xx                   -40                                                                 -         85         °C
+
+Models TB7xx, TVB7xx                   -20                                                                 -         70         °C
+
+Frequency Calibration @ 25 °C          -1.0                                                                -         1.0        ppm       1
+
+Frequency Stability (See Ordering Information for full part number) Per STRATUM 3 GR-1244-CORE
+
+Frequency Stability ±0.28 ppm is only available in the frequency range of 10 to 50 MHz.
+
+Models TBx0x, TVBx0x                   -0.28                                                               -         0.28       ppm       2
+
+Holdover Stability                     -0.32                                                               -         0.32       ppm       3
+
+Constant Temperature Stability         -40                                                                 -         40         ppb Over 24 Hrs.
+
+Frequency Stability(See Ordering Information for full part number)
+
+Models TBx1x, TVBx1x                   -0.50                                                               -         0.50       ppm       2
+
+Models TBx2x, TVBx2x                   -1.00                                                               -         1.00       ppm       2
+Models TBx3x, TVBx3x
+                                       -2.00                                                               -         2.00       ppm       2
+
+Frequency vs. Load Stability           -0.05                                                               -         0.05       ppm       ±5%
+
+Frequency vs. Voltage Stability        -0.05                                                               -         0.05       ppm       ±5%
+Static Temperature Hysteresis
+                                       -                                                                   -         0.40       ppm       4
+
+Freq. shift after reflow soldering     -1.0                                                                -         1.0        ppm       5
+
+Long Term Stability                    -1.0                                                                -         1.0        ppm       6
+Aging
+
+per Life (20 Years)                    -3.0                                                                -         3.0        ppm
+
+    per Day                            -40                                                                 -         40         ppb
+Total Frequency Tolerance
+                                       -4.6                                                                -         4.6        ppm       7
+
+Supply Voltage (Vcc)                   3.135                                                               3.30      3.465      Vdc
+
+Supply Current (Icc)                   -                                                                   2.1       6.0        mA
+    LVCMOS (10 to 52 MHz)
+
+LVCMOS (>52 to 100 MHz)                -                                                                   -         12         mA
+
+Clipped Sine (10 to 52 MHz)            -                                                                   1.3       2.9        mA
+Clipped Sine (>52 to 100 MHz)
+                                       -                                                                   -         12         mA
+
+Jitter:
+
+Period Jitter                          -                                                                   3.0       5.0        ps RMS
+Integrated Phase Jitter (12K to Fo/2)
+                                       -                                                                   0.3       1.0        ps RMS    8
+
+Allan Deviation (1s) Fo=10.0 MHz       -                                                                   1.0E-10   -
+
+Typical SSB Phase Noise                10.0 MHz                                                            50.0 MHz  100.0 MHz
+                                          -103                                                                 -90
+  For Fo                                  -128                                                                -120   -80        dBc/Hz
+    @ 10 Hz offset                        -147                                                                -142
+    @ 100 Hz offset                       -157                                                                -158   -110       dBc/Hz
+    @ 1 KHz offset                        -158                                                                -159
+    @ 10 KHz offset                       -158                                                                -160   -134       dBc/Hz
+    @ 100 KHz offset
+    @ 1 MHz offset                                                                                                   -150       dBc/Hz
+
+                                                                                                                     -156       dBc/Hz
+
+                                                                                                                     -157       dBc/Hz
+
+Start-Up Time                          -                                                                   -         10         ms
+
+                                                                                                                                Bulletin           Tx380
+                                                                                                                                Page               2 of 6
+                                                                                                                                Revision
+                                                                                                                                Date                    13
+                                                                                                                                          28 May 2025
+
+Specifications subject to change without notification. See Connor-Winfield's website for latest revision.
+© Copyright 2025 The Connor-Winfield Corporation Not intended for life support applications.
+                                                                                                                                                       2111 Comprehensive Drive
+                                                                                                                                                          Aurora, Illinois 60505
+                                                                                                                                                          Phone: 630- 851- 4722
+                                                                                                                                                            Fax: 630- 851- 5040
+                                                                                                                                                           www.conwin.com
+
+                                        Control Voltage Input Characteristics
+
+Parameter                                                             Minimum                              Nominal  Maximum                            Units     Notes
+                                                                                                              1.65       3.0                              V
+Control Voltage                                                       0.3
+                                                                                                                                                        ppm
+Frequency Pullability                                                                                                                                   ppm
+
+Pull Range Options 4 and 5:                                           ±10                                  ±12      -                                  ppm/V
+                                                                                                                                                       ppm/V
+Pull Range Option 9:                                                  ±5                                   ±6       ±8
+                                                                                                                                                          %
+Pull Slope (Vc=1.65V)                                                                                                                                   Ohm
+                                                                                                                                                        KHz
+Pull Range Options 4 and 5:                                           -                                    8.00     -
+
+Pull Range Option 9:                                                  -                                    4.50     -
+
+Control Voltage Slope                                                                                      Positive Slope
+
+Monotonic Linearity                                                   -                                    -        5
+
+Input Impedance                                                       100K                                 -        -
+
+Modulation Bandwidth (3dB)                                            10                                   -        -
+
+                       OE Enable /Disable Input Characteristics (Pad 8) TB Series only
+
+Parameter                                                             Minimum                              Nominal  Maximum                            Units     Notes
+Enable Voltage (High)                                                  70%Vcc                                   -         -                             Vdc         9
+Disable Voltage (Low)                                                                                           -                                       Vdc         9
+                                                                            -                                        30%Vcc
+
+Function                                                                                                   Output
+
+Low: Disabled (High Impedance)
+
+High or Open:                                                                                              Enabled
+
+                                        LVCMOS Output Characteristics
+
+Parameter                                                             Minimum                              Nominal  Maximum                            Units     Notes
+
+Load (CL)                                                             -                                    15       -                                    pF         10
+Voltage (High) (Voh)                                                                                                                                    Vdc
+                                                                      90%Vcc                               -        -                                   Vdc
+          (Low) (Vol)                                                                                                                                    mA
+Current (High) (Ioh)                                                  -                                    -        10%Vcc                               mA
+                                                                                                                                                         %
+          (Low) (Iol)                                                 -4                                   -        -                                    %
+Duty Cycle at 50% of Vcc (Fo<70MHz)                                                                                                                      ns
+Duty Cycle at 50% of Vcc (Fo  70MHz)                                  -                                    -        4
+Rise / Fall Time 10% to 90%
+                                                                      45                                   50       55
+
+                                                                      40                                   45       50
+
+                                                                      -                                    4        8
+
+                                        Clipped Sinewave Output Characteristics
+
+Parameter                                                             Minimum                              Nominal  Maximum                            Units     Notes
+
+Load (RC)                                                                                                                                                           11
+                                                                                                                                                                    12
+Output Load Resistance                                                -                                    10K      -                                  Ohm
+                                                                                                                                                                  pk-pk
+Output Load Capacitance                                               -                                    10       -                                  pF         pk-pk
+
+OutputVoltage(< 40 MHz)                                               1.0                                  1.2      -                                        V
+
+OutputVoltage(=>40 MHz)                                               0.8                                  1.0      -                                        V
+
+Output Impedance                                                      -                                    200      -                                  Ohms
+
+                                                                 Package Characteristics
+
+Package                                 Hermetically sealed ceramic package with grounded metal cover
+Moisture Sensitivity Level              MSL-1
+
+Pad Termination Material and Plating0.5-1.0um [20-40 micro-inches] Gold over 1.27um [50micro-inches] min Nickel.
+
+                                        Environmental Characteristics
+
+Vibration:                                    Vibration per Mil Std 883E Method 2007.3 Test Condition A.
+Shock:                                  Mechanical Shock per Mil Std 883E Method 2002.4 Test Condition B.
+Soldering Process:
+Solderability:                                 RoHS compliant lead free. See soldering profile on page 6.
+                                                       Solderability per Mil Std 883E Method 2003
+
+Notes:
+
+1. Initial calibration @ 25°C. ±2°C, for VCTCXO's Vc = 1.65V. Specifications at time of shipment
+
+2. Frequency stability vs. change in temperature. [±(Fmax-Fmin)/(2*Fo]). For VCTCXO, Vc = 1.65Vdc
+
+3. Inclusive of frequency stability, supply voltage change (±1%), aging, for 24 hours. Per STRATUM 3 GR-1244-CORE.
+
+4. Frequency change after reciprocal temperature ramped over the operating range. Frequency measured before and after at 25°C
+
+5. Two consecutive solder reflows after 1 hour recovery @ 25°C.
+
+6. Frequency drift over 1 year @ 25°C.
+
+7. Inclusive of calibration @ 25°C, frequency vs. change in temperature, change in supply voltage (±5%), load change (±5%), reflow soldering process and 20 years aging.
+
+8. For Fo<40MHz, BW=12kHz to Fo/2, for Fo>40MHz, BW=12kHz to 20MHz
+
+9. Ouput is active with Pad 8 not connected. Leave Pad 8 open if disable function is not required. When disabled, output stage is off but
+
+oscillator and compensation circuits are still powered (current consumption <3 mA)                                                                     Bulletin  Tx380
+                                                                                                                                                                 3 of 6
+10. Attention: To achieve optimal frequency stability, and in some cases to meet the specification stated on this data sheet, it is required that the  Page
+    circuit connected to this TCXO output must have the equivalent input capacitance that is specified by the nominal load capacitance.
+
+Deviations from the nominal load capacitance will have a graduated effect on the stability of approximately 20 ppb per pF load difference. Revision                            13
+                                                                                                                                                                 28 May 2025
+11. Load components are required for proper operation of the device.                                                                                   Date
+12. Output is AC coupled.
+
+Specifications subject to change without notification. See Connor-Winfield's website for latest revision.
+© Copyright 2025 The Connor-Winfield Corporation Not intended for life support applications.
+                                                                                                                                               2111 Comprehensive Drive
+                                                                                                                                                  Aurora, Illinois 60505
+                                                                                                                                                  Phone: 630- 851- 4722
+                                                                                                                                                    Fax: 630- 851- 5040
+                                                                                                                                                   www.conwin.com
+
+                      TB Series                                                         TB Series                                                  TB Series
+                  Package Outline                                               Suggested Pad Layout                                          Pad Connections
+
+                        0.276 ±0.006                         0.105 Max.                           0.295                               1: Do Not Connect
+                           (7.0mm)                           (2.67mm)                          (7.49mm)                               2: Do Not Connect
+                                                                                                                                      3: Do Not Connect
+                                                      0.197                0.037 9                   0.030              0.051         4: Ground
+                                                                                                   (0.76mm)          (1.28mm)         5: Output
+                        TB715 1242 ±0.006                                (0.94mm)                                  Keep Out Area      6: Do Not Connect
+                           12.8 MHZ (5.0mm)                                                  876                                      7: Do Not Connect
+                                                                                                                5       0.051         8: Enable / Disable (OE)
+                                                                         0.215                                       (1.28mm)         9: Supply Voltage (Vcc)
+                                                                                              Top View                               10: VCTCXO: Control Voltage (Vc)
+                                                                         (5.46mm)        10                                           TCXO: N/C
+                                                                                                                4
+           Pin 1                      0.025(6 Places)                                        123
+
+   0.030                              (0.635mm)              0.040
+(0.762mm)
+(4 Places)              12 3                                 (1.02mm)
+
+    0.038         10                  4                      (6 Places)
+(0.965mm)
+ (4 Places)             Bottom             0.100                         * Do not route any traces in the keep out area. It is
+                         View            (2.54mm)                        recommended the next layer under the keep out
+                                                                         area is to be ground plane.
+                  9     876           5
+
+                                         Dimensional Tolerance:
+
+                          0.100          ±.005 (.127mm)
+                        (2.54mm)         ±.02 (.508mm)
+
+                     TVB Series                                                         TVB Series                                                TVB Series
+                  Package Outline                                               Suggested Pad Layout                                          Pad Connections
+
+                        0.276 ±0.006                         0.105 Max.                                                     0.071     1: VCTCXO: Voltage Control (Vc)
+                           (7.0mm)                           (2.67mm)                                                     (1.8mm)     TCXO: N/C
+                                                                                                                          4 Places    2: Ground
+                          (Top View)                                                                                                  3: Output
+                                                                                                                   3                  4: Supply (Vcc)
+                                                                                  4
+                                          0.197                                                                          0.047
+                                          ±0.006                          0.165                                        (1.2mm)
+                                         (5.0mm)                         (4.2mm)                                       4 Places
+
+         Pad 1       1                2                                               1      (Top View)                   Keep
+                                                Dimensional Tolerance:                                                     Ou t *
+   0.034                                                                                           0.224
+(0.90mm)                                                                                         (5.7mm)           2 Area
+(4 Places)
+                      (Bottom View)      ±.005 (.127mm)
+                                         ±.02 (.508mm)
+
+                     4                3  0.055
+
+                                                                         * Do not route any traces in the keep out area. It is
+
+                                         (1.40mm)                        recommended the next layer under the keep out
+
+                                         (4 Places)                      area is to be ground plane.
+
+                                                                              Marking Information
+
+                                                             The following are examples of possible marking configurations
+
+                                                                                                                                     2 CHARACTER DATE CODE
+
+                                                                                                                                     Y = Year M = Month
+
+Part Number                                                              Part Number                               Date Code (YYWW)  1 = 2021  A = January
+Frequency                                                                  Frequency                               Crystal Lot Code  2 = 2022  B = February
+                                                                                                                                     3 = 2023  C = March
+                                         Date Code (YM)                                                                              4 = 2024  D = April
+                                                                                                                                     5 = 2025  E = May
+                                                                                                                                     6 = 2026  F = June
+                                                                                                                                     7 = 2027  G = July
+                                                                                                                                     8 = 2028  H = August
+                                                                                                                                     9 = 2029  J = September
+                                                                                                                                     0 = 2030  K = October
+                                                                                                                                               M = November
+                                                                                                                                               N = December
+
+Part Number                              Date Code (YYWW)                Part Number                               Date Code (YYWW)            Bulletin                Tx380
+                                         Frequency                                                                 Frequency                   Page                    4 of 6
+                                                                                                                                               Revision
+                                                                                                                                               Date                         13
+                                                                                                                                                              28 May 2025
+
+Specifications subject to change without notification. See Connor-Winfield's website for latest revision.
+© Copyright 2025 The Connor-Winfield Corporation Not intended for life support applications.
+                                                                                                                                                                                                                                                      2111 Comprehensive Drive
+                                                                                                                                                                                                                                                         Aurora, Illinois 60505
+                                                                                                                                                                                                                                                         Phone: 630- 851- 4722
+                                                                                                                                                                                                                                                           Fax: 630- 851- 5040
+                                                                                                                                                                                                                                                          www.conwin.com
+
+                  TB Series Design Recommendations                                                                                                TVB Series Design Recommendations
+
+Vcc, should have                                                                                                                                  Vcc, should have                        0.010"(0.254mm)
+                                                                                                                                                                                          Recommended
+a large copper                                                                                                                                    a large copper
+                                                                                                                                                                                              clearance
+area for reduced                         0.010"(0.254mm)                   Vcc                               50 Ohm trace                         area for reduced                           inductance                                               Vcc               50 Ohm trace
+                                         Recommended                                                         <1"by design                                                                     for internal                                                              <1"by design
+inductance.                                                                                                Buffer                                 inductance.                               copper flood.                                                             Buffer
+                                             clearance                                                                                                                            3
+Connect a 0.01uF                            inductance                                                    Ground                                  Connect a 0.01uF                5                                                                                  Ground
+                                             for internal
+bypass capacitor                           copper flood.                                                                                          bypass capacitor
+
+<0.1"(2.54mm)         8  6                                                                                                                        <0.1"(2.54mm)
+                                5
+from the pad. 9                                                                                                                                   from the pad.     4
+
+                                                                                                                                                                    9
+
+                  10            4                                 Ground                                                                                                          4                         Ground
+                                          Ground,
+                      1  3                                                                                                                                          10
+                                       should have
+                                     a large copper                                                                                                                 1             2       Ground,
+                                    area for reduced
+                      Top View                                                             Top View                                                                    Top View             should have                                                    Top View
+                                       inductance.                                                                                                                                        a large copper
+
+                                                                                                                                                                                          area for reduced
+
+                                                                                                                                                                                          inductance.
+
+                                                  OSC             50 Ohm Trace                                                                                                                      OSC     50 Ohm Trace
+
+                                  TOP LAYER                          Without Output                                                                                                 TOP LAYER                  Without Output
+                                GROUND LAYER                            Vias Buffer                                                                                               GROUND LAYER                    Vias Buffer
+
+                                                                                                                                                                                                                                             .......
+                                                                   .......
+
+                                BOTTOM LAYER                                                                                                                                      BOTTOM LAYER
+
+                             TB Series                                                                                               TVB Series                                                   LVCMOS Output Waveform
+                      LVCMOS Test Circuit                                                                                      LVCMOS Test Circuit
+
+                                                  Enable/
+                                                  Disable DNC DNC
+
+ Vcc                                              8 76                                                    Vcc
+Supply
+                                         9                              5                         Output Supply                                4                    3                     Output
+Voltage                                                                                                                                                                           15 pF
+                                                                                                          Voltage                                                         Ground
+                                                                                                                                                                    2
+                                         10                                  Ground                                                            1
+                                                 1                      4
+
+                                                      23
+
+                                                                                           15 pF
+
+0.1 uF   10 nF            TCXO = N/C               DNC DNC DNC                                            0.1 uF       10 nF    TCXO = N/C
+Bypass   Bypass          VCTCXO = Vc              DNC = Do Not Connect                                    Bypass       Bypass  VCTCXO = V c
+
+                                                                                                                                                                                                            1V/Div
+
+                              TB Series                                                                                            TVB Series                                                               Clipped Sinewave
+                         Clipped Sinewave                                                                                      Clipped Sinewave                                                             Output Waveform
+
+                             Test Circuit                                                                                           Test Circuit
+
+                                         Enable/
+                                         Disable DNC DNC
+
+ Vcc                                     8 76                                                             Vcc
+Supply
+Voltage                               9                        5                                  Output  Supply                            4     3                                       Output
+                                                                                                                                                                                                           0
+                                                                                                          Voltage                                       Ground
+                                                                                                                                                  2                                                    200 mV/Div
+                                      10                           Ground                                                                   1
+                                               1               4
+
+                                                  23
+
+                                                                                     10pF  10K                                                                          10 pF 10K
+                                                                                           Ohm                                                                                       Ohm
+
+0.1uF    10nF             TCXO = N/C      DNC DNC DNC                                                          0.1 uF  10 nF    TCXO = N/C
+Bypass   Bypass          VCTCXO = Vc     DNC = Do Not Connect                                                  Bypass  Bypass  VCTCXO = Vc
+
+                                                                  Note: The clipped sinewave output is AC coupled
+
+                                                                                                                                                                                                                                                      Bulletin                Tx380
+                                                                                                                                                                                                                                                      Page                    5 of 6
+                                                                                                                                                                                                                                                      Revision
+                                                                                                                                                                                                                                                      Date                         13
+                                                                                                                                                                                                                                                                     28 May 2025
+
+Specifications subject to change without notification. See Connor-Winfield's website for latest revision.
+© Copyright 2025 The Connor-Winfield Corporation Not intended for life support applications.
+                                                                                                                         2111 Comprehensive Drive
+                                                                                                                            Aurora, Illinois 60505
+                                                                                                                            Phone: 630- 851- 4722
+                                                                                                                              Fax: 630- 851- 5040
+                                                                                                                             www.conwin.com
+
+          Typical Phase Noise Fo=10MHz                                                                     TIE
+
+                                                                                                           TVB504-010.0M: WANDER GENERATION IN A STRATUM 3 PLL AT 0.098 Hz BANDWIDTH
+
+                       MTIE                                                                                             TDEV
+
+          TVB504-010.0M: MTIE per GR-253-CORE                                                              TVB504-010.0M: TDEV per GR-253-CORE
+
+          5x7mm Tape and Reel Information                                                                                Solder Profile
+
+                    MEETS EIA-481A AND EIAJ-1009B                                                           Temperature                         260°C
+                         700 PCS/REEL MAXIMUM.                                                             260°C
+
+                 1                                                                                         220°C
+                                                                                                           180°C
+                                                                                                           150°C
+                                                                                                           120°C
+
+                                                                                                           0
+
+                                                                                                                         Up to 120 s            10 s
+                                                                                                                            Typical
+                                                                                                                                      60 to 90 s
+                                                                                                                                       Typical
+
+                                                                                                                         Meets IPC/JEDEC J-STD-020C
+
+Revision  Date                Revision History                                                                           Bulletin                        Tx380
+                                                                                                                         Page                            6 of 6
+00        10/23/12  Description                                                                                          Revision
+01        11/12/12                                                                                                       Date                                 13
+02        02/25/13  Data sheet released 10/23/12                                                                                                28 May 2025
+03        12/04/13  Added Digi-Key
+04        02/07/14  Increased frequency range to 100 MHz
+05        02/11/14  Updated available Frequencies
+06        04/29/15  Removed note from Output Freq
+07        10/20/15  Updated specifications
+08        09/07/16  Added Additional Package Height for Select Frequencies
+09        09/15/16  Updated Allan Deviation specification
+10        08/09/18  Updated Phase Noise Plot and Control Voltage Specs
+11        11/30/22  Updated Ordering Information
+12        11/26/24  Updates to T&R, Package Dimensions, Added Marking Info
+13        05/28/25  Duty cycle specification for high frequencies
+                    Updated Abs Max supply voltage, phase noise
+                    Update package height dimension, Input Voltage and Environmental Characteristics
+
+Specifications subject to change without notification. See Connor-Winfield's website for latest revision.
+© Copyright 2025 The Connor-Winfield Corporation Not intended for life support applications.
+
