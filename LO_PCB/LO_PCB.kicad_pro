@@ -224,6 +224,7 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
         0.2,
         0.25,
         0.3,
@@ -710,7 +711,7 @@
         "uuid": "820b88fc-e97a-437b-924c-526a252f36ed"
       }
     ],
-    "used_designators": "#PWR1-64,C1-64,J1-6,LO_OUT_A1,R1-37,#FLG1-22,U1-7,Q1,XTAL1,H1-4,X1,LO_OUT_B1,L1-8,OSCIn1",
+    "used_designators": "L1-8,OSCIn1,#PWR1-64,C1-64,J1-6,LO_OUT_A1,R1-37,#FLG1-22,U1-7,Q1,XTAL1,H1-4,X1,LO_OUT_B1",
     "variants": []
   },
   "sheets": [
