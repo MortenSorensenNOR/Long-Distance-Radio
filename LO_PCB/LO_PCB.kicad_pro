@@ -78,16 +78,28 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|158810000|102627490|b5738c4d-2702-4a6f-81cf-44c579ca926a|ec50e595-eb5a-448e-bf0c-7531186975b5",
-          "These traces are differential, so i deem this ok"
-        ],
-        [
-          "clearance|159059688|102626805|311ce172-b600-4fc5-a915-3c9249282123|b5738c4d-2702-4a6f-81cf-44c579ca926a",
-          "These traces are differential, so i deem this ok"
-        ],
-        [
           "clearance|161317792|99740026|c539474d-439e-453c-9f94-a9b82b4fa956|e9ddfb85-3ac6-40a7-a3f8-a16259019762",
           "These lines are differential"
+        ],
+        [
+          "track_width|152643224|99462200|51226126-fcc2-413f-bf67-92c6dd8e0e28|00000000-0000-0000-0000-000000000000",
+          "Pin spacing necessitates tapering"
+        ],
+        [
+          "track_width|152718647|99462200|ce3843e3-eff9-484e-a028-3dff57b9d332|00000000-0000-0000-0000-000000000000",
+          "Pin spacing necessitates tapering"
+        ],
+        [
+          "track_width|152923888|99563888|bf855746-f7fe-4766-96d9-83d06cf74b4b|00000000-0000-0000-0000-000000000000",
+          "Pin spacing necessitates tapering"
+        ],
+        [
+          "track_width|153305907|99738800|02846ecd-6e97-4c11-8480-d85be10b295f|00000000-0000-0000-0000-000000000000",
+          "Pin spacing necessitates tapering"
+        ],
+        [
+          "track_width|153971654|99738800|0ba7efa8-18f1-45c5-8eb4-5f0e3548652b|00000000-0000-0000-0000-000000000000",
+          "Pin spacing necessitates tapering"
         ]
       ],
       "meta": {
@@ -173,8 +185,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -570,16 +582,44 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
+        "netclass": "RF",
         "pattern": "/RFOUT*"
       },
       {
-        "netclass": "Default",
-        "pattern": "Net-(J4-In)"
+        "netclass": "RF",
+        "pattern": "Net-(OSCIn1-In)"
       },
       {
         "netclass": "RF",
-        "pattern": "GND"
+        "pattern": "Net-(C46-Pad2)"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(R23-Pad2)"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(X1-OUTPUT)"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(C47-Pad1)"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(U2-OSCINP)"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(C48-Pad1)"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(U2-OSCINM)"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "Net-(R27-Pad1)"
       }
     ]
   },

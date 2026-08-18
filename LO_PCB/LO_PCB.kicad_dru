@@ -9,5 +9,5 @@
 # it. The board outline sits on the connector reference plane; the small negative value
 # absorbs the few microns each footprint origin differs from the outline.
 (rule "SMA end-launch pads may reach the board edge"
-	(condition "A.memberOfFootprint('OSCIn') || A.memberOfFootprint('LO_OUT_A') || A.memberOfFootprint('LO_OUT_B')")
+	(condition "A.memberOfFootprint('OSCIn*') || A.memberOfFootprint('LO_OUT_A') || A.memberOfFootprint('LO_OUT_B')")
 	(constraint edge_clearance (min -0.01mm)))
