@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1742" height="903" viewBox="0 0 1742 903">
+  <defs>
+    <pattern id="hatch" patternUnits="userSpaceOnUse" width="12.0" height="12.0"
+             patternTransform="translate(871.0,346.0) rotate(45) translate(-3.5,0)">
+      <rect width="12.0" height="12.0" fill="#ffffff"/>
+      <rect x="0" y="0" width="7.0" height="12.0" fill="#000000"/>
+    </pattern>
+    <mask id="tailMask">
+      <rect x="0" y="0" width="1742" height="903" fill="#ffffff"/>
+      <path d="M 414.5,346.0
+               A 548.0,548.0 0 0 1 1327.5,346.0
+               A 548.0,548.0 0 0 1 414.5,346.0 Z"
+            fill="#000000"/>
+    </mask>
+  </defs>
+
+  <!-- eye white fill -->
+  <path d="M 414.5,346.0
+           A 548.0,548.0 0 0 1 1327.5,346.0
+           A 548.0,548.0 0 0 1 414.5,346.0 Z"
+        fill="#ffffff"/>
+
+  <!-- tail (beam) trapezoid, hatched, masked so it can only paint outside the
+       eye's own interior -->
+  <path d="M 725.0,571.0236394490877
+           L 1017.0,571.0236394490877
+           L 1107.0,903
+           L 635.0,903 Z"
+        fill="url(#hatch)" mask="url(#tailMask)"/>
+
+  <!-- eye outline stroke, drawn on top so it stays crisp over the tail -->
+  <path d="M 414.5,346.0
+           A 548.0,548.0 0 0 1 1327.5,346.0
+           A 548.0,548.0 0 0 1 414.5,346.0 Z"
+        fill="none" stroke="#000000" stroke-width="8.0"/>
+
+  <!-- iris outer ring, hatched, with outline -->
+  <path d="M 640.0,346.0
+           a 231.0,231.0 0 1 0 462.0,0
+           a 231.0,231.0 0 1 0 -462.0,0 Z
+           M 740.5,346.0
+           a 130.5,130.5 0 1 0 261.0,0
+           a 130.5,130.5 0 1 0 -261.0,0 Z"
+        fill="url(#hatch)" fill-rule="evenodd"
+        stroke="#000000" stroke-width="8.0"/>
+
+  <!-- pupil solid black -->
+  <circle cx="871.0" cy="346.0" r="130.5" fill="#000000"/>
+</svg>
