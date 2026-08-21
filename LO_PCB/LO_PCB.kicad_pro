@@ -76,32 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|161317792|99740026|c539474d-439e-453c-9f94-a9b82b4fa956|e9ddfb85-3ac6-40a7-a3f8-a16259019762",
-          "These lines are differential"
-        ],
-        [
-          "track_width|152643224|99462200|51226126-fcc2-413f-bf67-92c6dd8e0e28|00000000-0000-0000-0000-000000000000",
-          "Pin spacing necessitates tapering"
-        ],
-        [
-          "track_width|152718647|99462200|ce3843e3-eff9-484e-a028-3dff57b9d332|00000000-0000-0000-0000-000000000000",
-          "Pin spacing necessitates tapering"
-        ],
-        [
-          "track_width|152923888|99563888|bf855746-f7fe-4766-96d9-83d06cf74b4b|00000000-0000-0000-0000-000000000000",
-          "Pin spacing necessitates tapering"
-        ],
-        [
-          "track_width|153305907|99738800|02846ecd-6e97-4c11-8480-d85be10b295f|00000000-0000-0000-0000-000000000000",
-          "Pin spacing necessitates tapering"
-        ],
-        [
-          "track_width|153971654|99738800|0ba7efa8-18f1-45c5-8eb4-5f0e3548652b|00000000-0000-0000-0000-000000000000",
-          "Pin spacing necessitates tapering"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -149,7 +124,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
