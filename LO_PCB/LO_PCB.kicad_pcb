@@ -15429,11 +15429,11 @@
 		(at 134.992201 99.4622 -90)
 		(descr "PCB End Launch, https://www.we-online.com/en/components/products/datasheet/60312202114513?ki")
 		(tags "SMT")
-		(property "Reference" "OSCIn1"
+		(property "Reference" "EXT_OSC_IN"
 			(at 4.5378 -2.007799 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "201b7af6-1637-4005-8945-ca78e9fbd898")
+			(uuid "3f3f08b3-6737-4c66-b1be-7d79e4fed413")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15447,7 +15447,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a7529568-0e17-4bd1-9da3-bfa23c377904")
+			(uuid "5c3a781c-c8d6-49b2-9d42-c30c47493e89")
 			(effects
 				(font
 					(size 1 1)
@@ -15459,7 +15459,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3c1ba41d-8ed5-499c-b3b7-685ab8b06b07")
+			(uuid "ba6f3705-8b0e-456f-a49c-d93a95f6f03d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15470,7 +15470,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aafab16d-4fde-41a2-9f69-ef81ddb4944e")
+			(uuid "6cdd1c9e-3afe-45c2-9514-64275b450cc9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30277,6 +30277,29 @@
 		(uuid "38833fc6-31e1-4ce8-9cbb-9a11fe9c9ba0")
 	)
 	(via
+		(at 150.622 81.6356)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(capping no)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front yes)
+			(back yes)
+		)
+		(filling no)
+		(net "GND")
+		(uuid "38f2a406-4c0b-42ad-85f2-a94e493aa4b1")
+	)
+	(via
 		(at 143.25 117.15)
 		(size 0.6)
 		(drill 0.3)
@@ -34737,6 +34760,29 @@
 		(filling no)
 		(net "GND")
 		(uuid "8150c150-ccb9-46eb-ad88-61195ea85d0f")
+	)
+	(via
+		(at 150.622 83.693)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(capping no)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front yes)
+			(back yes)
+		)
+		(filling no)
+		(net "GND")
+		(uuid "82df1f3d-b35e-460d-ad77-3cf85436ab21")
 	)
 	(via
 		(at 139.25 119.5)
