@@ -604,7 +604,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "fab/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -729,7 +729,7 @@
         "uuid": "820b88fc-e97a-437b-924c-526a252f36ed"
       }
     ],
-    "used_designators": "H1-4,X1,Q1,XTAL1,LO_OUT_B1,EXT_OSC_IN1,OSCIn1,#PWR1-64,L1-8,C1-64,J1-6,LO_OUT_A1,R1-37,#FLG1-22,U1-7,EXT_REF_IN1",
+    "used_designators": "R1-37,LO_OUT_A1,J1-6,EXT_REF_IN1,#FLG1-22,U1-7,Q1,H1-4,XTAL1,X1,LO_OUT_B1,EXT_OSC_IN1,OSCIn1,#PWR1-64,L1-8,C1-64",
     "variants": []
   },
   "sheets": [
