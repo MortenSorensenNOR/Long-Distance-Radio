@@ -3766,7 +3766,7 @@
 	)
 	(rectangle
 		(start 38.1 152.4)
-		(end 135.89 231.14)
+		(end 135.89 251.46)
 		(stroke
 			(width 0)
 			(type default)
@@ -3833,7 +3833,7 @@
 	)
 	(text "External Input Reference SMA, Single Ended"
 		(exclude_from_sim no)
-		(at 53.34 207.01 0)
+		(at 53.34 217.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4176,7 +4176,7 @@
 		(uuid "7fcd15c7-91c4-4184-b822-72ef4957bb65")
 	)
 	(junction
-		(at 97.79 200.66)
+		(at 97.79 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82a6f02c-ce84-4bac-9021-5ddafeed7f81")
@@ -4228,6 +4228,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e96fa98-9e35-4c5d-b198-6eb7cb48b644")
+	)
+	(junction
+		(at 97.79 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91d9ef82-e81a-4238-b61e-78d0ca8fce34")
 	)
 	(junction
 		(at 74.93 109.22)
@@ -4282,12 +4288,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a496c67c-9ac8-4494-b70c-77ee600f04fd")
-	)
-	(junction
-		(at 97.79 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a596506b-94b2-4ebd-be13-f2d61f84b038")
 	)
 	(junction
 		(at 106.68 170.18)
@@ -4640,6 +4640,16 @@
 			(type default)
 		)
 		(uuid "058eaf4c-a65d-40b9-a813-e419d0f07017")
+	)
+	(wire
+		(pts
+			(xy 109.22 185.42) (xy 109.22 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b4eb81-0aca-4286-8ec5-83d373364430")
 	)
 	(wire
 		(pts
@@ -5033,7 +5043,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 209.55) (xy 106.68 213.36)
+			(xy 106.68 219.71) (xy 106.68 223.52)
 		)
 		(stroke
 			(width 0)
@@ -5413,7 +5423,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 175.26) (xy 185.42 203.2)
+			(xy 185.42 175.26) (xy 185.42 213.36)
 		)
 		(stroke
 			(width 0)
@@ -5423,7 +5433,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 209.55) (xy 133.35 207.01)
+			(xy 133.35 219.71) (xy 133.35 217.17)
 		)
 		(stroke
 			(width 0)
@@ -5453,7 +5463,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 200.66) (xy 110.49 200.66)
+			(xy 97.79 210.82) (xy 110.49 210.82)
 		)
 		(stroke
 			(width 0)
@@ -5673,16 +5683,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 185.42) (xy 97.79 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48d9c6bb-7f54-4ca7-b46a-c1b62bfbb629")
-	)
-	(wire
-		(pts
 			(xy 356.87 68.58) (xy 356.87 69.85)
 		)
 		(stroke
@@ -5700,6 +5700,16 @@
 			(type default)
 		)
 		(uuid "49580e5b-565a-43e4-b50c-be23f09d0747")
+	)
+	(wire
+		(pts
+			(xy 97.79 185.42) (xy 97.79 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa7ef0e-bdfa-4f31-8c42-ba3ad923ddc5")
 	)
 	(wire
 		(pts
@@ -5963,7 +5973,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 209.55) (xy 110.49 209.55)
+			(xy 106.68 219.71) (xy 110.49 219.71)
 		)
 		(stroke
 			(width 0)
@@ -6043,7 +6053,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 200.66) (xy 72.39 200.66)
+			(xy 66.04 210.82) (xy 72.39 210.82)
 		)
 		(stroke
 			(width 0)
@@ -6053,7 +6063,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 200.66) (xy 133.35 203.2)
+			(xy 133.35 210.82) (xy 133.35 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6153,7 +6163,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 196.85) (xy 97.79 200.66)
+			(xy 97.79 207.01) (xy 97.79 210.82)
 		)
 		(stroke
 			(width 0)
@@ -6183,7 +6193,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 209.55) (xy 120.65 209.55)
+			(xy 118.11 219.71) (xy 120.65 219.71)
 		)
 		(stroke
 			(width 0)
@@ -6303,7 +6313,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 220.98) (xy 106.68 223.52)
+			(xy 106.68 231.14) (xy 106.68 233.68)
 		)
 		(stroke
 			(width 0)
@@ -6583,7 +6593,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 203.2) (xy 185.42 203.2)
+			(xy 133.35 213.36) (xy 185.42 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6613,7 +6623,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 200.66) (xy 133.35 200.66)
+			(xy 128.27 210.82) (xy 133.35 210.82)
 		)
 		(stroke
 			(width 0)
@@ -6690,16 +6700,6 @@
 			(type default)
 		)
 		(uuid "8ad5caf9-567e-4924-b427-a8c306c64a94")
-	)
-	(wire
-		(pts
-			(xy 97.79 185.42) (xy 97.79 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c6c1db8-44f1-43c9-a52b-7fec1c56745d")
 	)
 	(wire
 		(pts
@@ -6803,7 +6803,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 200.66) (xy 97.79 200.66)
+			(xy 93.98 210.82) (xy 97.79 210.82)
 		)
 		(stroke
 			(width 0)
@@ -6883,6 +6883,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 196.85) (xy 97.79 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97c78798-3f9a-4d2a-8420-24ff1ff52fda")
+	)
+	(wire
+		(pts
 			(xy 309.88 74.93) (xy 309.88 73.66)
 		)
 		(stroke
@@ -6953,7 +6963,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 209.55) (xy 133.35 209.55)
+			(xy 128.27 219.71) (xy 133.35 219.71)
 		)
 		(stroke
 			(width 0)
@@ -6963,7 +6973,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 207.01) (xy 190.5 207.01)
+			(xy 133.35 217.17) (xy 190.5 217.17)
 		)
 		(stroke
 			(width 0)
@@ -6993,7 +7003,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 200.66) (xy 120.65 200.66)
+			(xy 118.11 210.82) (xy 120.65 210.82)
 		)
 		(stroke
 			(width 0)
@@ -7073,7 +7083,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 185.42) (xy 114.3 185.42)
+			(xy 109.22 196.85) (xy 109.22 201.93)
 		)
 		(stroke
 			(width 0)
@@ -7113,7 +7123,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 185.42) (xy 101.6 185.42)
+			(xy 92.71 185.42) (xy 97.79 185.42)
 		)
 		(stroke
 			(width 0)
@@ -7433,7 +7443,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 200.66) (xy 97.79 213.36)
+			(xy 97.79 210.82) (xy 97.79 223.52)
 		)
 		(stroke
 			(width 0)
@@ -7993,7 +8003,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 200.66) (xy 86.36 200.66)
+			(xy 80.01 210.82) (xy 86.36 210.82)
 		)
 		(stroke
 			(width 0)
@@ -8053,6 +8063,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 185.42) (xy 109.22 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb12c5c7-42e2-4db5-968f-bbbcd90f7bce")
+	)
+	(wire
+		(pts
 			(xy 69.85 101.6) (xy 69.85 102.87)
 		)
 		(stroke
@@ -8073,7 +8093,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 179.07) (xy 190.5 207.01)
+			(xy 190.5 179.07) (xy 190.5 217.17)
 		)
 		(stroke
 			(width 0)
@@ -8213,7 +8233,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 220.98) (xy 97.79 223.52)
+			(xy 97.79 231.14) (xy 97.79 233.68)
 		)
 		(stroke
 			(width 0)
@@ -8987,7 +9007,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 105.41 185.42 90)
+		(at 109.22 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8997,7 +9017,7 @@
 		(dnp yes)
 		(uuid "093a04ba-16de-449a-8802-2ee6816f6645")
 		(property "Reference" "C46"
-			(at 102.362 187.198 90)
+			(at 111.506 190.754 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9007,7 +9027,7 @@
 			)
 		)
 		(property "Value" "15pF"
-			(at 109.474 187.198 90)
+			(at 111.76 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9017,7 +9037,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 109.22 184.4548 0)
+			(at 110.1852 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9028,7 +9048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 185.42 0)
+			(at 109.22 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9039,7 +9059,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 105.41 185.42 0)
+			(at 109.22 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9050,7 +9070,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 105.41 185.42 0)
+			(at 109.22 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9061,7 +9081,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 105.41 185.42 0)
+			(at 109.22 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9072,7 +9092,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 105.41 185.42 0)
+			(at 109.22 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9083,7 +9103,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 105.41 185.42 0)
+			(at 109.22 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9094,7 +9114,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 105.41 185.42 0)
+			(at 109.22 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9523,7 +9543,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-20%"
+		(property "Tolerance" "+/-10%"
 			(at 74.93 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10621,7 +10641,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 106.68 217.17 0)
+		(at 106.68 227.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10631,7 +10651,7 @@
 		(dnp no)
 		(uuid "2383f7d9-9cc8-4b41-8e78-a895e78b4bfe")
 		(property "Reference" "R30"
-			(at 108.204 216.408 0)
+			(at 108.204 226.568 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10641,8 +10661,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
-			(at 108.204 218.44 0)
+		(property "Value" "36"
+			(at 108.204 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10653,7 +10673,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 104.902 217.17 90)
+			(at 104.902 227.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10664,7 +10684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 217.17 0)
+			(at 106.68 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10675,7 +10695,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 106.68 217.17 0)
+			(at 106.68 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10685,8 +10705,8 @@
 				)
 			)
 		)
-		(property "MPN" "RG1005P-680-B-T5"
-			(at 106.68 217.17 0)
+		(property "MPN" "RG1005P-360-B-T5"
+			(at 106.68 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10697,7 +10717,7 @@
 			)
 		)
 		(property "Manufacturer" "Susumu"
-			(at 106.68 217.17 0)
+			(at 106.68 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10707,8 +10727,8 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-5%"
-			(at 106.68 217.17 0)
+		(property "Tolerance" "+/-0.1%"
+			(at 106.68 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11112,7 +11132,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-1%"
+		(property "Tolerance" "+/-0.1%"
 			(at 269.24 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -11651,7 +11671,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 124.46 200.66 90)
+		(at 124.46 210.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11661,7 +11681,7 @@
 		(dnp no)
 		(uuid "39f4331d-027c-4a5d-a06a-e0f4d4ae077f")
 		(property "Reference" "C48"
-			(at 121.412 202.438 90)
+			(at 121.412 212.598 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11671,7 +11691,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 128.524 202.438 90)
+			(at 128.524 212.598 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11681,7 +11701,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 128.27 199.6948 0)
+			(at 128.27 209.8548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11692,7 +11712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 200.66 0)
+			(at 124.46 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11703,7 +11723,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 124.46 200.66 0)
+			(at 124.46 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11714,7 +11734,7 @@
 			)
 		)
 		(property "MPN" "GRM155R71H104KE14D"
-			(at 124.46 200.66 0)
+			(at 124.46 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11725,7 +11745,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 124.46 200.66 0)
+			(at 124.46 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11736,7 +11756,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 124.46 200.66 0)
+			(at 124.46 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11747,7 +11767,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 124.46 200.66 0)
+			(at 124.46 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11758,7 +11778,7 @@
 			)
 		)
 		(property "Tolerance" "+/-10%"
-			(at 124.46 200.66 0)
+			(at 124.46 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12113,7 +12133,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 124.46 209.55 90)
+		(at 124.46 219.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12123,7 +12143,7 @@
 		(dnp no)
 		(uuid "43a6f7e9-9559-44db-9ffa-01f5e4bf15b8")
 		(property "Reference" "C49"
-			(at 121.412 211.328 90)
+			(at 121.412 221.488 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12133,7 +12153,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 128.524 211.328 90)
+			(at 128.524 221.488 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12143,7 +12163,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 128.27 208.5848 0)
+			(at 128.27 218.7448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12154,7 +12174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 209.55 0)
+			(at 124.46 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12165,7 +12185,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 124.46 209.55 0)
+			(at 124.46 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12176,7 +12196,7 @@
 			)
 		)
 		(property "MPN" "GRM155R71H104KE14D"
-			(at 124.46 209.55 0)
+			(at 124.46 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12187,7 +12207,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 124.46 209.55 0)
+			(at 124.46 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12198,7 +12218,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 124.46 209.55 0)
+			(at 124.46 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12209,7 +12229,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 124.46 209.55 0)
+			(at 124.46 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12220,7 +12240,7 @@
 			)
 		)
 		(property "Tolerance" "+/-10%"
-			(at 124.46 209.55 0)
+			(at 124.46 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12247,7 +12267,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 223.52 0)
+		(at 106.68 233.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12258,7 +12278,7 @@
 		(fields_autoplaced yes)
 		(uuid "45288229-1904-416c-a4d4-eff1cc926f70")
 		(property "Reference" "#PWR046"
-			(at 106.68 229.87 0)
+			(at 106.68 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12269,7 +12289,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 228.6 0)
+			(at 106.68 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12279,7 +12299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 223.52 0)
+			(at 106.68 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12290,7 +12310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 223.52 0)
+			(at 106.68 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12301,7 +12321,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 223.52 0)
+			(at 106.68 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12325,7 +12345,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 60.96 200.66 180)
+		(at 60.96 210.82 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12334,8 +12354,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "453b6068-407f-4a0a-bf0e-1c4b88cf3694")
-		(property "Reference" "EXT_OSC_IN1"
-			(at 57.912 200.66 0)
+		(property "Reference" "EXT_REF_IN1"
+			(at 57.912 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12345,8 +12365,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OSCinP"
-			(at 57.404 201.422 0)
+		(property "Value" "EXT_REF_IN"
+			(at 57.404 211.582 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12358,7 +12378,7 @@
 			)
 		)
 		(property "Footprint" "Snapeda:J_Wurth_WR-SMA_60312202114513"
-			(at 60.96 200.66 0)
+			(at 60.96 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12369,7 +12389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 200.66 0)
+			(at 60.96 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12380,7 +12400,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 60.96 200.66 0)
+			(at 60.96 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12391,7 +12411,7 @@
 			)
 		)
 		(property "MPN" "60312202114513"
-			(at 60.96 200.66 0)
+			(at 60.96 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12402,7 +12422,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 60.96 200.66 0)
+			(at 60.96 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12421,7 +12441,7 @@
 		(instances
 			(project "LO_PCB"
 				(path "/820b88fc-e97a-437b-924c-526a252f36ed"
-					(reference "EXT_OSC_IN1")
+					(reference "EXT_REF_IN1")
 					(unit 1)
 				)
 			)
@@ -12515,7 +12535,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-1%"
+		(property "Tolerance" "+/-0.1%"
 			(at 256.54 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12707,6 +12727,17 @@
 				)
 			)
 		)
+		(property "Tolerance" "+/-0.1%"
+			(at 355.6 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "60916001-82ee-454d-9db7-0e64239e3ade")
 		)
@@ -12810,7 +12841,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-5%"
+		(property "Tolerance" "+/-1%"
 			(at 106.68 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13214,7 +13245,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-5%"
+		(property "Tolerance" "+/-1%"
 			(at 256.54 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -13823,7 +13854,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-20%"
+		(property "Tolerance" "+/-10%"
 			(at 161.29 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -13959,7 +13990,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-20%"
+		(property "Tolerance" "+/-10%"
 			(at 95.25 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -14063,6 +14094,17 @@
 			)
 		)
 		(property "Manufacturer" "Susumu"
+			(at 347.98 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "+/-0.1%"
 			(at 347.98 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -14583,6 +14625,17 @@
 				)
 			)
 		)
+		(property "Tolerance" "+/-0.1%"
+			(at 347.98 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a19104df-695e-4e48-83db-b7b4e052a420")
 		)
@@ -14800,6 +14853,17 @@
 				)
 			)
 		)
+		(property "Tolerance" "+/-0.1%"
+			(at 355.6 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d8afae89-1e82-49ff-908c-f18a5ccae35d")
 		)
@@ -14817,7 +14881,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 97.79 217.17 0)
+		(at 97.79 227.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14827,7 +14891,7 @@
 		(dnp no)
 		(uuid "68f8a41b-e60c-4e0e-bc19-a46115268496")
 		(property "Reference" "R29"
-			(at 99.314 216.408 0)
+			(at 99.314 226.568 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14837,8 +14901,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
-			(at 99.314 218.44 0)
+		(property "Value" "56"
+			(at 99.314 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14849,7 +14913,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 96.012 217.17 90)
+			(at 96.012 227.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14860,7 +14924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 217.17 0)
+			(at 97.79 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14871,7 +14935,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97.79 217.17 0)
+			(at 97.79 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14881,8 +14945,8 @@
 				)
 			)
 		)
-		(property "MPN" "RG1005P-680-B-T5"
-			(at 97.79 217.17 0)
+		(property "MPN" "RG1005P-560-B-T5"
+			(at 97.79 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14893,7 +14957,7 @@
 			)
 		)
 		(property "Manufacturer" "Susumu"
-			(at 97.79 217.17 0)
+			(at 97.79 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14903,8 +14967,8 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-5%"
-			(at 97.79 217.17 0)
+		(property "Tolerance" "+/-0.1%"
+			(at 97.79 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14993,7 +15057,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM188R71C105KA12D"
 			(at 124.46 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -15004,7 +15068,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 124.46 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -15015,7 +15079,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" "X7R"
 			(at 124.46 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -15026,7 +15090,7 @@
 				)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "16V"
 			(at 124.46 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -15037,7 +15101,7 @@
 				)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "+/-10%"
 			(at 124.46 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -15546,7 +15610,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-20%"
+		(property "Tolerance" "+/-10%"
 			(at 95.25 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -15942,7 +16006,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 223.52 0)
+		(at 97.79 233.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15953,7 +16017,7 @@
 		(fields_autoplaced yes)
 		(uuid "787b85e2-0987-46ad-9689-24e11ead89e1")
 		(property "Reference" "#PWR045"
-			(at 97.79 229.87 0)
+			(at 97.79 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15964,7 +16028,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 228.6 0)
+			(at 97.79 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15974,7 +16038,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 223.52 0)
+			(at 97.79 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15985,7 +16049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 223.52 0)
+			(at 97.79 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15996,7 +16060,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 223.52 0)
+			(at 97.79 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16882,7 +16946,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-20%"
+		(property "Tolerance" "+/-10%"
 			(at 160.02 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -17345,7 +17409,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-20%"
+		(property "Tolerance" "+/-10%"
 			(at 92.71 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -17479,7 +17543,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-20%"
+		(property "Tolerance" "+/-10%"
 			(at 172.72 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -17671,7 +17735,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-1%"
+		(property "Tolerance" "+/-0.1%"
 			(at 261.62 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -17982,7 +18046,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 76.2 200.66 90)
+		(at 76.2 210.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17992,7 +18056,7 @@
 		(dnp no)
 		(uuid "9a4df181-391d-4fa6-ae49-45f302a57ca9")
 		(property "Reference" "C47"
-			(at 73.152 202.438 90)
+			(at 73.152 212.598 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18002,7 +18066,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 80.264 202.438 90)
+			(at 80.264 212.598 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18012,7 +18076,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 80.01 199.6948 0)
+			(at 80.01 209.8548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18023,7 +18087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 200.66 0)
+			(at 76.2 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18034,7 +18098,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 76.2 200.66 0)
+			(at 76.2 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18045,7 +18109,7 @@
 			)
 		)
 		(property "MPN" "GRM155R71H104KE14D"
-			(at 76.2 200.66 0)
+			(at 76.2 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18056,7 +18120,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 76.2 200.66 0)
+			(at 76.2 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18067,7 +18131,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 76.2 200.66 0)
+			(at 76.2 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18078,7 +18142,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 76.2 200.66 0)
+			(at 76.2 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18089,7 +18153,7 @@
 			)
 		)
 		(property "Tolerance" "+/-10%"
-			(at 76.2 200.66 0)
+			(at 76.2 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18569,7 +18633,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 90.17 200.66 90)
+		(at 90.17 210.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18579,7 +18643,7 @@
 		(dnp no)
 		(uuid "9dc483f7-64e0-4490-a35b-3e90e515127b")
 		(property "Reference" "R24"
-			(at 91.948 198.374 90)
+			(at 91.948 208.534 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18590,7 +18654,7 @@
 			)
 		)
 		(property "Value" "18"
-			(at 91.44 203.2 90)
+			(at 91.44 213.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18601,7 +18665,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 90.17 202.438 90)
+			(at 90.17 212.598 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18612,7 +18676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 200.66 0)
+			(at 90.17 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18623,7 +18687,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 90.17 200.66 0)
+			(at 90.17 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18634,7 +18698,7 @@
 			)
 		)
 		(property "MPN" "RG1005P-180-B-T5"
-			(at 90.17 200.66 0)
+			(at 90.17 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18645,7 +18709,7 @@
 			)
 		)
 		(property "Manufacturer" "Susumu"
-			(at 90.17 200.66 0)
+			(at 90.17 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18655,8 +18719,8 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-5%"
-			(at 90.17 200.66 0)
+		(property "Tolerance" "+/-0.1%"
+			(at 90.17 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18769,7 +18833,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-1%"
+		(property "Tolerance" "+/-0.1%"
 			(at 274.32 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -19649,7 +19713,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 185.42 90)
+		(at 109.22 201.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19659,7 +19723,7 @@
 		(dnp no)
 		(uuid "b1b80939-e553-453f-b00f-fe46f9a79892")
 		(property "Reference" "#PWR035"
-			(at 120.65 185.42 0)
+			(at 109.22 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19670,7 +19734,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.126 185.42 0)
+			(at 109.22 206.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19681,7 +19745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 185.42 0)
+			(at 109.22 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19692,7 +19756,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 185.42 0)
+			(at 109.22 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19703,7 +19767,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 185.42 0)
+			(at 109.22 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20123,7 +20187,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-1%"
+		(property "Tolerance" "+/-0.1%"
 			(at 140.97 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -20257,7 +20321,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-20%"
+		(property "Tolerance" "+/-10%"
 			(at 161.29 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -20658,7 +20722,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-5%"
+		(property "Tolerance" "+/-1%"
 			(at 224.79 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -21471,7 +21535,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-5%"
+		(property "Tolerance" "+/-1%"
 			(at 62.23 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -21798,7 +21862,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-5%"
+		(property "Tolerance" "+/-1%"
 			(at 67.31 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -22346,7 +22410,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 97.79 193.04 0)
+		(at 97.79 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22356,7 +22420,7 @@
 		(dnp no)
 		(uuid "d1151372-60e9-49c2-aaba-aff0b93d8879")
 		(property "Reference" "R23"
-			(at 99.314 192.278 0)
+			(at 99.314 202.438 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22367,7 +22431,7 @@
 			)
 		)
 		(property "Value" "47"
-			(at 99.314 194.31 0)
+			(at 99.314 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22378,7 +22442,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 96.012 193.04 90)
+			(at 96.012 203.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22389,7 +22453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 193.04 0)
+			(at 97.79 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22400,7 +22464,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97.79 193.04 0)
+			(at 97.79 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22411,7 +22475,7 @@
 			)
 		)
 		(property "MPN" "RG1005P-470-B-T5"
-			(at 97.79 193.04 0)
+			(at 97.79 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22422,7 +22486,7 @@
 			)
 		)
 		(property "Manufacturer" "Susumu"
-			(at 97.79 193.04 0)
+			(at 97.79 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22432,8 +22496,8 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-5%"
-			(at 97.79 193.04 0)
+		(property "Tolerance" "+/-0.1%"
+			(at 97.79 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22892,7 +22956,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-20%"
+		(property "Tolerance" "+/-10%"
 			(at 74.93 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -23006,7 +23070,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-1%"
+		(property "Tolerance" "+/-5%"
 			(at 283.21 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -23311,7 +23375,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM188R71H103KA01D"
 			(at 115.57 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -23322,7 +23386,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 115.57 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -23344,7 +23408,7 @@
 				)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "50V"
 			(at 115.57 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -23355,7 +23419,7 @@
 				)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "+/-10%"
 			(at 115.57 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -23376,6 +23440,140 @@
 			(project "LO_PCB"
 				(path "/820b88fc-e97a-437b-924c-526a252f36ed"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 97.79 193.04 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e09057a7-46c9-4ffa-893c-44ba75e767be")
+		(property "Reference" "C50"
+			(at 100.33 191.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 101.092 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 96.8248 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.79 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 97.79 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 97.79 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 97.79 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 97.79 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "+/-10%"
+			(at 97.79 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5814ef0-cc3b-4f1d-8572-3758d8d693b7")
+		)
+		(pin "2"
+			(uuid "cee22509-6a1e-412b-a83a-5ae74a1bf071")
+		)
+		(instances
+			(project "LO_PCB"
+				(path "/820b88fc-e97a-437b-924c-526a252f36ed"
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -23782,7 +23980,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-20%"
+		(property "Tolerance" "+/-10%"
 			(at 172.72 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -24260,7 +24458,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 200.66 90)
+		(at 114.3 210.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24270,7 +24468,7 @@
 		(dnp no)
 		(uuid "f787db7a-1115-4882-ba86-ef4e84a7728b")
 		(property "Reference" "R25"
-			(at 115.57 198.374 90)
+			(at 115.57 208.534 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24281,7 +24479,7 @@
 			)
 		)
 		(property "Value" "18"
-			(at 115.57 203.2 90)
+			(at 115.57 213.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24292,7 +24490,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 114.3 202.438 90)
+			(at 114.3 212.598 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24303,7 +24501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 200.66 0)
+			(at 114.3 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24314,7 +24512,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 114.3 200.66 0)
+			(at 114.3 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24325,7 +24523,7 @@
 			)
 		)
 		(property "MPN" "RG1005P-180-B-T5"
-			(at 114.3 200.66 0)
+			(at 114.3 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24336,7 +24534,7 @@
 			)
 		)
 		(property "Manufacturer" "Susumu"
-			(at 114.3 200.66 0)
+			(at 114.3 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24346,8 +24544,8 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-5%"
-			(at 114.3 200.66 0)
+		(property "Tolerance" "+/-0.1%"
+			(at 114.3 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24589,7 +24787,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 195.58 180)
+		(at 60.96 205.74 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24599,7 +24797,7 @@
 		(dnp no)
 		(uuid "f8d21181-2c7f-4bb2-8ebb-70330e235605")
 		(property "Reference" "#PWR037"
-			(at 60.96 189.23 0)
+			(at 60.96 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24610,7 +24808,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 192.024 0)
+			(at 60.96 202.184 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24621,7 +24819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 195.58 0)
+			(at 60.96 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24632,7 +24830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 195.58 0)
+			(at 60.96 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24643,7 +24841,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 195.58 0)
+			(at 60.96 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24942,7 +25140,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 114.3 209.55 90)
+		(at 114.3 219.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24952,7 +25150,7 @@
 		(dnp no)
 		(uuid "fc007858-2965-47cf-925a-2f5e95374e9a")
 		(property "Reference" "R27"
-			(at 115.57 207.264 90)
+			(at 115.57 217.424 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24963,7 +25161,7 @@
 			)
 		)
 		(property "Value" "18"
-			(at 115.57 212.09 90)
+			(at 115.57 222.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24974,7 +25172,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 114.3 211.328 90)
+			(at 114.3 221.488 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24985,7 +25183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 209.55 0)
+			(at 114.3 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24996,7 +25194,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 114.3 209.55 0)
+			(at 114.3 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25007,7 +25205,7 @@
 			)
 		)
 		(property "MPN" "RG1005P-180-B-T5"
-			(at 114.3 209.55 0)
+			(at 114.3 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25018,7 +25216,7 @@
 			)
 		)
 		(property "Manufacturer" "Susumu"
-			(at 114.3 209.55 0)
+			(at 114.3 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25028,8 +25226,8 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-5%"
-			(at 114.3 209.55 0)
+		(property "Tolerance" "+/-0.1%"
+			(at 114.3 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25355,7 +25553,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-1%"
+		(property "Tolerance" "+/-0.1%"
 			(at 140.97 66.04 0)
 			(hide yes)
 			(show_name no)
