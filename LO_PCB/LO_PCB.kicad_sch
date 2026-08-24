@@ -9069,7 +9069,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "GRM1555C1H150JA01D"
 			(at 109.22 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9080,7 +9080,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata"
 			(at 109.22 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9091,7 +9091,7 @@
 				)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "C0G/NP0"
 			(at 109.22 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9102,7 +9102,7 @@
 				)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "50V"
 			(at 109.22 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9113,7 +9113,7 @@
 				)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "+/-5%"
 			(at 109.22 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -10661,7 +10661,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "36"
+		(property "Value" "49.9"
 			(at 108.204 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10705,7 +10705,7 @@
 				)
 			)
 		)
-		(property "MPN" "ESR01MZPF36R0"
+		(property "MPN" "RG1005P-49R9-B-T5"
 			(at 106.68 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -10716,7 +10716,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Rohm"
+		(property "Manufacturer" "Susumu"
 			(at 106.68 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -10727,7 +10727,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-1%"
+		(property "Tolerance" "+/-0.1%"
 			(at 106.68 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -14901,7 +14901,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56"
+		(property "Value" "82"
 			(at 99.314 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14945,7 +14945,7 @@
 				)
 			)
 		)
-		(property "MPN" "RG1005P-560-B-T5"
+		(property "MPN" "RG1005P-820-B-T5"
 			(at 97.79 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -18653,7 +18653,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18"
+		(property "Value" "68"
 			(at 91.44 213.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18697,7 +18697,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0718RL"
+		(property "MPN" "RC0402FR-0768RL"
 			(at 90.17 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -22452,7 +22452,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "62"
 			(at 99.314 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22496,7 +22496,7 @@
 				)
 			)
 		)
-		(property "MPN" "RG1005P-470-B-T5"
+		(property "MPN" "RG1005P-620-B-T5"
 			(at 97.79 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -24500,7 +24500,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18"
+		(property "Value" "0"
 			(at 115.57 213.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24544,7 +24544,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0718RL"
+		(property "MPN" "RC0402JR-070RL"
 			(at 114.3 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -24566,7 +24566,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-1%"
+		(property "Tolerance" "jumper, <0.05R"
 			(at 114.3 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -25182,7 +25182,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18"
+		(property "Value" "0"
 			(at 115.57 222.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25226,7 +25226,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0718RL"
+		(property "MPN" "RC0402JR-070RL"
 			(at 114.3 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -25248,7 +25248,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-1%"
+		(property "Tolerance" "jumper, <0.05R"
 			(at 114.3 219.71 0)
 			(hide yes)
 			(show_name no)
