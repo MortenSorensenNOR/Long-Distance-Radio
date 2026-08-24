@@ -729,7 +729,7 @@
         "uuid": "820b88fc-e97a-437b-924c-526a252f36ed"
       }
     ],
-    "used_designators": "R1-37,LO_OUT_A1,J1-6,EXT_REF_IN1,#FLG1-22,U1-7,Q1,H1-4,XTAL1,X1,LO_OUT_B1,EXT_OSC_IN1,OSCIn1,#PWR1-64,L1-8,C1-64",
+    "used_designators": "Q1,U1-7,#FLG1-22,XTAL1,H1-4,OSCIn1,EXT_OSC_IN1,X1,LO_OUT_B1,C1-64,L1-8,#PWR1-64,R1-37,LO_OUT_A1,J1-6,EXT_REF_IN1",
     "variants": []
   },
   "sheets": [
