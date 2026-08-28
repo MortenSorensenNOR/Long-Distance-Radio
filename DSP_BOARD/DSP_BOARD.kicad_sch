@@ -1,0 +1,198 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d0a47c1b-0993-4eef-849f-6ae6ee99c242")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 134.62 102.235)
+		(size 42.545 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "33c5f239-cbbb-4854-a957-9446260097c3")
+		(property "Sheetname" "DAC"
+			(at 134.62 101.5234 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dac.kicad_sch"
+			(at 134.62 129.4896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DSP_BOARD"
+				(path "/d0a47c1b-0993-4eef-849f-6ae6ee99c242"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.215 104.775)
+		(size 42.545 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b734700c-e747-48ba-a82f-bbdd28ecb4fa")
+		(property "Sheetname" "Interconnects"
+			(at 69.215 104.0634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "interconnects.kicad_sch"
+			(at 69.215 130.7596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DSP_BOARD"
+				(path "/d0a47c1b-0993-4eef-849f-6ae6ee99c242"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.215 68.58)
+		(size 42.545 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d321e20d-ee46-42f8-a298-9fe34aba6db0")
+		(property "Sheetname" "Power"
+			(at 69.215 67.8684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 69.215 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DSP_BOARD"
+				(path "/d0a47c1b-0993-4eef-849f-6ae6ee99c242"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 67.945)
+		(size 42.545 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dbb6d9a3-f90a-40c8-acce-2bac393a8378")
+		(property "Sheetname" "ADC"
+			(at 134.62 67.2334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 134.62 95.1996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DSP_BOARD"
+				(path "/d0a47c1b-0993-4eef-849f-6ae6ee99c242"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
