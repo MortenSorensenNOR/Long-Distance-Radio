@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -615,7 +615,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 2,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -648,7 +648,7 @@
         "uuid": "d0a47c1b-0993-4eef-849f-6ae6ee99c242"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "#PWR1-5,U1-2",
     "variants": []
   },
   "sheets": [
@@ -670,7 +670,15 @@
     ],
     [
       "b734700c-e747-48ba-a82f-bbdd28ecb4fa",
-      "Interconnects"
+      "IO"
+    ],
+    [
+      "d31f974f-62ae-4727-92fe-13fbeb32b083",
+      "DRAM"
+    ],
+    [
+      "0c1f9467-1006-4d1a-b0b3-6e87d4f713ff",
+      "FPGA"
     ]
   ],
   "text_variables": {},

@@ -6,7 +6,53 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 134.62 102.235)
+		(at 140.335 67.31)
+		(size 41.91 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0c1f9467-1006-4d1a-b0b3-6e87d4f713ff")
+		(property "Sheetname" "FPGA"
+			(at 140.335 66.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga.kicad_sch"
+			(at 140.335 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DSP_BOARD"
+				(path "/d0a47c1b-0993-4eef-849f-6ae6ee99c242"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 67.31)
 		(size 42.545 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +68,7 @@
 		)
 		(uuid "33c5f239-cbbb-4854-a957-9446260097c3")
 		(property "Sheetname" "DAC"
-			(at 134.62 101.5234 0)
+			(at 87.63 66.5984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "dac.kicad_sch"
-			(at 134.62 129.4896 0)
+			(at 87.63 94.5646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,7 +98,7 @@
 		)
 	)
 	(sheet
-		(at 69.215 104.775)
+		(at 31.75 69.215)
 		(size 42.545 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -67,8 +113,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "b734700c-e747-48ba-a82f-bbdd28ecb4fa")
-		(property "Sheetname" "Interconnects"
-			(at 69.215 104.0634 0)
+		(property "Sheetname" "IO"
+			(at 31.75 68.5034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -78,8 +124,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "interconnects.kicad_sch"
-			(at 69.215 130.7596 0)
+		(property "Sheetfile" "io.kicad_sch"
+			(at 31.75 95.1996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,7 +144,53 @@
 		)
 	)
 	(sheet
-		(at 69.215 68.58)
+		(at 140.335 33.02)
+		(size 41.91 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d31f974f-62ae-4727-92fe-13fbeb32b083")
+		(property "Sheetname" "DRAM"
+			(at 140.335 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dram.kicad_sch"
+			(at 140.335 60.2746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DSP_BOARD"
+				(path "/d0a47c1b-0993-4eef-849f-6ae6ee99c242"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 33.02)
 		(size 42.545 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +206,7 @@
 		)
 		(uuid "d321e20d-ee46-42f8-a298-9fe34aba6db0")
 		(property "Sheetname" "Power"
-			(at 69.215 67.8684 0)
+			(at 31.75 32.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 69.215 94.5646 0)
+			(at 31.75 59.0046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -144,7 +236,7 @@
 		)
 	)
 	(sheet
-		(at 134.62 67.945)
+		(at 87.63 33.02)
 		(size 42.545 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -160,7 +252,7 @@
 		)
 		(uuid "dbb6d9a3-f90a-40c8-acce-2bac393a8378")
 		(property "Sheetname" "ADC"
-			(at 134.62 67.2334 0)
+			(at 87.63 32.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +263,7 @@
 			)
 		)
 		(property "Sheetfile" "adc.kicad_sch"
-			(at 134.62 95.1996 0)
+			(at 87.63 60.2746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
