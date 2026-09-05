@@ -11690,7 +11690,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1nF"
 			(at 128.524 212.598 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11733,7 +11733,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GRM1555C1H102JA01D"
 			(at 124.46 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -11755,7 +11755,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "C0G/NP0"
 			(at 124.46 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -11766,7 +11766,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 124.46 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -11777,7 +11777,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-10%"
+		(property "Tolerance" "+/-5%"
 			(at 124.46 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -12152,7 +12152,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1nF"
 			(at 128.524 221.488 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12195,7 +12195,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GRM1555C1H102JA01D"
 			(at 124.46 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -12217,7 +12217,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "C0G/NP0"
 			(at 124.46 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -12228,7 +12228,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 124.46 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -12239,7 +12239,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-10%"
+		(property "Tolerance" "+/-5%"
 			(at 124.46 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -12762,7 +12762,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4a903d72-bb2a-4938-b293-3340d9758edb")
 		(property "Reference" "R21"
 			(at 108.458 163.83 0)
@@ -14901,7 +14901,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "82"
+		(property "Value" "68"
 			(at 99.314 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14945,7 +14945,7 @@
 				)
 			)
 		)
-		(property "MPN" "RG1005P-820-B-T5"
+		(property "MPN" "RC0402FR-0768RL"
 			(at 97.79 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -14956,7 +14956,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Susumu"
+		(property "Manufacturer" "Yageo"
 			(at 97.79 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -14967,7 +14967,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-0.1%"
+		(property "Tolerance" "+/-1%"
 			(at 97.79 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -15002,7 +15002,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "699a5443-ec05-4287-9c80-9f48db930097")
 		(property "Reference" "C45"
 			(at 127.254 171.958 0)
@@ -15802,7 +15802,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "75aa1710-a816-41ef-9ea1-a36c1c8ef8b5")
 		(property "Reference" "C43"
 			(at 109.474 171.958 0)
@@ -18065,7 +18065,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1nF"
 			(at 80.264 212.598 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18108,7 +18108,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GRM1555C1H102JA01D"
 			(at 76.2 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -18130,7 +18130,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "C0G/NP0"
 			(at 76.2 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -18141,7 +18141,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 76.2 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -18152,7 +18152,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-10%"
+		(property "Tolerance" "+/-5%"
 			(at 76.2 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -18653,7 +18653,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "18"
 			(at 91.44 213.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18697,7 +18697,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0768RL"
+		(property "MPN" "RC0402FR-0718RL"
 			(at 90.17 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -20005,7 +20005,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b4e8d9df-882d-4386-b3c3-b4340c67560b")
 		(property "Reference" "X1"
 			(at 74.93 166.624 0)
@@ -21478,7 +21478,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c33e2ece-f337-4f7e-891e-4456d760603f")
 		(property "Reference" "R22"
 			(at 64.008 172.72 0)
@@ -22439,7 +22439,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d1151372-60e9-49c2-aaba-aff0b93d8879")
 		(property "Reference" "R23"
 			(at 99.314 202.438 0)
@@ -23342,7 +23342,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "defba8ad-ac42-43c2-9722-08d2607da87b")
 		(property "Reference" "C44"
 			(at 118.364 171.958 0)
@@ -23476,7 +23476,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e09057a7-46c9-4ffa-893c-44ba75e767be")
 		(property "Reference" "C50"
 			(at 100.33 191.008 0)
@@ -24500,7 +24500,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "18"
 			(at 115.57 213.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24544,7 +24544,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402JR-070RL"
+		(property "MPN" "RC0402FR-0718RL"
 			(at 114.3 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -24566,7 +24566,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "jumper, <0.05R"
+		(property "Tolerance" "+/-1%"
 			(at 114.3 210.82 0)
 			(hide yes)
 			(show_name no)
