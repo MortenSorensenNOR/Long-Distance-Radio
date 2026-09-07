@@ -1223,7 +1223,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Snapeda:LMX2582RHAR"
+		(symbol "Snapeda:LMX2592RHAR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1242,7 +1242,7 @@
 					)
 				)
 			)
-			(property "Value" "LMX2582RHAR"
+			(property "Value" "LMX2592RHAR"
 				(at 30.48 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1263,7 +1263,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/lmx2582"
+			(property "Datasheet" "https://www.ti.com/lit/gpn/lmx2592"
 				(at 30.48 7.62 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -1295,7 +1295,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "LMX2582RHAR"
+			(property "ki_keywords" "LMX2592RHAR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1317,7 +1317,7 @@
 					)
 				)
 			)
-			(symbol "LMX2582RHAR_0_1"
+			(symbol "LMX2592RHAR_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -60.96)
@@ -11690,7 +11690,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "10nF"
 			(at 128.524 212.598 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11733,7 +11733,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H102JA01D"
+		(property "MPN" "GRM155R71H103KA88D"
 			(at 124.46 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -11755,7 +11755,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "C0G/NP0"
+		(property "Dielectric" "X7R"
 			(at 124.46 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -11777,7 +11777,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-5%"
+		(property "Tolerance" "+/-10%"
 			(at 124.46 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -12152,7 +12152,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "10nF"
 			(at 128.524 221.488 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12195,7 +12195,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H102JA01D"
+		(property "MPN" "GRM155R71H103KA88D"
 			(at 124.46 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -12217,7 +12217,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "C0G/NP0"
+		(property "Dielectric" "X7R"
 			(at 124.46 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -12239,7 +12239,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-5%"
+		(property "Tolerance" "+/-10%"
 			(at 124.46 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -18065,7 +18065,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "10nF"
 			(at 80.264 212.598 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18108,7 +18108,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H102JA01D"
+		(property "MPN" "GRM155R71H103KA88D"
 			(at 76.2 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -18130,7 +18130,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "C0G/NP0"
+		(property "Dielectric" "X7R"
 			(at 76.2 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -18152,7 +18152,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "+/-5%"
+		(property "Tolerance" "+/-10%"
 			(at 76.2 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -18335,7 +18335,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Snapeda:LMX2582RHAR")
+		(lib_id "Snapeda:LMX2592RHAR")
 		(at 190.5 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -18355,7 +18355,7 @@
 				)
 			)
 		)
-		(property "Value" "LMX2582RHAR"
+		(property "Value" "LMX2592RHAR"
 			(at 220.98 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18376,7 +18376,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/lmx2582"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/lmx2592"
 			(at 220.98 115.57 0)
 			(hide yes)
 			(show_name yes)
@@ -18398,7 +18398,7 @@
 				)
 			)
 		)
-		(property "MPN" "LMX2582RHAR"
+		(property "MPN" "LMX2592RHAR"
 			(at 190.5 123.19 0)
 			(hide yes)
 			(show_name no)

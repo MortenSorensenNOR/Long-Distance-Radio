@@ -27,7 +27,7 @@ The overall system specs should be something like:
 
 # Parts already chosen:
 - TB612-100.0M TCXO @ 100Mhz with 0.5 ppm stability and excellent phase noise
-- LMX2582 PLL/VCO cip for generating LO, excellent phase noise
+- LMX2592 PLL/VCO cip for generating LO, excellent phase noise (pin-compatible successor to the LMX2582; 20 MHz - 9.8 GHz output covers the 5.7-5.9 GHz band)
 
 # Parts considered
 - FPGA, something like the TZ170J361I2 from efinix

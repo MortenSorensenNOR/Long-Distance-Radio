@@ -77,7 +77,7 @@ The radio should be able to appear as a network adapter on the host. FTDI bridge
 
 ## Control plane
 
-Sapphire RISC-V SoC owns: TX/RX scheduling, LMX2582 SPI config, RF switch control (LNA/PA SPDT), AGC, calibration, PD/housekeeping, host control endpoint.
+Sapphire RISC-V SoC owns: TX/RX scheduling, LMX2592 SPI config, RF switch control (LNA/PA SPDT), AGC, calibration, PD/housekeeping, host control endpoint.
 
 **Full-duplex rule:** the datapath (both DSP chains, both converter interfaces, both stream paths) is built simultaneous-capable from day one. TDD (the 10% duty cycle regime) is purely a *scheduler policy* in the SoC that gates the PA/LNA switches and TX enable. Future FDD = policy change + new RF filtering; no fabric redesign.
 

@@ -10164,7 +10164,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "LMX2582RHAR"
+	(symbol "LMX2592RHAR"
 		(pin_names
 			(offset 0.254)
 		)
@@ -10183,7 +10183,7 @@
 				)
 			)
 		)
-		(property "Value" "LMX2582RHAR"
+		(property "Value" "LMX2592RHAR"
 			(at 30.48 6.35 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10203,7 +10203,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/lmx2582"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/lmx2592"
 			(at 30.48 7.62 0)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10233,7 +10233,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "LMX2582RHAR"
+		(property "ki_keywords" "LMX2592RHAR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10255,7 +10255,7 @@
 				)
 			)
 		)
-		(symbol "LMX2582RHAR_0_1"
+		(symbol "LMX2592RHAR_0_1"
 			(polyline
 				(pts
 					(xy 7.62 5.08) (xy 7.62 -60.96)
