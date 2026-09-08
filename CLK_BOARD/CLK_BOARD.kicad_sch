@@ -983,7 +983,130 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LMK00804BPW_1"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Snapeda:LMK00804BQWRGTRQ1"
 			(pin_names
 				(offset 0.254)
 			)
@@ -992,7 +1115,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U1"
+			(property "Reference" "U"
 				(at 41.91 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1002,7 +1125,7 @@
 					)
 				)
 			)
-			(property "Value" "LMK00804BPW"
+			(property "Value" "LMK00804BQWRGTRQ1"
 				(at 27.178 -24.384 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1012,7 +1135,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Snapeda:PW16_TEX-L"
+			(property "Footprint" "Snapeda:VQFN16_RGT_TEX"
 				(at -0.762 28.702 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -1023,7 +1146,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/lmk00804b"
+			(property "Datasheet" "https://www.ti.com/lit/gpn/lmk00804b-q1"
 				(at -0.762 26.162 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -1055,7 +1178,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "LMK00804BPW"
+			(property "ki_keywords" "LMK00804BQWRGTRQ1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1066,7 +1189,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "PW16_TEX PW16_TEX-M PW16_TEX-L"
+			(property "ki_fp_filters" "VQFN16_RGT_TEX"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1077,7 +1200,7 @@
 					)
 				)
 			)
-			(symbol "LMK00804BPW_1_0_1"
+			(symbol "LMK00804BQWRGTRQ1_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -22.86)
@@ -1127,7 +1250,7 @@
 					)
 				)
 			)
-			(symbol "LMK00804BPW_1_1_1"
+			(symbol "LMK00804BQWRGTRQ1_1_1"
 				(pin power_in line
 					(at 46.99 -12.7 180)
 					(length 3.81)
@@ -1146,10 +1269,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at 3.81 -12.7 0)
 					(length 3.81)
-					(name "OE"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1203,7 +1326,7 @@
 				(pin input line
 					(at 3.81 0 0)
 					(length 3.81)
-					(name "CLK"
+					(name "CLK_P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1221,7 +1344,7 @@
 				(pin input line
 					(at 3.81 -2.54 0)
 					(length 3.81)
-					(name "NCLK"
+					(name "CLK_N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1416,122 +1539,17 @@
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
+				(pin power_in line
+					(at 46.99 -20.32 180)
+					(length 3.81)
+					(name "PAD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3213,6 +3231,12 @@
 		(uuid "b86e75cf-24f4-4865-a772-739f6747a890")
 	)
 	(junction
+		(at 331.47 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba788533-08bb-48c0-9295-f13c78404c04")
+	)
+	(junction
 		(at 106.68 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3229,6 +3253,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce8e8de7-3f2b-421e-913c-0e23ee6ec443")
+	)
+	(junction
+		(at 129.54 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8cd2419-76ab-44c9-b3ac-523e08b0d4f8")
 	)
 	(junction
 		(at 228.6 90.17)
@@ -4268,6 +4298,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 151.13) (xy 331.47 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550cf78a-696f-4056-9e05-cdf7e4f021fa")
+	)
+	(wire
+		(pts
 			(xy 228.6 74.93) (xy 228.6 80.01)
 		)
 		(stroke
@@ -4275,6 +4315,16 @@
 			(type default)
 		)
 		(uuid "5547c52f-eae1-42d4-8e9d-b885c21947a0")
+	)
+	(wire
+		(pts
+			(xy 127 158.75) (xy 129.54 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "554accf4-1825-4de1-9e8f-f9e379e30f5e")
 	)
 	(wire
 		(pts
@@ -15746,8 +15796,7 @@
 		)
 	)
 	(symbol
-		(lib_name "LMK00804BPW_1")
-		(lib_id "Snapeda:LMK00804BPW")
+		(lib_id "Snapeda:LMK00804BQWRGTRQ1")
 		(at 80.01 138.43 0)
 		(unit 1)
 		(body_style 1)
@@ -15768,7 +15817,7 @@
 				)
 			)
 		)
-		(property "Value" "LMK00804BPW"
+		(property "Value" "LMK00804BQWRGTRQ1"
 			(at 107.188 162.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15778,7 +15827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:PW16_TEX-L"
+		(property "Footprint" "Snapeda:VQFN16_RGT_TEX"
 			(at 79.248 109.728 0)
 			(hide yes)
 			(show_name yes)
@@ -15789,7 +15838,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/lmk00804b"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/lmk00804b-q1"
 			(at 79.248 112.268 0)
 			(hide yes)
 			(show_name yes)
@@ -15858,6 +15907,9 @@
 		)
 		(pin "2"
 			(uuid "168765d0-94b8-4754-859b-d052acb671fd")
+		)
+		(pin "17"
+			(uuid "1546f309-04dc-4692-9fe9-2e0394c426fb")
 		)
 		(instances
 			(project "CLK_BOARD"
@@ -17923,8 +17975,7 @@
 		)
 	)
 	(symbol
-		(lib_name "LMK00804BPW_1")
-		(lib_id "Snapeda:LMK00804BPW")
+		(lib_id "Snapeda:LMK00804BQWRGTRQ1")
 		(at 283.21 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -17945,7 +17996,7 @@
 				)
 			)
 		)
-		(property "Value" "LMK00804BPW"
+		(property "Value" "LMK00804BQWRGTRQ1"
 			(at 310.388 155.194 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17955,7 +18006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:PW16_TEX-L"
+		(property "Footprint" "Snapeda:VQFN16_RGT_TEX"
 			(at 282.448 102.108 0)
 			(hide yes)
 			(show_name yes)
@@ -17966,7 +18017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/lmk00804b"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/lmk00804b-q1"
 			(at 282.448 104.648 0)
 			(hide yes)
 			(show_name yes)
@@ -18035,6 +18086,9 @@
 		)
 		(pin "2"
 			(uuid "0d57afaa-735b-4a7a-9fc0-be7086a75d1b")
+		)
+		(pin "17"
+			(uuid "2396cb18-ba21-47cc-9020-dbf4ba50cadf")
 		)
 		(instances
 			(project "CLK_BOARD"
