@@ -1,0 +1,88 @@
+(version 1)
+
+# ---------------------------------------------------------------------------
+# CLK_BOARD custom design rules
+#
+# Fab:      JLCPCB, 4-layer FR-4 TG135, 1.6mm, 1oz outer / 0.5oz inner, ENIG 1u",
+#           black mask / white silk, plugged vias, +/-0.2mm outline tolerance.
+# Stackup:  JLC04161H-7628 (finished 1.59mm +/-10%) - see Board Setup > Physical Stackup.
+# Ordered:  min via hole size/diameter 0.3mm / (0.4/0.45mm).
+#
+# The plain numeric limits (min track, min via, annular ring, silk text, edge
+# clearance, ...) live in Board Setup > Constraints. This file only holds what
+# Constraints cannot express: per-feature-type fab limits and the RF geometry.
+# ---------------------------------------------------------------------------
+
+
+# --- JLCPCB fab limits that need a per-feature-type condition ---------------
+
+# Global hole-to-hole is set to 0.25mm (JLC via-to-via is 0.2mm), but plated
+# component holes need more room between them. Same-net holes may sit closer -
+# that is what lets the MountingHole_*_Pad_Via stitching rings pass.
+(rule "JLC PTH hole to PTH hole - different nets"
+	(condition "A.Pad_Type == 'Through-hole' && B.Pad_Type == 'Through-hole' && A.NetName != B.NetName")
+	(constraint hole_to_hole (min 0.45mm)))
+
+(rule "JLC PTH hole to PTH hole - same net"
+	(condition "A.Pad_Type == 'Through-hole' && B.Pad_Type == 'Through-hole' && A.NetName == B.NetName")
+	(constraint hole_to_hole (min 0.254mm)))
+
+# Global drill-to-copper is 0.25mm (JLC via hole to track is 0.2mm); plated
+# component holes are drilled with a bigger bit and need 0.28mm.
+(rule "JLC PTH hole to track"
+	(condition "A.Pad_Type == 'Through-hole' && A.isPlated() && B.Type == 'Track'")
+	(constraint hole_clearance (min 0.28mm)))
+
+# JLC will not drill an unplated hole below 0.5mm.
+(rule "JLC min NPTH hole size"
+	(condition "A.Pad_Type == 'NPTH, mechanical'")
+	(constraint hole_size (min 0.5mm) (max 6.3mm)))
+
+# Ordered via tier is 0.3mm/(0.4/0.45mm); JLC drills up to 6.3mm.
+(rule "JLC drill size range"
+	(condition "A.Type == 'Via' || A.isPlated()")
+	(constraint hole_size (min 0.3mm) (max 6.3mm)))
+
+# Copper-feature spacing floor for the ordered 1oz outer / 0.5oz inner build.
+(rule "JLC pad/via to pad/via"
+	(condition "(A.Type == 'Pad' || A.Type == 'Via') && (B.Type == 'Pad' || B.Type == 'Via')")
+	(constraint clearance (min 0.127mm)))
+
+# JLC's soldermask dam at 1oz is 0.1mm; anything thinner merges into one opening.
+# That is checked by the built-in "Solder mask" rule (severity: error) with
+# pad-to-mask clearance 0, so no custom rule is needed here.
+
+
+# --- 50 ohm coplanar waveguide, top layer over the In1.Cu ground plane ------
+#
+# From the JLCPCB impedance calculator, stackup JLC04161H-7628, L1 signal
+# referenced to L2: 50 ohm coplanar single-ended (without soldermask) is
+# 0.3345mm wide with a 0.2032mm gap to the surrounding copper pour.
+# The 0.2032mm gap is enforced by the RF netclass clearance, and the GND zone
+# clearance default is set to 0.2032mm so the pour cannot push it wider.
+
+(rule "RF track width"
+	(condition "A.NetClass == 'RF'")
+	(constraint track_width (min 0.3345mm) (max 0.3345mm)))
+
+# RF must reference the solid In1.Cu ground plane, so it stays on F.Cu.
+# Drop this rule if you deliberately route an RF net on B.Cu (which references
+# In2.Cu through the same 0.2104mm prepreg and has the same 0.3345mm width).
+(rule "RF stays on F.Cu"
+	(condition "A.NetClass == 'RF' && A.Type == 'Track' && A.Layer != 'F.Cu'")
+	(constraint disallow track)
+	(severity warning))
+
+# Short escape stubs out of U2/U3 (TSSOP-16, 0.65mm pitch) and U4 (VSSOP-8,
+# 0.5mm pitch) cannot hold 0.3345mm all the way onto the pad. When you hit that
+# while routing, add an ignore-severity copy of the width rule here rather than
+# thinning the whole net - see LO_PCB.kicad_dru for the same situation.
+
+
+# --- Board edge -------------------------------------------------------------
+
+# Samtec SMA-J-P-H-ST-EM1 edge mount: the launch pads sit on the board edge by
+# design, so the 0.3mm copper-to-edge constraint cannot apply to them.
+(rule "SMA end-launch pads may reach the board edge"
+	(condition "A.memberOfFootprint('J2') || A.memberOfFootprint('J3') || A.memberOfFootprint('J4') || A.memberOfFootprint('J5') || A.memberOfFootprint('J6') || A.memberOfFootprint('J7') || A.memberOfFootprint('J8')")
+	(constraint edge_clearance (min -0.01mm)))
