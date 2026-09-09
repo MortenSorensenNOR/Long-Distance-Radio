@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.0,
-          "width": 1.0
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -543,7 +549,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -562,7 +567,6 @@
         "bus_width": 12,
         "clearance": 0.2032,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -846,7 +850,7 @@
         "uuid": "97cbaa23-a2c5-48a5-9db2-b1d0af8706e2"
       }
     ],
-    "used_designators": "#FLG1-6,#FLG16-17,C1-48,TP1,R1-22,R26-28,J1-9,#PWR1-54,U1-4,H1-4,X1",
+    "used_designators": "#FLG1-6,#FLG16-17,R1-22,R26-28,J1-9,C1-48,TP1,#PWR1-54,U1-4,H1-4,X1",
     "variants": []
   },
   "sheets": [

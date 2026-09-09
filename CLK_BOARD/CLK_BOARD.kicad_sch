@@ -472,7 +472,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -492,8 +492,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -524,7 +524,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -557,10 +557,10 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "Conn_01x03_1_1"
 				(rectangle
 					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -594,17 +594,6 @@
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -660,24 +649,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2955,12 +2926,6 @@
 		(uuid "0541f110-38bc-49e8-a05f-b4e13a9cc02e")
 	)
 	(junction
-		(at 363.22 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d25f296-ca70-4750-957f-74ed863f3e59")
-	)
-	(junction
 		(at 184.15 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3339,6 +3304,10 @@
 		(uuid "fcd68ca9-54c4-4b61-8209-46808980ea48")
 	)
 	(no_connect
+		(at 330.2 138.43)
+		(uuid "26674d81-7af3-4ff0-9584-d927bb00da89")
+	)
+	(no_connect
 		(at 83.82 151.13)
 		(uuid "414fb8e9-7fc4-4a17-ac72-e7b7b638721a")
 	)
@@ -3395,16 +3364,6 @@
 			(type default)
 		)
 		(uuid "017257fb-3461-4edc-b4c2-5a277d8dc718")
-	)
-	(wire
-		(pts
-			(xy 363.22 160.02) (xy 363.22 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02098d26-f7e9-4537-b53b-72413e3a04ed")
 	)
 	(wire
 		(pts
@@ -3525,16 +3484,6 @@
 			(type default)
 		)
 		(uuid "0b427504-a56f-4c30-a5c7-87943fe97a94")
-	)
-	(wire
-		(pts
-			(xy 356.87 160.02) (xy 363.22 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bc74f72-b4ae-4026-93b7-da15c6a98fc0")
 	)
 	(wire
 		(pts
@@ -3665,16 +3614,6 @@
 			(type default)
 		)
 		(uuid "16d1fa45-131d-4647-ab46-41fe82e4bc60")
-	)
-	(wire
-		(pts
-			(xy 337.82 160.02) (xy 349.25 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1787d9dd-9c0c-4d0b-a12d-1f6ab557e4c9")
 	)
 	(wire
 		(pts
@@ -3845,16 +3784,6 @@
 			(type default)
 		)
 		(uuid "2b50825e-80b4-450a-b1ca-ee0d0677eec4")
-	)
-	(wire
-		(pts
-			(xy 337.82 138.43) (xy 337.82 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c2309be-aee5-4a9b-939a-3da6dd66ac1c")
 	)
 	(wire
 		(pts
@@ -4528,16 +4457,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 215.9) (xy 219.71 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6972f724-1ff2-4fb8-85f0-c1d78c1b5742")
-	)
-	(wire
-		(pts
 			(xy 363.22 143.51) (xy 363.22 144.78)
 		)
 		(stroke
@@ -4775,16 +4694,6 @@
 			(type default)
 		)
 		(uuid "7fe3cd10-3edf-488f-9933-0d9f92796503")
-	)
-	(wire
-		(pts
-			(xy 363.22 160.02) (xy 369.57 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "805cc9e4-3fe8-4148-88af-01ce9e81028f")
 	)
 	(wire
 		(pts
@@ -5078,16 +4987,6 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 165.1) (xy 384.81 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b2a399b-31df-43ea-b007-e5fd37f08e9d")
-	)
-	(wire
-		(pts
 			(xy 33.02 109.22) (xy 39.37 109.22)
 		)
 		(stroke
@@ -5205,16 +5104,6 @@
 			(type default)
 		)
 		(uuid "a84cd8d4-4fec-4470-8e17-37efa8c3cdd3")
-	)
-	(wire
-		(pts
-			(xy 330.2 138.43) (xy 337.82 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a88015ef-3860-4090-a8ff-512ad110fbf1")
 	)
 	(wire
 		(pts
@@ -5515,16 +5404,6 @@
 			(type default)
 		)
 		(uuid "c5895d06-4fe6-4eda-8fcf-693e8fcbddbb")
-	)
-	(wire
-		(pts
-			(xy 377.19 160.02) (xy 379.73 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5d7b1f6-a409-422a-82fc-1cbc49a5c259")
 	)
 	(wire
 		(pts
@@ -6005,16 +5884,6 @@
 			(type default)
 		)
 		(uuid "f63c3290-2269-45b7-a652-d3aab6274ba6")
-	)
-	(wire
-		(pts
-			(xy 363.22 168.91) (xy 363.22 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f65610d6-d973-4f50-a617-a0849869a20a")
 	)
 	(wire
 		(pts
@@ -7732,85 +7601,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 363.22 165.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "2a78ed8f-846e-4482-8dbc-2342f9bf53f9")
-		(property "Reference" "C31"
-			(at 359.664 165.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10nF"
-			(at 366.776 165.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 364.1852 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 363.22 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9a77fb83-249d-41bb-a556-37f743766ccd")
-		)
-		(pin "1"
-			(uuid "294bc588-0f5f-4581-9579-6e388c82ad4e")
-		)
-		(instances
-			(project "CLK_BOARD"
-				(path "/97cbaa23-a2c5-48a5-9db2-b1d0af8706e2"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 226.06 224.79 0)
 		(unit 1)
@@ -7963,86 +7753,6 @@
 			(project "CLK_BOARD"
 				(path "/97cbaa23-a2c5-48a5-9db2-b1d0af8706e2"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 384.81 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2d91d3b0-75cc-4bd0-a855-a5596b286e5d")
-		(property "Reference" "J5"
-			(at 385.572 163.068 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OUT_50M_4"
-			(at 384.81 156.718 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
-			(at 384.81 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 384.81 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 384.81 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "134b0bd6-f316-4394-a7c5-5566f52ab7d7")
-		)
-		(pin "2"
-			(uuid "1139e71a-3d02-4dba-a891-f306d0f6c8e2")
-		)
-		(instances
-			(project "CLK_BOARD"
-				(path "/97cbaa23-a2c5-48a5-9db2-b1d0af8706e2"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9144,85 +8854,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 384.81 166.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "479ddd50-536a-434d-84f6-a4098e95ff61")
-		(property "Reference" "#PWR033"
-			(at 384.81 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 384.81 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 384.81 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 384.81 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 384.81 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "936d650e-0e63-47f2-aa7c-d0817038c78e")
-		)
-		(instances
-			(project "CLK_BOARD"
-				(path "/97cbaa23-a2c5-48a5-9db2-b1d0af8706e2"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 384.81 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -9883,171 +9514,6 @@
 			(project "CLK_BOARD"
 				(path "/97cbaa23-a2c5-48a5-9db2-b1d0af8706e2"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 213.36 213.36 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53ed3571-519d-4db1-85c0-164da66d29df")
-		(property "Reference" "J9"
-			(at 213.36 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 213.36 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 213.36 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 213.36 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "680c58d9-20f6-4256-88ca-58e87ed51faf")
-		)
-		(pin "2"
-			(uuid "f8538537-7fe9-413a-b5b5-0615754e2deb")
-		)
-		(pin "3"
-			(uuid "4954a7dc-2cb3-4c7f-b8b1-7d2c2f32e4f8")
-		)
-		(pin "4"
-			(uuid "f45331ca-beea-4830-8609-9d2b5be2e890")
-		)
-		(instances
-			(project "CLK_BOARD"
-				(path "/97cbaa23-a2c5-48a5-9db2-b1d0af8706e2"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 219.71 215.9 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54189af8-bc29-4d3c-bbc2-33688fd4da2d")
-		(property "Reference" "#PWR044"
-			(at 226.06 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 224.79 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "67b1e488-120b-44e9-99f8-4de394bd5ca4")
-		)
-		(instances
-			(project "CLK_BOARD"
-				(path "/97cbaa23-a2c5-48a5-9db2-b1d0af8706e2"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -10951,85 +10417,6 @@
 			(project "CLK_BOARD"
 				(path "/97cbaa23-a2c5-48a5-9db2-b1d0af8706e2"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 353.06 160.02 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "698c471d-8a87-4981-87de-a5143c479b92")
-		(property "Reference" "R13"
-			(at 353.06 157.734 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "43"
-			(at 353.06 160.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 353.06 161.798 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 353.06 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e322f418-d857-4e36-b505-52dc9b8f6b82")
-		)
-		(pin "1"
-			(uuid "2310483c-ab53-4525-bde2-a090acb22405")
-		)
-		(instances
-			(project "CLK_BOARD"
-				(path "/97cbaa23-a2c5-48a5-9db2-b1d0af8706e2"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12147,85 +11534,6 @@
 			(project "CLK_BOARD"
 				(path "/97cbaa23-a2c5-48a5-9db2-b1d0af8706e2"
 					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 363.22 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "803d2380-6ffb-46c8-95bc-5c5be72f633a")
-		(property "Reference" "#PWR034"
-			(at 363.22 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 363.22 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 363.22 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 363.22 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "802445c2-c629-4f5b-9399-fb4ec85905fe")
-		)
-		(instances
-			(project "CLK_BOARD"
-				(path "/97cbaa23-a2c5-48a5-9db2-b1d0af8706e2"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -13941,85 +13249,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 373.38 160.02 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a9d7af9a-534a-4553-8630-647061a291c1")
-		(property "Reference" "C30"
-			(at 373.38 156.464 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10nF"
-			(at 373.38 163.576 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 369.57 160.9852 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 373.38 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "573c7761-218f-4b27-9315-9890613dc489")
-		)
-		(pin "1"
-			(uuid "54e7005c-1d33-4ad7-aade-abe461f34f64")
-		)
-		(instances
-			(project "CLK_BOARD"
-				(path "/97cbaa23-a2c5-48a5-9db2-b1d0af8706e2"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 226.06 201.93 180)
 		(unit 1)
@@ -15631,6 +14860,89 @@
 			(project "CLK_BOARD"
 				(path "/97cbaa23-a2c5-48a5-9db2-b1d0af8706e2"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 213.36 210.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c96224de-274e-46a5-9358-b1a61547e8c2")
+		(property "Reference" "J5"
+			(at 213.36 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL"
+			(at 213.36 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 213.36 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8098c121-5378-41b5-8b33-1452ad41db02")
+		)
+		(pin "1"
+			(uuid "73c9f826-9d43-4011-a030-fc8f047feff7")
+		)
+		(pin "3"
+			(uuid "2e709ccd-c7a0-483e-9815-b4f75478d67b")
+		)
+		(instances
+			(project "CLK_BOARD"
+				(path "/97cbaa23-a2c5-48a5-9db2-b1d0af8706e2"
+					(reference "J5")
 					(unit 1)
 				)
 			)
