@@ -373,21 +373,9 @@
 		(uuid "ce1eb058-0faa-4f9f-9b11-5a2307932c61")
 	)
 	(fp_text user "*"
-		(at -2.037058 2.037557 0)
+		(at -2.26 3.1 0)
 		(layer "F.SilkS")
 		(uuid "f7d360f4-6abf-425f-a00f-b3f427e2e744")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -2.037058 2.037557 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "fe06627b-884f-45c4-9460-5b69bef7cccf")
 		(effects
 			(font
 				(size 1 1)
@@ -400,17 +388,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "4d1f0098-fd83-4ca6-b8c2-028fd8052e01")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -1.240657 0.986636 0)
-		(layer "F.Fab")
-		(uuid "d067cd98-a367-47f0-b2e0-8f467521c36d")
 		(effects
 			(font
 				(size 1 1)
@@ -491,4 +468,16 @@
 		(uuid "df85bbb1-7fe9-4461-bd55-7fd3331c266a")
 	)
 	(embedded_fonts no)
+
+	(model "${KICAD10_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Abracon_ASV-4Pin_7.0x5.1mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

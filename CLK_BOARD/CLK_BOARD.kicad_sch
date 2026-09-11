@@ -8165,7 +8165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
+		(property "Footprint" "Snapeda:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 			(at 138.43 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -11741,7 +11741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
+		(property "Footprint" "Snapeda:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 			(at 384.81 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -11844,7 +11844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
+		(property "Footprint" "Snapeda:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 			(at 157.48 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -15940,7 +15940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
+		(property "Footprint" "Snapeda:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 			(at 175.26 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -16406,7 +16406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
+		(property "Footprint" "Snapeda:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 			(at 394.97 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -20043,7 +20043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
+		(property "Footprint" "Snapeda:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 			(at 394.97 107.95 0)
 			(hide yes)
 			(show_name no)

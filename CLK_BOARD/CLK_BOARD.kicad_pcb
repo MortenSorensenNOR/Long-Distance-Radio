@@ -1518,7 +1518,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
+	(footprint "Snapeda:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 		(layer "F.Cu")
 		(uuid "18a56984-5372-49ae-a30e-b1058a8a8037")
 		(at 106.865624 95.21 -90)
@@ -3480,7 +3480,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
+	(footprint "Snapeda:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 		(layer "F.Cu")
 		(uuid "2dcbc0fc-8394-4508-b0ef-bdbdace190b2")
 		(at 96.125 95.2 -90)
@@ -4636,7 +4636,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
+	(footprint "Snapeda:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 		(layer "F.Cu")
 		(uuid "470a9a44-8c4a-4274-a337-62b41e300b75")
 		(at 85.39 95.18 -90)
@@ -5540,7 +5540,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
+	(footprint "Snapeda:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 		(layer "F.Cu")
 		(uuid "4b4e2da5-59fc-4a70-87db-a57c1798cd12")
 		(at 116.59 78.55)
@@ -7401,7 +7401,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
+	(footprint "Snapeda:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 		(layer "F.Cu")
 		(uuid "68976054-e890-4e06-a5f2-ffe3cf0bbe61")
 		(at 116.59 87.24)
@@ -9372,7 +9372,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
+	(footprint "Snapeda:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 		(layer "F.Cu")
 		(uuid "86e317ca-7b70-4a2c-a61e-4cd17e03c491")
 		(at 116.59 69.92)

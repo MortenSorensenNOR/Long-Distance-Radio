@@ -52,54 +52,6 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_poly
-		(pts
-			(xy -1.323975 -1.704975) (xy -1.120775 -1.704975) (xy -1.120775 -1.12395) (xy -1.323975 -1.12395)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "0372b8cd-1634-4e39-893c-27cb7fc0cad0")
-	)
-	(fp_poly
-		(pts
-			(xy -1.120775 1.704975) (xy -1.323975 1.704975) (xy -1.323975 1.12395) (xy -1.120775 1.12395)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "15f9ce7a-c88c-4882-b86c-49166ffa4cf0")
-	)
-	(fp_poly
-		(pts
-			(xy 1.120775 -1.704975) (xy 1.323975 -1.704975) (xy 1.323975 -1.12395) (xy 1.120775 -1.12395)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "5b5582b7-66d7-4458-830a-cf851c3f9dd5")
-	)
-	(fp_poly
-		(pts
-			(xy 1.120775 1.704975) (xy 1.323975 1.704975) (xy 1.323975 1.12395) (xy 1.120775 1.12395)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "c3349292-5d3f-4c04-828c-9bb0deb2d7ad")
-	)
 	(fp_line
 		(start -1.9304 -1.9304)
 		(end -1.9304 -1.571894)
@@ -444,17 +396,6 @@
 	)
 	(fp_text user "*"
 		(at -2.339975 -1.3843 0)
-		(layer "F.SilkS")
-		(uuid "1972ee4e-98fe-454d-bc61-861e43f155c0")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -2.339975 -1.3843 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4ff854c9-f411-434a-8f41-6333b73b25e8")
@@ -599,32 +540,54 @@
 	(pad "17" smd rect
 		(at 0 0)
 		(size 1.651 1.651)
+		(property pad_prop_heatsink)
 		(layers "F.Cu" "F.Mask")
 		(uuid "35444056-177d-4d7e-aff4-dfcb5d05140c")
 	)
-	(pad "A1" smd rect
-		(at -1.412875 -1.22555 90)
-		(size 0.2032 0.5842)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "69f295d0-7eab-4234-a33d-7d48e1e9496e")
+	(pad "17" thru_hole circle
+		(at -0.45 -0.45)
+		(size 0.5 0.5)
+		(drill 0.3)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ff6b75ed-3ea1-42fe-8e72-81503d025859")
 	)
-	(pad "A2" smd rect
-		(at -1.412875 1.22555 90)
-		(size 0.2032 0.5842)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "7533724c-de2c-4bac-82cc-64bec078c2d2")
+	(pad "17" thru_hole circle
+		(at 0.45 -0.45)
+		(size 0.5 0.5)
+		(drill 0.3)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aae2b707-307b-40e8-991b-0e7f0b31a351")
 	)
-	(pad "A3" smd rect
-		(at 1.412875 1.22555 90)
-		(size 0.2032 0.5842)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "27cec37b-5377-41a4-b464-683486038544")
+	(pad "17" thru_hole circle
+		(at 0 0)
+		(size 0.5 0.5)
+		(drill 0.3)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "12082fc3-d605-4e3d-b9a5-488306cdc2d7")
 	)
-	(pad "A5" smd rect
-		(at 1.412875 -1.22555 90)
-		(size 0.2032 0.5842)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "7412ea13-0e16-408d-9081-0c512109d7e7")
+	(pad "17" thru_hole circle
+		(at -0.45 0.45)
+		(size 0.5 0.5)
+		(drill 0.3)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "953a0f0b-5f7d-4fcc-ab2e-1b45491ca520")
+	)
+	(pad "17" thru_hole circle
+		(at 0.45 0.45)
+		(size 0.5 0.5)
+		(drill 0.3)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be132596-35df-4227-935c-a6c218642939")
 	)
 	(embedded_fonts no)
 

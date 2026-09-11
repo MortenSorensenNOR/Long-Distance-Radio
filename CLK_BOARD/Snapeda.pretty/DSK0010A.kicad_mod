@@ -215,30 +215,6 @@
 		(layer "F.Fab")
 		(uuid "3cdcbeec-725e-4dad-8626-be5e435a757f")
 	)
-	(fp_text user "Designator9"
-		(at -1.3208 -2.5654 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "9c4763c1-7cff-4789-a76c-3ee114759b0c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "04b02638-3d74-4057-949f-b8a583d091bb")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "1" smd oval
 		(at -1.15 -1.000003 90)
 		(size 0.249999 0.599999)
@@ -302,24 +278,54 @@
 	(pad "11" smd rect
 		(at 0 0)
 		(size 1.2 2.000001)
+		(property pad_prop_heatsink)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bd174131-be18-402c-b21a-0d65efe03b62")
 	)
-	(pad "V" thru_hole circle
-		(at 0 -0.750001)
-		(size 0.499999 0.499999)
-		(drill 0.2032)
+	(pad "11" thru_hole circle
+		(at -0.33 -0.73)
+		(size 0.5 0.5)
+		(drill 0.3)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "f894382e-cdb7-4a7c-872d-e30f9d9b7cd5")
 	)
-	(pad "V" thru_hole circle
-		(at 0 0.750001)
-		(size 0.499999 0.499999)
-		(drill 0.2032)
+	(pad "11" thru_hole circle
+		(at 0.33 -0.73)
+		(size 0.5 0.5)
+		(drill 0.3)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "2e1d75cf-9977-4208-90be-b4fd7b70c7ac")
+	)
+	(pad "11" thru_hole circle
+		(at 0 0.02)
+		(size 0.5 0.5)
+		(drill 0.3)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6eeb2565-531d-4969-8d92-e47e26e10b01")
+	)
+	(pad "11" thru_hole circle
+		(at -0.33 0.72)
+		(size 0.5 0.5)
+		(drill 0.3)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7583146f-b290-44fb-b922-005d3947ea59")
+	)
+	(pad "11" thru_hole circle
+		(at 0.32 0.72)
+		(size 0.5 0.5)
+		(drill 0.3)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e45972e9-ab39-4853-b757-ea539cc56ab9")
 	)
 	(embedded_fonts no)
 
