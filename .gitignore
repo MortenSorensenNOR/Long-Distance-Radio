@@ -44,3 +44,9 @@ fp-info-cache
 
 # ignore for now
 project_doc.md
+
+# python venv for sim/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
