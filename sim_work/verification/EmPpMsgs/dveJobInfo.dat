@@ -1,0 +1,5 @@
+jobName=EmPpMsgs
+jobType=emprep
+designName=sim_work_lib:miander_test:layout
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"

@@ -1,0 +1,3 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+DEFINE sim_work_lib sim_work_lib
+ASSIGN sim_work_lib libMode shared

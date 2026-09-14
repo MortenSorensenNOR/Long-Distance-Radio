@@ -1,0 +1,80 @@
+License checkout took 0.008 sec
+License checkout took 0.004 sec
+Momentum MomEngine_64 2027.00.303 (*) built: Jul 22 2026
+Copyright  1992 - 2026 Keysight Technologies
+Running on: omarchy
+Simulation started on: Sun Sep 13 03:18:22 2026
+Simulation Mode: uW
+Substrate to be computed from 0.00365989 GHz to 4 GHz!
+Substrate calculation started
+.........|.........|.........|.........| 
+Substrate calculation finished
+Using the minimal snap distance of 0.0004 mm
+(4 layout resolution points) for layout healing.
+Layout simplification started
+.........|.........|.........|.........| 
+Layout simplification finished
+Generating mesh at 4 GHz...
+S-parameter simulation
+S-parameter simulation started
+...initializing
+...expanding thick conductors
+...extracting layout
+...analyzing ports
+...reducing mesh
+Automatic selection: direct dense matrix solver
+Using multi-threading (16 threads)
+Matrix size: 542 (reduced: 199)
+
+--- WARNING -------------------------------------------------------------------
+
+Port 1 does not have an explicit reference pin, 
+S-parameters may become unphysical at higher frequencies.
+
+-------------------------------------------------------------------------------
+
+--- WARNING -------------------------------------------------------------------
+
+Port 2 does not have an explicit reference pin, 
+S-parameters may become unphysical at higher frequencies.
+
+-------------------------------------------------------------------------------
+Simulation temperature: 298.15 K
+Adaptive frequency sweep started
+Simulation frequency [1] = 0 Hz
+...loading Green functions
+...creating Basis sections
+...allocating interaction matrix
+...loading surface impedances
+.........|.........|.........|.........| 
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [2] = 4 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive:   0.0 % of frequency range covered
+Simulation frequency [3] = 2.66667 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Simulation frequency [4] = 1.33333 GHz
+...loading Green functions
+...loading interaction matrix
+.........|.........|.........|.........| 
+...solving interaction matrix
+.........|.........|.........|.........| 
+...calculating S-parameters
+Adaptive: 100.0 % of frequency range covered
+S-parameter simulation finished
+Simulation finished on: Sun Sep 13 03:18:40 2026
+The simulation results have been saved in dataset "miander_test_MomUW".
